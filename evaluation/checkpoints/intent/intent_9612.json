@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9612",
+    "dataset_row": 9612,
+    "question": "where do I know if there is anything wrong with my rebate?",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "unsupported",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4542443039972568,
+  "recorded_at": "2026-11-10T16:24:25.151699+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "case": {
+    "id": "faq_16",
+    "question": "If cancellation is no longer possible after shipment, when can I request a return?",
+    "sources": [
+      "cancellation_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "expected": "No direct cancellation after shipment; return within 7 days of delivery with conditions.",
+    "patterns": [
+      "7",
+      "deliver",
+      "cannot|can't|not"
+    ],
+    "kind": "multi_policy",
+    "supported": true
+  },
+  "result": {
+    "answer": "You can request a return within 7 days of delivery, subject to the return policy. Contact customer support to request a return.",
+    "sources": [
+      "cancellation_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.1883233620028477,
+  "recorded_at": "2026-11-19T17:23:42.738188+00:00"
+}

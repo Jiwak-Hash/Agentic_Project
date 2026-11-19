@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_2909",
+    "dataset_row": 2909,
+    "question": "i want help to check in what cases can i request refunds",
+    "expected_intent": "check_refund_policy"
+  },
+  "result": {
+    "intent": "check_refund_policy",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5968385590022081,
+  "recorded_at": "2026-11-10T16:24:24.161389+00:00"
+}

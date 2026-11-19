@@ -1,0 +1,48 @@
+{
+  "case": {
+    "id": "e2e_01",
+    "question": "Please show the status of order 1001.",
+    "customer_id": 16,
+    "expected_intent": "track_order",
+    "expected": "Order 1001 belongs to customer 16; Shipped, no delivery date.",
+    "patterns": [
+      "1001",
+      "Shipped",
+      "No delivery date"
+    ],
+    "decision": null,
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Please show the status of order 1001.",
+    "customer_id": 16,
+    "evaluation_date": "2026-10-10",
+    "intent": "track_order",
+    "selected_agent": "order_agent",
+    "response": "Here are your order details:\nOrder #1001: Bluetooth Speaker. Status: Shipped. Price: 1899.00. Order date: 2026-05-24. No delivery date is recorded.",
+    "sources": [],
+    "agent_result": {
+      "answer": "Here are your order details:\nOrder #1001: Bluetooth Speaker. Status: Shipped. Price: 1899.00. Order date: 2026-05-24. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1001,
+          "customer_id": 16,
+          "product": "Bluetooth Speaker",
+          "price": 1899.0,
+          "status": "Shipped",
+          "order_date": "2026-05-24",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 3.1495060390006984,
+  "recorded_at": "2026-11-10T16:22:02.767582+00:00"
+}

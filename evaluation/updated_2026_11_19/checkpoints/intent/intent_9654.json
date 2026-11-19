@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9654",
+    "dataset_row": 9654,
+    "question": "help checking if there is anything new on the bloody rebate",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "check_refund_policy",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5461350779951317,
+  "recorded_at": "2026-11-19T17:22:09.969931+00:00"
+}

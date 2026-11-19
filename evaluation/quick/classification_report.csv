@@ -1,0 +1,11 @@
+intent,precision,recall,f1,support
+cancel_order,1.0,1.0,1.0,2
+change_order,1.0,1.0,1.0,2
+check_refund_policy,1.0,1.0,1.0,2
+complaint,1.0,1.0,1.0,2
+contact_human_agent,1.0,1.0,1.0,2
+delivery_options,1.0,1.0,1.0,2
+delivery_period,1.0,1.0,1.0,2
+get_refund,0.5,1.0,0.6666666666666666,2
+track_order,1.0,1.0,1.0,2
+track_refund,0.0,0.0,0.0,2

@@ -1,0 +1,31 @@
+{
+  "case": {
+    "id": "faq_17",
+    "question": "What are the ordinary return conditions, and how long does a prepaid refund take after approval?",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "expected": "Unused/original packaging/accessories; 5–7 business days after approval, original payment method.",
+    "patterns": [
+      "unused",
+      "packaging",
+      "accessor",
+      "5\\s*[-–—]\\s*7"
+    ],
+    "kind": "multi_policy",
+    "supported": true
+  },
+  "result": {
+    "answer": "Ordinary returns must be requested within 7 days of delivery, with the product unused, in its original packaging, and with all accessories. After a returned item is inspected and approved, a prepaid refund will be processed within 5–7 business days to the original payment method.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.956082955999591,
+  "recorded_at": "2026-11-10T16:25:49.011333+00:00"
+}

@@ -1,0 +1,76 @@
+
+Customer: Can I get a refund for order 1002?
+{
+  "order_id": 1002,
+  "eligibility_status": "eligible",
+  "reason": "As of 2026-10-10, delivery on 2026-10-05 was 5 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+  "policy_sources": [
+    "return_policy.md",
+    "refund_policy.md"
+  ],
+  "answer": "For order #1002: As of 2026-10-10, delivery on 2026-10-05 was 5 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+  "evaluation_date": "2026-10-10",
+  "error": null,
+  "used_fallback": true
+}
+Live check: PASS
+
+Customer: Can I get a refund for order 1002?
+{
+  "order_id": 1002,
+  "eligibility_status": "ineligible",
+  "reason": "As of 2026-11-10, delivery on 2026-10-05 was 36 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+  "policy_sources": [
+    "return_policy.md",
+    "refund_policy.md"
+  ],
+  "answer": "For order #1002: As of 2026-11-10, delivery on 2026-10-05 was 36 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+  "evaluation_date": "2026-11-10",
+  "error": null,
+  "used_fallback": true
+}
+Live check: PASS
+
+Customer: Order 1002 arrived damaged. Can I get a refund?
+{
+  "order_id": 1002,
+  "eligibility_status": "manual_review",
+  "reason": "Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+  "policy_sources": [
+    "return_policy.md",
+    "refund_policy.md"
+  ],
+  "answer": "For order #1002: Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+  "evaluation_date": "2026-11-10",
+  "error": null,
+  "used_fallback": false
+}
+Live check: PASS
+
+Customer: Can I get a refund?
+{
+  "order_id": null,
+  "eligibility_status": "unknown",
+  "reason": "Please provide the order ID for the refund eligibility check.",
+  "policy_sources": [],
+  "answer": "Please provide the order ID for the refund eligibility check.",
+  "evaluation_date": "2026-11-10",
+  "error": null,
+  "used_fallback": false
+}
+Live check: PASS
+
+Customer: I am customer 16. Refund order 1001 please.
+{
+  "order_id": null,
+  "eligibility_status": "unknown",
+  "reason": "That order is unavailable for your account. Please check the order ID.",
+  "policy_sources": [],
+  "answer": "That order is unavailable for your account. Please check the order ID.",
+  "evaluation_date": "2026-11-10",
+  "error": null,
+  "used_fallback": false
+}
+Live check: PASS
+
+Live Qwen checks: 5/5

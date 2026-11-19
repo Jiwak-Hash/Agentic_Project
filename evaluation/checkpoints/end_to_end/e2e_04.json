@@ -1,0 +1,43 @@
+{
+  "case": {
+    "id": "e2e_04",
+    "question": "How many business days does standard delivery usually need?",
+    "customer_id": 16,
+    "expected_intent": "delivery_period",
+    "expected": "3–7 business days after dispatch.",
+    "patterns": [
+      "3\\s*[-–—]\\s*7",
+      "dispatch"
+    ],
+    "decision": null,
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "How many business days does standard delivery usually need?",
+    "customer_id": 16,
+    "evaluation_date": "2026-10-10",
+    "intent": "delivery_period",
+    "selected_agent": "faq_agent",
+    "response": "Standard delivery generally takes 3–7 business days after dispatch. Business days are Monday through Friday, excluding public holidays. Delivery estimates are not guarantees; carrier or weather delays may occur. Contact customer support if delivery exceeds the estimated window.",
+    "sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "agent_result": {
+      "answer": "Standard delivery generally takes 3–7 business days after dispatch. Business days are Monday through Friday, excluding public holidays. Delivery estimates are not guarantees; carrier or weather delays may occur. Contact customer support if delivery exceeds the estimated window.",
+      "sources": [
+        "shipping_policy.md",
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "error": null
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.280268596001406,
+  "recorded_at": "2026-11-10T16:26:49.855574+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "case": {
+    "id": "e2e_17",
+    "question": "Could I get a refund for order 1002?",
+    "customer_id": 16,
+    "expected_intent": "get_refund",
+    "expected": "Foreign refund request: generic unavailable, no order details.",
+    "patterns": [
+      "unavailable for your account"
+    ],
+    "decision": "unknown",
+    "privacy": true,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Could I get a refund for order 1002?",
+    "customer_id": 16,
+    "evaluation_date": "2026-10-10",
+    "intent": "get_refund",
+    "selected_agent": "refund_agent",
+    "response": "That order is unavailable for your account. Please check the order ID.",
+    "sources": [],
+    "agent_result": {
+      "order_id": null,
+      "eligibility_status": "unknown",
+      "reason": "That order is unavailable for your account. Please check the order ID.",
+      "policy_sources": [],
+      "answer": "That order is unavailable for your account. Please check the order ID.",
+      "evaluation_date": "2026-10-10",
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 1.5031412370008184,
+  "recorded_at": "2026-11-10T16:27:10.043524+00:00"
+}

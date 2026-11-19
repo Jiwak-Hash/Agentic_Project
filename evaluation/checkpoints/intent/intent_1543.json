@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_1543",
+    "dataset_row": 1543,
+    "question": "help switching something of purchase {{Order Number}}",
+    "expected_intent": "change_order"
+  },
+  "result": {
+    "intent": "change_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4990853059971414,
+  "recorded_at": "2026-11-10T16:24:32.238697+00:00"
+}

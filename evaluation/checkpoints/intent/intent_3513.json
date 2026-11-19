@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3513",
+    "dataset_row": 3513,
+    "question": "I have to make a consumer reclamation against your company",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.48694879300092,
+  "recorded_at": "2026-11-10T16:23:55.141051+00:00"
+}

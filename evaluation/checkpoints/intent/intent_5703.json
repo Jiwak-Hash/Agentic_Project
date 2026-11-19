@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5703",
+    "dataset_row": 5703,
+    "question": "show me what shipping options you offer",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49019875200247043,
+  "recorded_at": "2026-11-10T16:25:06.712466+00:00"
+}

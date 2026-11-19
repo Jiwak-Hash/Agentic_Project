@@ -1,0 +1,32 @@
+[
+  {
+    "service": "Supervisor",
+    "seconds": 0.5351517210001475,
+    "error": null
+  },
+  {
+    "service": "FAQ initialization",
+    "seconds": 0.08847095200326294,
+    "error": null
+  },
+  {
+    "service": "FAQ",
+    "seconds": 2.0944544800004223,
+    "error": null
+  },
+  {
+    "service": "Order",
+    "seconds": 2.5162814180002897,
+    "error": null
+  },
+  {
+    "service": "Refund",
+    "seconds": 3.63512426500165,
+    "error": null
+  },
+  {
+    "service": "Workflow",
+    "seconds": 2.836935616000119,
+    "error": null
+  }
+]

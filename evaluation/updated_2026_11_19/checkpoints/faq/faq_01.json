@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "faq_01",
+    "question": "What is the deadline to ask for a return after delivery?",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "expected": "Request within 7 days of delivery.",
+    "patterns": [
+      "7 days",
+      "deliver"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "Customers can request a return within 7 days of delivery.",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.6123319059988717,
+  "recorded_at": "2026-11-19T17:23:22.380150+00:00"
+}

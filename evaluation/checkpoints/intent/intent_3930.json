@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3930",
+    "dataset_row": 3930,
+    "question": "I don't know what to do to file a recpamation",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.516046541997639,
+  "recorded_at": "2026-11-10T16:25:18.557833+00:00"
+}

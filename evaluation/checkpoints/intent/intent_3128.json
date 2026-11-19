@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3128",
+    "dataset_row": 3128,
+    "question": "help to make a customer complaint",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5026837899968086,
+  "recorded_at": "2026-11-10T16:23:45.601752+00:00"
+}

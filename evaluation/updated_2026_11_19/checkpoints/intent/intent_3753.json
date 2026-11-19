@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3753",
+    "dataset_row": 3753,
+    "question": "I am trying to lodge a customer reclamation",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49747370600380236,
+  "recorded_at": "2026-11-19T17:21:42.530406+00:00"
+}

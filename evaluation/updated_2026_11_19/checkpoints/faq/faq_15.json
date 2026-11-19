@@ -1,0 +1,32 @@
+{
+  "case": {
+    "id": "faq_15",
+    "question": "Compare standard delivery time with refund processing time after approval.",
+    "sources": [
+      "shipping_policy.md",
+      "refund_policy.md",
+      "return_policy.md"
+    ],
+    "expected": "Delivery 3–7 business days after dispatch; refund 5–7 business days after approval.",
+    "patterns": [
+      "3\\s*[-–—]\\s*7",
+      "5\\s*[-–—]\\s*7",
+      "dispatch",
+      "approv"
+    ],
+    "kind": "multi_policy",
+    "supported": true
+  },
+  "result": {
+    "answer": "Standard delivery generally takes 3–7 business days after dispatch. Refund processing after approval is within 5–7 business days.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.0721774690027814,
+  "recorded_at": "2026-11-19T17:23:41.547045+00:00"
+}

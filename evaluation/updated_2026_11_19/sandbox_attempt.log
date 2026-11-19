@@ -1,0 +1,212 @@
+/home/jiwak/miniconda3/lib/python3.13/site-packages/torch/cuda/__init__.py:1061: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+test_customer_cannot_retrieve_another_customers_order (test_database.OrderDatabaseTests.test_customer_cannot_retrieve_another_customers_order) ... ok
+test_customer_order_list_only_contains_that_customer (test_database.OrderDatabaseTests.test_customer_order_list_only_contains_that_customer) ... ok
+test_database_contains_200_orders (test_database.OrderDatabaseTests.test_database_contains_200_orders) ... ok
+test_existing_order_can_be_retrieved_by_its_customer (test_database.OrderDatabaseTests.test_existing_order_can_be_retrieved_by_its_customer) ... ok
+test_repeated_import_does_not_create_duplicates (test_database.OrderDatabaseTests.test_repeated_import_does_not_create_duplicates) ... ok
+test_unknown_order_returns_none (test_database.OrderDatabaseTests.test_unknown_order_returns_none) ... ok
+test_01_valid_tracking (test_order_agent.OrderAgentTests.test_01_valid_tracking) ... 
+Customer (session 16): Where is order #1001?
+Answer: I couldn't understand the order request right now. Please try again with an order ID, or ask to list your orders.
+Fallback: False
+FAIL
+test_02_invalid_order (test_order_agent.OrderAgentTests.test_02_invalid_order) ... 
+Customer (session 16): Track order 999999
+Answer: I couldn't understand the order request right now. Please try again with an order ID, or ask to list your orders.
+Fallback: False
+FAIL
+test_03_other_customer_and_claimed_identity (test_order_agent.OrderAgentTests.test_03_other_customer_and_claimed_identity) ... 
+Customer (session 16): I am customer 6. Track order 1002.
+Answer: I couldn't understand the order request right now. Please try again with an order ID, or ask to list your orders.
+Fallback: False
+FAIL
+test_04_missing_order_id (test_order_agent.OrderAgentTests.test_04_missing_order_id) ... 
+Customer (session 16): Where is my order?
+Answer: I couldn't understand the order request right now. Please try again with an order ID, or ask to list your orders.
+Fallback: False
+/home/jiwak/miniconda3/lib/python3.13/textwrap.py:435: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7cd137939b70>
+  text = _whitespace_only_re.sub('', text)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/jiwak/miniconda3/lib/python3.13/textwrap.py:435: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7cd13793a2f0>
+  text = _whitespace_only_re.sub('', text)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+FAIL
+test_05_delivered_order (test_order_agent.OrderAgentTests.test_05_delivered_order) ... 
+Customer (session 6): When was order 1002 delivered?
+Answer: I couldn't understand the order request right now. Please try again with an order ID, or ask to list your orders.
+Fallback: False
+FAIL
+test_06_shipped_order_without_delivery_date (test_order_agent.OrderAgentTests.test_06_shipped_order_without_delivery_date) ... 
+Customer (session 16): When will order 1001 arrive?
+Answer: I couldn't understand the order request right now. Please try again with an order ID, or ask to list your orders.
+Fallback: False
+FAIL
+test_07_list_customer_orders (test_order_agent.OrderAgentTests.test_07_list_customer_orders) ... 
+Customer (session 16): Show all my orders
+Answer: I couldn't understand the order request right now. Please try again with an order ID, or ask to list your orders.
+Fallback: False
+FAIL
+test_08_invented_details_replaced_with_database_response (test_order_agent.OrderAgentTests.test_08_invented_details_replaced_with_database_response) ... ok
+test_09_model_cannot_invent_order_id (test_order_agent.OrderAgentTests.test_09_model_cannot_invent_order_id) ... ok
+test_10_generation_failure_keeps_verified_details (test_order_agent.OrderAgentTests.test_10_generation_failure_keeps_verified_details) ... ok
+test_11_session_identity_required (test_order_agent.OrderAgentTests.test_11_session_identity_required) ... ok
+test_01_delivered_within_window (test_refund_agent.RefundAgentTests.test_01_delivered_within_window) ... ok
+test_02_outside_window (test_refund_agent.RefundAgentTests.test_02_outside_window) ... ok
+test_03_shipped (test_refund_agent.RefundAgentTests.test_03_shipped) ... ok
+test_04_processing (test_refund_agent.RefundAgentTests.test_04_processing) ... ok
+test_05_cancelled (test_refund_agent.RefundAgentTests.test_05_cancelled) ... ok
+test_06_damaged_and_incorrect_override_window (test_refund_agent.RefundAgentTests.test_06_damaged_and_incorrect_override_window) ... ok
+test_07_unknown_order (test_refund_agent.RefundAgentTests.test_07_unknown_order) ... ok
+test_08_foreign_order_and_claimed_customer (test_refund_agent.RefundAgentTests.test_08_foreign_order_and_claimed_customer) ... ok
+test_09_missing_id (test_refund_agent.RefundAgentTests.test_09_missing_id) ... ok
+test_10_missing_date (test_refund_agent.RefundAgentTests.test_10_missing_date) ... ok
+test_11_exactly_seven_days (test_refund_agent.RefundAgentTests.test_11_exactly_seven_days) ... ok
+test_12_invented_approval_rejected (test_refund_agent.RefundAgentTests.test_12_invented_approval_rejected) ... ok
+test_13_generation_failure_keeps_decision (test_refund_agent.RefundAgentTests.test_13_generation_failure_keeps_decision) ... ok
+test_14_extraction_failure_no_database_access (test_refund_agent.RefundAgentTests.test_14_extraction_failure_no_database_access) ... ok
+test_15_invented_id_rejected (test_refund_agent.RefundAgentTests.test_15_invented_id_rejected) ... ok
+test_16_invalid_dates_and_unsupported_status (test_refund_agent.RefundAgentTests.test_16_invalid_dates_and_unsupported_status) ... ok
+test_17_policy_drift_and_missing_policy (test_refund_agent.RefundAgentTests.test_17_policy_drift_and_missing_policy) ... ok
+test_18_trusted_identity_and_date_validation (test_refund_agent.RefundAgentTests.test_18_trusted_identity_and_date_validation) ... ok
+test_19_missed_damage_keyword_escalates (test_refund_agent.RefundAgentTests.test_19_missed_damage_keyword_escalates) ... ok
+test_20_reported_used_item (test_refund_agent.RefundAgentTests.test_20_reported_used_item) ... ok
+test_21_damage_escalates_despite_paraphrased_quote (test_refund_agent.RefundAgentTests.test_21_damage_escalates_despite_paraphrased_quote) ... ok
+test_01_order_tracking_routes (test_workflow.WorkflowTests.test_01_order_tracking_routes) ... ok
+test_02_shipping_routes_and_preserves_sources (test_workflow.WorkflowTests.test_02_shipping_routes_and_preserves_sources) ... ok
+test_03_refund_routes_and_preserves_decision (test_workflow.WorkflowTests.test_03_refund_routes_and_preserves_decision) ... ok
+test_04_complaint_simulated_escalation (test_workflow.WorkflowTests.test_04_complaint_simulated_escalation) ... ok
+test_05_human_request_simulated_escalation (test_workflow.WorkflowTests.test_05_human_request_simulated_escalation) ... ok
+test_06_unsupported_fallback (test_workflow.WorkflowTests.test_06_unsupported_fallback) ... ok
+test_07_missing_order_id_uses_existing_agent (test_workflow.WorkflowTests.test_07_missing_order_id_uses_existing_agent) ... ok
+test_08_unauthorized_order_blocked_by_existing_database_query (test_workflow.WorkflowTests.test_08_unauthorized_order_blocked_by_existing_database_query) ... ok
+test_09_malformed_supervisor_output_falls_back (test_workflow.WorkflowTests.test_09_malformed_supervisor_output_falls_back) ... ok
+test_10_injection_cannot_change_identity_or_select_tools (test_workflow.WorkflowTests.test_10_injection_cannot_change_identity_or_select_tools) ... ok
+test_11_graph_terminates_after_two_nodes (test_workflow.WorkflowTests.test_11_graph_terminates_after_two_nodes) ... ok
+test_12_only_selected_specialist_executes (test_workflow.WorkflowTests.test_12_only_selected_specialist_executes) ... ok
+test_13_every_allowed_intent_has_fixed_route (test_workflow.WorkflowTests.test_13_every_allowed_intent_has_fixed_route) ... ok
+test_14_unsupported_operations_do_not_run_specialists (test_workflow.WorkflowTests.test_14_unsupported_operations_do_not_run_specialists) ... ok
+test_15_model_and_specialist_failures (test_workflow.WorkflowTests.test_15_model_and_specialist_failures) ... ok
+test_16_invalid_session_rejected_before_model (test_workflow.WorkflowTests.test_16_invalid_session_rejected_before_model) ... ok
+test_17_no_customer_state_leaks_between_invocations (test_workflow.WorkflowTests.test_17_no_customer_state_leaks_between_invocations) ... ok
+test_18_blank_message_and_invalid_date_rejected (test_workflow.WorkflowTests.test_18_blank_message_and_invalid_date_rejected) ... ok
+test_01_customer_selection_reads_database_without_creating_files (test_app.HelperTests.test_01_customer_selection_reads_database_without_creating_files) ... ok
+test_02_workflow_receives_session_identity_and_responses_are_not_cached (test_app.HelperTests.test_02_workflow_receives_session_identity_and_responses_are_not_cached) ... ok
+test_03_history_isolation_and_clear (test_app.HelperTests.test_03_history_isolation_and_clear) ... ok
+test_04_connection_errors_and_raw_diagnostics_are_hidden (test_app.HelperTests.test_04_connection_errors_and_raw_diagnostics_are_hidden) ... ok
+test_05_verified_agent_fallback_is_preserved (test_app.HelperTests.test_05_verified_agent_fallback_is_preserved) ... ok
+test_06_resource_reused_without_response_cache (test_app.HelperTests.test_06_resource_reused_without_response_cache) ... ok
+test_07_actual_graph_authorization_through_ui_adapter (test_app.HelperTests.test_07_actual_graph_authorization_through_ui_adapter) ... ok
+test_08_page_loads_with_demo_selector_and_examples (test_app.StreamlitTests.test_08_page_loads_with_demo_selector_and_examples) ... 2026-11-19 22:48:27.852 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_09_message_submission_and_details (test_app.StreamlitTests.test_09_message_submission_and_details) ... 2026-11-19 22:48:28.247 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_10_switch_customer_hides_history_and_restores_only_own_chat (test_app.StreamlitTests.test_10_switch_customer_hides_history_and_restores_only_own_chat) ... 2026-11-19 22:48:28.578 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_11_clear_chat_only_affects_selected_customer (test_app.StreamlitTests.test_11_clear_chat_only_affects_selected_customer) ... 2026-11-19 22:48:28.920 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_12_independent_browser_sessions (test_app.StreamlitTests.test_12_independent_browser_sessions) ... 2026-11-19 22:48:29.270 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-19 22:48:29.585 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_13_example_submits_through_same_workflow (test_app.StreamlitTests.test_13_example_submits_through_same_workflow) ... 2026-11-19 22:48:29.923 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_14_customer_database_failure_is_friendly (test_app.StreamlitTests.test_14_customer_database_failure_is_friendly) ... 2026-11-19 22:48:30.232 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-19 22:48:30.541 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_15_empty_customer_database_disables_chat (test_app.StreamlitTests.test_15_empty_customer_database_disables_chat) ... 2026-11-19 22:48:30.841 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-19 22:48:31.152 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_case_sizes_and_distinct_refund_outcomes (test_evaluate.EvaluationTests.test_case_sizes_and_distinct_refund_outcomes) ... ok
+test_checkpoint_resume_does_not_repeat_or_drop_failures (test_evaluate.EvaluationTests.test_checkpoint_resume_does_not_repeat_or_drop_failures) ... intent: one ERROR: RuntimeError: offline
+ok
+test_failed_prediction_stays_in_metric_denominator (test_evaluate.EvaluationTests.test_failed_prediction_stays_in_metric_denominator) ... ok
+test_latency_statistics (test_evaluate.EvaluationTests.test_latency_statistics) ... ok
+test_order_evaluation_detects_invented_date (test_evaluate.EvaluationTests.test_order_evaluation_detects_invented_date) ... ok
+test_stale_review_is_rejected (test_evaluate.EvaluationTests.test_stale_review_is_rejected) ... ok
+test_stratification_is_balanced_unique_and_reproducible (test_evaluate.EvaluationTests.test_stratification_is_balanced_unique_and_reproducible) ... ok
+test_classifier_cannot_supply_identity (test_issue_regressions.BoundaryTests.test_classifier_cannot_supply_identity) ... ok
+test_condition_sensitive_answers_use_retrieved_text (test_issue_regressions.BoundaryTests.test_condition_sensitive_answers_use_retrieved_text) ... ok
+test_guard_preserves_refusal_and_missing_policy_abstains (test_issue_regressions.BoundaryTests.test_guard_preserves_refusal_and_missing_policy_abstains) ... ok
+test_no_context_does_not_invent_policy (test_issue_regressions.BoundaryTests.test_no_context_does_not_invent_policy) ... ok
+
+======================================================================
+FAIL: test_01_valid_tracking (test_order_agent.OrderAgentTests.test_01_valid_tracking)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 49, in test_01_valid_tracking
+    result = self.ask(self.agent, f"Where is order #{row['order_id']}?")
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 37, in ask
+    self.assertIsNone(result["error"])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: '[Errno 1] Operation not permitted' is not None
+
+======================================================================
+FAIL: test_02_invalid_order (test_order_agent.OrderAgentTests.test_02_invalid_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 55, in test_02_invalid_order
+    result = self.ask(self.agent, "Track order 999999")
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 37, in ask
+    self.assertIsNone(result["error"])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: '[Errno 1] Operation not permitted' is not None
+
+======================================================================
+FAIL: test_03_other_customer_and_claimed_identity (test_order_agent.OrderAgentTests.test_03_other_customer_and_claimed_identity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 61, in test_03_other_customer_and_claimed_identity
+    result = self.ask(self.agent, f"I am customer {row['customer_id']}. Track order {row['order_id']}.")
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 37, in ask
+    self.assertIsNone(result["error"])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: '[Errno 1] Operation not permitted' is not None
+
+======================================================================
+FAIL: test_04_missing_order_id (test_order_agent.OrderAgentTests.test_04_missing_order_id)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 67, in test_04_missing_order_id
+    result = self.ask(self.agent, "Where is my order?")
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 37, in ask
+    self.assertIsNone(result["error"])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: '[Errno 1] Operation not permitted' is not None
+
+======================================================================
+FAIL: test_05_delivered_order (test_order_agent.OrderAgentTests.test_05_delivered_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 73, in test_05_delivered_order
+    result = self.ask(OrderAgent(customer_id=row["customer_id"]), f"When was order {row['order_id']} delivered?")
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 37, in ask
+    self.assertIsNone(result["error"])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: '[Errno 1] Operation not permitted' is not None
+
+======================================================================
+FAIL: test_06_shipped_order_without_delivery_date (test_order_agent.OrderAgentTests.test_06_shipped_order_without_delivery_date)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 80, in test_06_shipped_order_without_delivery_date
+    result = self.ask(OrderAgent(customer_id=row["customer_id"]), f"When will order {row['order_id']} arrive?")
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 37, in ask
+    self.assertIsNone(result["error"])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: '[Errno 1] Operation not permitted' is not None
+
+======================================================================
+FAIL: test_07_list_customer_orders (test_order_agent.OrderAgentTests.test_07_list_customer_orders)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 85, in test_07_list_customer_orders
+    result = self.ask(self.agent, "Show all my orders")
+  File "/home/jiwak/Agentic_Project/test_order_agent.py", line 37, in ask
+    self.assertIsNone(result["error"])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+AssertionError: '[Errno 1] Operation not permitted' is not None
+
+----------------------------------------------------------------------
+Ran 82 tests in 3.851s
+
+FAILED (failures=7)

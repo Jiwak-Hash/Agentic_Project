@@ -1,0 +1,761 @@
+[
+  {
+    "id": "faq_01",
+    "question": "What is the deadline to ask for a return after delivery?",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "expected": "Request within 7 days of delivery.",
+    "patterns": [
+      "7 days",
+      "deliver"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "Customers can request a return within 7 days of delivery.",
+    "retrieved_sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.6033202770013304,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.6666666666666666,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "10bcf40c709c5f2bd97292556b4f69fe003d9b3e07ebc82bee6a84aa7c365e13",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "States the policy deadline precisely: within seven days of delivery."
+    }
+  },
+  {
+    "id": "faq_02",
+    "question": "Once my return refund is approved, how many business days does processing take?",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md"
+    ],
+    "expected": "5–7 business days after approval, not after purchase.",
+    "patterns": [
+      "5\\s*[-–—]\\s*7",
+      "business",
+      "approv"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "After your returned item is inspected and the refund is approved, the refund will be processed within 5–7 business days.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.0211797140000272,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.6666666666666666,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "1cffd9eebcadea8fc0ce8188c8d90f6abc278c34909ddaba7ad999b0cf94e987",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Gives five to seven business days following inspection and refund approval; does not start the clock at purchase."
+    }
+  },
+  {
+    "id": "faq_03",
+    "question": "After dispatch, what is the standard delivery estimate?",
+    "sources": [
+      "shipping_policy.md"
+    ],
+    "expected": "Generally 3–7 business days after dispatch, not guaranteed.",
+    "patterns": [
+      "3\\s*[-–—]\\s*7",
+      "business",
+      "dispatch"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "The standard delivery generally takes 3–7 business days after dispatch. Business days are Monday through Friday, excluding public holidays. Delivery estimates are not guarantees; carrier or weather delays may occur. If delivery exceeds the estimated window, contact customer support.",
+    "retrieved_sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.8722644549998222,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "149d3c7b5fe95378e05c8c5a0e448c14155be931256f59422414eda1c8050785",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Includes dispatch-based three to seven business days, weekday/holiday definition, and non-guarantee."
+    }
+  },
+  {
+    "id": "faq_04",
+    "question": "Which order status allows me to ask for cancellation?",
+    "sources": [
+      "cancellation_policy.md"
+    ],
+    "expected": "Only Processing; support must handle request; no cancellation executed.",
+    "patterns": [
+      "Processing"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "Orders can be cancelled only while their status is `Processing`.",
+    "retrieved_sources": [
+      "cancellation_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.8478157019999344,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "02a7787a21e133623c91f8c16b016b22a827d91e6076b591783d9427b73c22e6",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": false,
+      "notes": "Correctly identifies Processing, but omits the support-mediated cancellation request required by the predeclared expected answer. This is an incompleteness failure, not an invented status or executed cancellation."
+    }
+  },
+  {
+    "id": "faq_05",
+    "question": "My parcel has left the warehouse. Can support cancel it directly?",
+    "sources": [
+      "cancellation_policy.md"
+    ],
+    "expected": "Shipped orders cannot be directly cancelled; may request return after delivery.",
+    "patterns": [
+      "cannot|can't|not",
+      "shipp|dispatch",
+      "return"
+    ],
+    "kind": "paraphrase",
+    "supported": true,
+    "answer": "No, you cannot cancel an order that has already shipped. Only orders in the `Processing` status can be cancelled directly. For your order, you will need to contact customer support to request a return within 7 days of delivery.",
+    "retrieved_sources": [
+      "cancellation_policy.md",
+      "return_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.6420484720001696,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "3bcdd113dd05d2ee570fa47ad951a7a269e1619839ccae5f1acc7d9fbef8407d",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Rejects direct cancellation after shipment, identifies Processing restriction and offers a return within seven days of delivery through support."
+    }
+  },
+  {
+    "id": "faq_06",
+    "question": "What condition and packaging must an ordinary return have?",
+    "sources": [
+      "return_policy.md"
+    ],
+    "expected": "Unused product, original packaging and accessories.",
+    "patterns": [
+      "unused",
+      "original packaging",
+      "accessor"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "For an ordinary return, the product must be unused, with its original packaging and accessories.",
+    "retrieved_sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.8437620500008052,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "77182bf44ae7d3c622dd40e008683012aa160ee8d065beeb59541262d15fd5d7",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Includes all three ordinary-return conditions: unused, original packaging, accessories."
+    }
+  },
+  {
+    "id": "faq_07",
+    "question": "Where is a refund sent if I paid in advance?",
+    "sources": [
+      "refund_policy.md"
+    ],
+    "expected": "Original payment method, conditional on eligible approved refund.",
+    "patterns": [
+      "original payment"
+    ],
+    "kind": "paraphrase",
+    "supported": true,
+    "answer": "If you paid in advance, the refund will go to your original payment method.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.7854130009982327,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "0e181c5c11cda1cdd18e510b9b7477cf7a2493cbea358b420501d51287147602",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": false,
+      "notes": "Correct destination (original payment method), but omits the eligible/approved-refund qualification required by the predeclared expected answer. No actual refund execution is claimed; this is a strict completeness failure."
+    }
+  },
+  {
+    "id": "faq_08",
+    "question": "How is the refund method decided for Cash on Delivery purchases?",
+    "sources": [
+      "refund_policy.md"
+    ],
+    "expected": "Support arranges method during manual review; no invented bank/UPI instruction.",
+    "patterns": [
+      "support",
+      "manual review"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "For Cash on Delivery orders, the refund method is arranged during manual review by customer support.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.7296584719988459,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "1462f69de38d687f2ca96998ba5b8b7ce6fc0d92d3d23d04d296630954e90df5",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "COD method is arranged by support during manual review; no invented bank or UPI requirements."
+    }
+  },
+  {
+    "id": "faq_09",
+    "question": "The item arrived broken. What information should I send support?",
+    "sources": [
+      "return_policy.md",
+      "shipping_policy.md"
+    ],
+    "expected": "Order ID, description, photos, manual review; no guaranteed refund.",
+    "patterns": [
+      "order",
+      "photo",
+      "manual review"
+    ],
+    "kind": "paraphrase",
+    "supported": true,
+    "answer": "If an item arrives damaged, you should contact customer support with the following information:\n\n1. Order ID\n2. Description of the damage\n3. Photos of the damaged item\n\nThis will ensure that your case is escalated for manual review by customer support.",
+    "retrieved_sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.7796950020019722,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.6666666666666666,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "1d8c4e7e10025bb11b587192f3bedb12bbdaeaa81ddbd707fc9623b04196380d",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Requests order ID, damage description and photographs, with manual review; does not promise refund approval."
+    }
+  },
+  {
+    "id": "faq_10",
+    "question": "You sent the wrong product. Is my refund guaranteed before anyone reviews it?",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "shipping_policy.md",
+      "cancellation_policy.md"
+    ],
+    "expected": "No guarantee; incorrect product requires manual review.",
+    "patterns": [
+      "manual review",
+      "not guaranteed|no|cannot|can't"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "No, a refund is not guaranteed before review if the product is damaged or incorrect. These cases require manual review by customer support. Please contact us with your order ID, a description of the issue, and photos for escalation.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.5419976980010688,
+    "hit_at_3": true,
+    "source_precision_at_3": 1.0,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "4e6b64cf9f647e06c429daa11389e4ad8d3f04c965d0315a5ac14d9c3150bc54",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Explicitly denies guaranteed refund for an incorrect product and requires support manual review with documented evidence."
+    }
+  },
+  {
+    "id": "faq_11",
+    "question": "Do Saturdays count toward your business-day delivery estimate?",
+    "sources": [
+      "shipping_policy.md"
+    ],
+    "expected": "Business days Monday–Friday excluding public holidays; Saturdays excluded.",
+    "patterns": [
+      "Monday",
+      "Friday"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "No, Saturdays do not count as business days in our delivery estimates. Business days are Monday through Friday, excluding public holidays.",
+    "retrieved_sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.0481336699995154,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "4c2709901dbc55864caa3a7dce27e58763d281e6b9fd5515d28f18d07eefe1f8",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Excludes Saturdays and gives Monday through Friday excluding public holidays."
+    }
+  },
+  {
+    "id": "faq_12",
+    "question": "Is the quoted shipping arrival time a promise?",
+    "sources": [
+      "shipping_policy.md"
+    ],
+    "expected": "Estimate, not guarantee; carrier/weather may delay.",
+    "patterns": [
+      "not|no|cannot",
+      "guarantee|promise"
+    ],
+    "kind": "paraphrase",
+    "supported": true,
+    "answer": "No, the quoted shipping arrival time is not a promise. Delivery estimates are based on standard practices and may be affected by carrier delays or weather conditions. If delivery exceeds the estimated window, please contact customer support for assistance.",
+    "retrieved_sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.5734135060010885,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "c8c5002b347f2f077d2e8fb136304a8ef3bf4fa2a1fb120a6b8039b7137483d6",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Rejects a guaranteed arrival promise and cites supported carrier/weather delay possibilities. Standard practices is generic wording, not a new concrete policy."
+    }
+  },
+  {
+    "id": "faq_13",
+    "question": "My delivery has exceeded the estimated window. Who should I ask?",
+    "sources": [
+      "shipping_policy.md"
+    ],
+    "expected": "Contact customer support, no invented tracking result.",
+    "patterns": [
+      "support"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "If your delivery has exceeded the estimated window, you should contact customer support.",
+    "retrieved_sources": [
+      "shipping_policy.md",
+      "cancellation_policy.md",
+      "return_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.8248431259999052,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "e2a5aa6f6e9648bae128ea40f86e6985146b1fd8a34823e44ae11c2c1421fd55",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Correctly refers an overdue estimate to customer support without inventing tracking information."
+    }
+  },
+  {
+    "id": "faq_14",
+    "question": "Can an already delivered order be cancelled directly?",
+    "sources": [
+      "cancellation_policy.md"
+    ],
+    "expected": "Cannot cancel delivered orders; return request within 7 days subject to return policy.",
+    "patterns": [
+      "cannot|can't|not",
+      "return",
+      "7"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "No, once an order has been shipped or delivered, it cannot be directly cancelled. If you need to cancel an order, please contact customer support to request a cancellation.",
+    "retrieved_sources": [
+      "cancellation_policy.md",
+      "shipping_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.374015262001194,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": false,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "dc31a17e7f463d10a6b564968d7b47f31ffb2c11e3e0a20d17f64dc1adb8df1b",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": false,
+      "notes": "Initially rejects direct cancellation for delivered orders, then tells the customer to request cancellation from support. Omits the expected seven-day return alternative and misleadingly suggests a cancellation route."
+    }
+  },
+  {
+    "id": "faq_15",
+    "question": "Compare standard delivery time with refund processing time after approval.",
+    "sources": [
+      "shipping_policy.md",
+      "refund_policy.md",
+      "return_policy.md"
+    ],
+    "expected": "Delivery 3–7 business days after dispatch; refund 5–7 business days after approval.",
+    "patterns": [
+      "3\\s*[-–—]\\s*7",
+      "5\\s*[-–—]\\s*7",
+      "dispatch",
+      "approv"
+    ],
+    "kind": "multi_policy",
+    "supported": true,
+    "answer": "Standard delivery generally takes 3–7 business days after dispatch. Refund processing after approval is within 5–7 business days.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.0673484560029465,
+    "hit_at_3": true,
+    "source_precision_at_3": 1.0,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "3cc6f984b63eada1fff74905d6bfb0c609eeabf5adfac15a11cc8399eb9ac5d4",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Correctly distinguishes three to seven business days after dispatch from five to seven after refund approval."
+    }
+  },
+  {
+    "id": "faq_16",
+    "question": "If cancellation is no longer possible after shipment, when can I request a return?",
+    "sources": [
+      "cancellation_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "expected": "No direct cancellation after shipment; return within 7 days of delivery with conditions.",
+    "patterns": [
+      "7",
+      "deliver",
+      "cannot|can't|not"
+    ],
+    "kind": "multi_policy",
+    "supported": true,
+    "answer": "Customers may request a return within 7 days of delivery for shipped orders, subject to the return policy. Contact customer support to initiate a return request.",
+    "retrieved_sources": [
+      "cancellation_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.3019367810011317,
+    "hit_at_3": true,
+    "source_precision_at_3": 1.0,
+    "automated_expected_fact_flags": false,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "f8da4a9c5ea93d167d6fa63c42f440e4f6a9b587cd9926ee1787ae162279de7a",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Correct seven-day deadline after delivery, subject to return policy, with support referral. Accepts the question's stated no-cancellation premise without repeating it; no contradiction or substantive omission."
+    }
+  },
+  {
+    "id": "faq_17",
+    "question": "What are the ordinary return conditions, and how long does a prepaid refund take after approval?",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "expected": "Unused/original packaging/accessories; 5–7 business days after approval, original payment method.",
+    "patterns": [
+      "unused",
+      "packaging",
+      "accessor",
+      "5\\s*[-–—]\\s*7"
+    ],
+    "kind": "multi_policy",
+    "supported": true,
+    "answer": "Ordinary returns must be requested within 7 days of delivery, with the product unused, in its original packaging, and with all accessories. After a returned item is inspected and approved, a prepaid refund will be processed within 5–7 business days to the original payment method.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.956082955999591,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.6666666666666666,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "c494aed103942a825d2770c6602749a852c4d1f7339997c3be2bb720e82770b7",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Includes seven-day deadline, unused item, original packaging/accessories, inspection/approval, five to seven business days and original payment method."
+    }
+  },
+  {
+    "id": "faq_18",
+    "question": "Does submitting a return request mean the refund is already approved?",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "expected": "No; eligibility review and item inspection before approval.",
+    "patterns": [
+      "inspect",
+      "review"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "No, submitting a return request does not automatically mean the refund is approved. The return must first be inspected and then approved by customer support. After approval, the refund will be processed within 5–7 business days.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.4987429490029172,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.6666666666666666,
+    "automated_expected_fact_flags": false,
+    "automated_refusal_flag": null,
+    "review": {
+      "response_sha256": "27e4a9cbbaecb535346d25274a3093b310d9e6c57964461e9008ad1e2362901c",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Explicitly distinguishes request from approval, requires inspection and support approval, and gives supported post-approval processing time. Inspection followed by approval adequately conveys review even without the literal word review."
+    }
+  },
+  {
+    "id": "faq_19",
+    "question": "What is the minimum spend to get free shipping?",
+    "sources": [],
+    "expected": "Policy unavailable; do not invent fees or thresholds.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false,
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "retrieved_sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.6969151550001698,
+    "hit_at_3": null,
+    "source_precision_at_3": null,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": true,
+    "review": {
+      "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Explicitly abstains; no fabricated free-shipping threshold."
+    }
+  },
+  {
+    "id": "faq_20",
+    "question": "Can you ship my parcel to another country?",
+    "sources": [],
+    "expected": "International availability is unspecified; neither yes nor no is established.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false,
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "retrieved_sources": [
+      "shipping_policy.md",
+      "cancellation_policy.md",
+      "return_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.7081349959989893,
+    "hit_at_3": null,
+    "source_precision_at_3": null,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": true,
+    "review": {
+      "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Explicitly abstains without asserting that international delivery is offered or prohibited."
+    }
+  },
+  {
+    "id": "faq_21",
+    "question": "How many years does your product warranty last?",
+    "sources": [],
+    "expected": "Warranty term unspecified; no invented duration.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false,
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "retrieved_sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.6899284870014526,
+    "hit_at_3": null,
+    "source_precision_at_3": null,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": true,
+    "review": {
+      "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Explicitly abstains; no invented warranty duration."
+    }
+  },
+  {
+    "id": "faq_22",
+    "question": "What does express next-day shipping cost?",
+    "sources": [],
+    "expected": "Express service and fees are unspecified.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false,
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "retrieved_sources": [
+      "shipping_policy.md",
+      "refund_policy.md",
+      "return_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.9087220569999772,
+    "hit_at_3": null,
+    "source_precision_at_3": null,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": true,
+    "review": {
+      "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Explicitly abstains; no invented express service or charge."
+    }
+  },
+  {
+    "id": "faq_23",
+    "question": "Are discounted clearance items excluded from returns?",
+    "sources": [],
+    "expected": "No sale-item exception specified; do not infer one.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false,
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "retrieved_sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.7955112329982512,
+    "hit_at_3": null,
+    "source_precision_at_3": null,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": true,
+    "review": {
+      "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Explicitly abstains; does not invent a clearance-item exception."
+    }
+  },
+  {
+    "id": "faq_24",
+    "question": "Can I get a refund for a downloaded digital product?",
+    "sources": [],
+    "expected": "Digital-product rules unspecified; do not apply ordinary physical-return rules as definitive.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false,
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.6982261290031602,
+    "hit_at_3": null,
+    "source_precision_at_3": null,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": true,
+    "review": {
+      "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+      "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+      "semantic_correct": true,
+      "notes": "Explicitly abstains rather than applying physical-return conditions to an unspecified digital product policy."
+    }
+  }
+]

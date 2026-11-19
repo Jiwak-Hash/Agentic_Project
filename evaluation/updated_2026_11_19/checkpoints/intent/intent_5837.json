@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5837",
+    "dataset_row": 5837,
+    "question": "I don't know how to check what shipment methods you offer",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5263400879994151,
+  "recorded_at": "2026-11-19T17:22:30.834838+00:00"
+}

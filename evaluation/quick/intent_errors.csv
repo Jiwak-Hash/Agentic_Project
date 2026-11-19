@@ -1,0 +1,3 @@
+id,dataset_row,question,expected_intent,predicted_intent,error,seconds,expected_agent,predicted_agent
+intent_9430,9430,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.5250999679992674,refund_agent,refund_agent
+intent_9769,9769,I am waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.5293777020015114,refund_agent,refund_agent

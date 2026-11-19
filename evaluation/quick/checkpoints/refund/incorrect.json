@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "incorrect",
+    "order_id": 9009,
+    "status": "Delivered",
+    "delivery_date": "2026-01-14",
+    "issue": "incorrect",
+    "owner": 6,
+    "customer_id": 6,
+    "question": "Refund order 9009. incorrect",
+    "expected_decision": "manual_review",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": 9009,
+    "eligibility_status": "manual_review",
+    "reason": "Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+    "policy_sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "answer": "For order #9009: Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 0.0002851919998647645,
+  "recorded_at": "2026-11-10T16:21:52.511858+00:00"
+}

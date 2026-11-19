@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_8156",
+    "dataset_row": 8156,
+    "question": "see order {{Order Number}} fucking current status",
+    "expected_intent": "track_order"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4907142689989996,
+  "recorded_at": "2026-11-19T17:22:41.840180+00:00"
+}

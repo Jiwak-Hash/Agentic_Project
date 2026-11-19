@@ -1,0 +1,39 @@
+{
+  "case": {
+    "id": "e2e_18",
+    "question": "Can I get a refund?",
+    "customer_id": 6,
+    "expected_intent": "get_refund",
+    "expected": "Ask for order ID; no eligibility invented.",
+    "patterns": [
+      "provide the order ID"
+    ],
+    "decision": "unknown",
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Can I get a refund?",
+    "customer_id": 6,
+    "evaluation_date": "2026-10-10",
+    "intent": "get_refund",
+    "selected_agent": "refund_agent",
+    "response": "Please provide the order ID for the refund eligibility check.",
+    "sources": [],
+    "agent_result": {
+      "order_id": null,
+      "eligibility_status": "unknown",
+      "reason": "Please provide the order ID for the refund eligibility check.",
+      "policy_sources": [],
+      "answer": "Please provide the order ID for the refund eligibility check.",
+      "evaluation_date": "2026-10-10",
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 1.267527322001115,
+  "recorded_at": "2026-11-10T16:27:11.313806+00:00"
+}

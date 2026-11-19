@@ -1,0 +1,27 @@
+{
+  "case": {
+    "id": "faq_07",
+    "question": "Where is a refund sent if I paid in advance?",
+    "sources": [
+      "refund_policy.md"
+    ],
+    "expected": "Original payment method, conditional on eligible approved refund.",
+    "patterns": [
+      "original payment"
+    ],
+    "kind": "paraphrase",
+    "supported": true
+  },
+  "result": {
+    "answer": "If you paid in advance, the refund will go to your original payment method.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.7854130009982327,
+  "recorded_at": "2026-11-10T16:25:35.786206+00:00"
+}

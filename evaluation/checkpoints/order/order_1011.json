@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "order_1011",
+    "customer_id": 24,
+    "question": "Please show the details and delivery date for order 1011.",
+    "kind": "record",
+    "expected_records": [
+      {
+        "order_id": 1011,
+        "customer_id": 24,
+        "product": "Desk Lamp",
+        "price": 1399.0,
+        "status": "Cancelled",
+        "order_date": "2026-08-20",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ]
+  },
+  "result": {
+    "answer": "Here are your order details:\nOrder #1011: Desk Lamp. Status: Cancelled. Price: 1399.00. Order date: 2026-08-20. No delivery date is recorded.",
+    "orders": [
+      {
+        "order_id": 1011,
+        "customer_id": 24,
+        "product": "Desk Lamp",
+        "price": 1399.0,
+        "status": "Cancelled",
+        "order_date": "2026-08-20",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.631348014998366,
+  "recorded_at": "2026-11-10T16:26:16.432435+00:00"
+}

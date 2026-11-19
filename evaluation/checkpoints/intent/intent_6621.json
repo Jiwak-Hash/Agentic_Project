@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_6621",
+    "dataset_row": 6621,
+    "question": "assistance checking when my purchase is gonna arrive",
+    "expected_intent": "delivery_period"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49172850999821094,
+  "recorded_at": "2026-11-10T16:25:02.167642+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_4062",
+    "dataset_row": 4062,
+    "question": "is it possible to contact a human agent?",
+    "expected_intent": "contact_human_agent"
+  },
+  "result": {
+    "intent": "contact_human_agent",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.518665380001039,
+  "recorded_at": "2026-11-10T16:23:42.597271+00:00"
+}

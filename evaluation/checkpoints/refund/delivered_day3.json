@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "delivered_day3",
+    "order_id": 9001,
+    "status": "Delivered",
+    "delivery_date": "2026-01-14",
+    "issue": "ordinary",
+    "owner": 6,
+    "customer_id": 6,
+    "question": "Refund order 9001.",
+    "expected_decision": "eligible",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": 9001,
+    "eligibility_status": "eligible",
+    "reason": "As of 2026-01-17, delivery on 2026-01-14 was 3 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+    "policy_sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "answer": "For order #9001: As of 2026-01-17, delivery on 2026-01-14 was 3 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 0.000530653000168968,
+  "recorded_at": "2026-11-10T16:26:36.990239+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "case": {
+    "id": "faq_19",
+    "question": "What is the minimum spend to get free shipping?",
+    "sources": [],
+    "expected": "Policy unavailable; do not invent fees or thresholds.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false
+  },
+  "result": {
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.6969151550001698,
+  "recorded_at": "2026-11-10T16:25:51.210792+00:00"
+}

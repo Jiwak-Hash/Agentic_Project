@@ -1,0 +1,85 @@
+[
+  {
+    "case": {
+      "id": "FAQ_0",
+      "service": "FAQ",
+      "repetition": 0
+    },
+    "result": {
+      "answer": "You can request a return within 7 days of delivery, provided the product is unused and in its original packaging with all accessories. For damaged or incorrect items, contact customer support immediately to escalate the case for manual review.",
+      "sources": [
+        "return_policy.md",
+        "refund_policy.md",
+        "cancellation_policy.md"
+      ],
+      "error": null
+    },
+    "error": null,
+    "seconds": 1.4945366510000895,
+    "recorded_at": "2026-11-10T16:22:07.550322+00:00"
+  },
+  {
+    "case": {
+      "id": "Order_0",
+      "service": "Order",
+      "repetition": 0
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1001: Bluetooth Speaker. Status: Shipped. Price: 1899.00. Order date: 2026-05-24. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1001,
+          "customer_id": 16,
+          "product": "Bluetooth Speaker",
+          "price": 1899.0,
+          "status": "Shipped",
+          "order_date": "2026-05-24",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.5545258929996635,
+    "recorded_at": "2026-11-10T16:22:10.107454+00:00"
+  },
+  {
+    "case": {
+      "id": "Refund_0",
+      "service": "Refund",
+      "repetition": 0
+    },
+    "result": {
+      "order_id": 1002,
+      "eligibility_status": "eligible",
+      "reason": "As of 2026-10-10, delivery on 2026-10-05 was 5 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #1002: As of 2026-10-10, delivery on 2026-10-05 was 5 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+      "evaluation_date": "2026-10-10",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 3.6307659889971546,
+    "recorded_at": "2026-11-10T16:22:13.740996+00:00"
+  },
+  {
+    "case": {
+      "id": "Supervisor_0",
+      "service": "Supervisor",
+      "repetition": 0
+    },
+    "result": {
+      "intent": "track_order",
+      "error": null
+    },
+    "error": null,
+    "seconds": 0.49075747299866634,
+    "recorded_at": "2026-11-10T16:22:06.053607+00:00"
+  }
+]

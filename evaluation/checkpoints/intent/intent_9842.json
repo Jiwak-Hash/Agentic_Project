@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9842",
+    "dataset_row": 9842,
+    "question": "where can i see if there are any news on the reimbursement",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "track_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5060113409999758,
+  "recorded_at": "2026-11-10T16:25:11.408662+00:00"
+}

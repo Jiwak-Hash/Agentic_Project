@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "faq_02",
+    "question": "Once my return refund is approved, how many business days does processing take?",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md"
+    ],
+    "expected": "5–7 business days after approval, not after purchase.",
+    "patterns": [
+      "5\\s*[-–—]\\s*7",
+      "business",
+      "approv"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "After your returned item is inspected and the refund is approved, the refund will be processed within 5–7 business days.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.0211797140000272,
+  "recorded_at": "2026-11-10T16:25:29.777440+00:00"
+}

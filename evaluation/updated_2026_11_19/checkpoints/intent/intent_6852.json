@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_6852",
+    "dataset_row": 6852,
+    "question": "I am trying to find shipping periods, could you help me?",
+    "expected_intent": "delivery_period"
+  },
+  "result": {
+    "intent": "delivery_period",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5012986670044484,
+  "recorded_at": "2026-11-19T17:21:50.644317+00:00"
+}

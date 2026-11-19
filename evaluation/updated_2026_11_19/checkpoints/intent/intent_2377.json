@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_2377",
+    "dataset_row": 2377,
+    "question": "are service charges reimbursable?",
+    "expected_intent": "check_refund_policy"
+  },
+  "result": {
+    "intent": "check_refund_policy",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5554101439993246,
+  "recorded_at": "2026-11-19T17:23:01.918620+00:00"
+}

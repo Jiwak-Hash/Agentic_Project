@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_6706",
+    "dataset_row": 6706,
+    "question": "need help to see when my parcel is going to arrive",
+    "expected_intent": "delivery_period"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.496693414002948,
+  "recorded_at": "2026-11-19T17:22:57.795518+00:00"
+}

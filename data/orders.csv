@@ -1,0 +1,201 @@
+order_id,customer_id,product,price,status,order_date,delivery_date,payment_method
+1001,16,Bluetooth Speaker,1899,Shipped,2026-05-24,,UPI
+1002,6,USB-C Charger,999,Delivered,2026-09-29,2026-10-05,Cash on Delivery
+1003,14,Cotton T-Shirt,799,Processing,2026-07-18,,UPI
+1004,46,Smart Watch,4999,Delivered,2026-06-27,2026-07-02,Cash on Delivery
+1005,38,Running Shoes,3199,Delivered,2026-05-08,2026-05-10,Card
+1006,45,Insulated Water Bottle,1099,Shipped,2026-11-02,,Card
+1007,49,Smart Watch,4999,Shipped,2026-08-08,,Card
+1008,23,Cotton T-Shirt,799,Shipped,2026-10-08,,Card
+1009,47,Wireless Earbuds,2499,Shipped,2026-06-02,,Card
+1010,6,Ceramic Dinner Set,2299,Shipped,2026-06-19,,Cash on Delivery
+1011,24,Desk Lamp,1399,Cancelled,2026-08-20,,Cash on Delivery
+1012,50,Smart Watch,4999,Delivered,2026-09-15,2026-09-16,Card
+1013,25,Cotton T-Shirt,799,Cancelled,2026-10-14,,Card
+1014,24,Insulated Water Bottle,1099,Delivered,2026-07-10,2026-07-13,Card
+1015,39,Cotton T-Shirt,799,Delivered,2026-09-11,2026-09-17,Cash on Delivery
+1016,30,Insulated Water Bottle,1099,Delivered,2026-09-21,2026-09-23,Card
+1017,15,USB-C Charger,999,Delayed,2026-08-26,,Cash on Delivery
+1018,15,Wireless Earbuds,2499,Cancelled,2026-08-12,,UPI
+1019,37,Smart Watch,4999,Delivered,2026-08-15,2026-08-16,Cash on Delivery
+1020,26,Running Shoes,3199,Shipped,2026-08-15,,Cash on Delivery
+1021,16,Insulated Water Bottle,1099,Shipped,2026-07-09,,Cash on Delivery
+1022,28,Desk Lamp,1399,Delivered,2026-06-13,2026-06-19,Cash on Delivery
+1023,32,USB-C Charger,999,Delivered,2026-07-24,2026-07-26,UPI
+1024,41,Insulated Water Bottle,1099,Cancelled,2026-10-22,,UPI
+1025,25,Ceramic Dinner Set,2299,Delivered,2026-05-13,2026-05-14,Cash on Delivery
+1026,44,Wireless Earbuds,2499,Delivered,2026-07-07,2026-07-12,Cash on Delivery
+1027,50,Bluetooth Speaker,1899,Delivered,2026-10-05,2026-10-10,Cash on Delivery
+1028,11,Ceramic Dinner Set,2299,Shipped,2026-08-08,,Card
+1029,33,Bluetooth Speaker,1899,Cancelled,2026-11-03,,UPI
+1030,41,Bluetooth Speaker,1899,Delayed,2026-06-27,,Cash on Delivery
+1031,49,Laptop Backpack,1599,Shipped,2026-06-01,,UPI
+1032,1,USB-C Charger,999,Delayed,2026-06-18,,Cash on Delivery
+1033,20,Laptop Backpack,1599,Delivered,2026-08-13,2026-08-14,UPI
+1034,6,Desk Lamp,1399,Shipped,2026-10-20,,UPI
+1035,50,USB-C Charger,999,Cancelled,2026-07-02,,UPI
+1036,17,Insulated Water Bottle,1099,Delivered,2026-10-02,2026-10-07,Cash on Delivery
+1037,49,USB-C Charger,999,Delivered,2026-06-01,2026-06-03,Cash on Delivery
+1038,26,Bluetooth Speaker,1899,Shipped,2026-05-11,,Cash on Delivery
+1039,8,Running Shoes,3199,Delivered,2026-05-21,2026-05-26,UPI
+1040,38,Wireless Earbuds,2499,Processing,2026-09-07,,Cash on Delivery
+1041,46,Cotton T-Shirt,799,Delivered,2026-09-06,2026-09-07,Cash on Delivery
+1042,22,Wireless Earbuds,2499,Shipped,2026-10-19,,UPI
+1043,14,Running Shoes,3199,Shipped,2026-06-25,,Cash on Delivery
+1044,31,Desk Lamp,1399,Delivered,2026-10-01,2026-10-06,UPI
+1045,7,Smart Watch,4999,Cancelled,2026-07-05,,UPI
+1046,30,Ceramic Dinner Set,2299,Delivered,2026-05-19,2026-05-23,Cash on Delivery
+1047,4,Cotton T-Shirt,799,Delivered,2026-10-21,2026-10-27,Card
+1048,16,Cotton T-Shirt,799,Cancelled,2026-08-09,,UPI
+1049,12,Ceramic Dinner Set,2299,Delivered,2026-09-16,2026-09-18,Card
+1050,29,Cotton T-Shirt,799,Shipped,2026-07-08,,Cash on Delivery
+1051,1,USB-C Charger,999,Processing,2026-10-09,,UPI
+1052,31,Running Shoes,3199,Shipped,2026-09-04,,UPI
+1053,25,Insulated Water Bottle,1099,Delayed,2026-07-24,,UPI
+1054,19,Running Shoes,3199,Shipped,2026-07-27,,Card
+1055,43,USB-C Charger,999,Delayed,2026-05-09,,Cash on Delivery
+1056,14,Bluetooth Speaker,1899,Shipped,2026-07-02,,UPI
+1057,4,Laptop Backpack,1599,Delivered,2026-06-08,2026-06-09,UPI
+1058,11,USB-C Charger,999,Delivered,2026-06-07,2026-06-14,UPI
+1059,5,Insulated Water Bottle,1099,Shipped,2026-06-26,,Cash on Delivery
+1060,8,Ceramic Dinner Set,2299,Delivered,2026-10-17,2026-10-19,Cash on Delivery
+1061,6,Desk Lamp,1399,Delivered,2026-09-01,2026-09-02,Card
+1062,17,Laptop Backpack,1599,Delivered,2026-05-19,2026-05-24,UPI
+1063,26,Bluetooth Speaker,1899,Delivered,2026-05-16,2026-05-18,UPI
+1064,49,Laptop Backpack,1599,Delivered,2026-05-16,2026-05-20,UPI
+1065,7,Desk Lamp,1399,Processing,2026-11-01,,UPI
+1066,9,Bluetooth Speaker,1899,Shipped,2026-06-19,,Card
+1067,19,Laptop Backpack,1599,Cancelled,2026-10-17,,UPI
+1068,40,Bluetooth Speaker,1899,Cancelled,2026-07-14,,Cash on Delivery
+1069,20,USB-C Charger,999,Processing,2026-06-21,,Cash on Delivery
+1070,17,Insulated Water Bottle,1099,Delayed,2026-10-08,,UPI
+1071,19,Bluetooth Speaker,1899,Delivered,2026-10-07,2026-10-09,Cash on Delivery
+1072,33,Bluetooth Speaker,1899,Delivered,2026-09-11,2026-09-13,Card
+1073,6,Wireless Earbuds,2499,Delayed,2026-08-31,,Cash on Delivery
+1074,1,Wireless Earbuds,2499,Cancelled,2026-07-18,,Card
+1075,48,Insulated Water Bottle,1099,Delivered,2026-10-01,2026-10-04,Card
+1076,8,Wireless Earbuds,2499,Delivered,2026-06-15,2026-06-20,UPI
+1077,3,USB-C Charger,999,Delayed,2026-05-11,,Card
+1078,3,Insulated Water Bottle,1099,Delivered,2026-06-07,2026-06-11,Card
+1079,23,Wireless Earbuds,2499,Cancelled,2026-08-02,,UPI
+1080,23,Cotton T-Shirt,799,Shipped,2026-05-13,,Cash on Delivery
+1081,16,Insulated Water Bottle,1099,Delayed,2026-07-22,,UPI
+1082,12,Wireless Earbuds,2499,Cancelled,2026-09-19,,Cash on Delivery
+1083,43,Ceramic Dinner Set,2299,Cancelled,2026-08-10,,Cash on Delivery
+1084,25,Cotton T-Shirt,799,Shipped,2026-09-01,,UPI
+1085,23,Running Shoes,3199,Shipped,2026-07-06,,Card
+1086,26,Smart Watch,4999,Shipped,2026-09-06,,Card
+1087,23,Bluetooth Speaker,1899,Cancelled,2026-08-24,,Cash on Delivery
+1088,22,USB-C Charger,999,Delivered,2026-06-26,2026-07-03,UPI
+1089,12,Bluetooth Speaker,1899,Cancelled,2026-10-05,,Cash on Delivery
+1090,28,Desk Lamp,1399,Processing,2026-08-28,,Card
+1091,25,Cotton T-Shirt,799,Delivered,2026-08-15,2026-08-20,Cash on Delivery
+1092,1,Ceramic Dinner Set,2299,Shipped,2026-09-16,,Cash on Delivery
+1093,24,Smart Watch,4999,Delivered,2026-06-19,2026-06-25,Card
+1094,40,Laptop Backpack,1599,Delayed,2026-10-17,,Card
+1095,33,Bluetooth Speaker,1899,Cancelled,2026-05-18,,Card
+1096,36,Bluetooth Speaker,1899,Delivered,2026-05-17,2026-05-21,UPI
+1097,40,Insulated Water Bottle,1099,Delivered,2026-09-15,2026-09-19,Cash on Delivery
+1098,20,Wireless Earbuds,2499,Delivered,2026-08-18,2026-08-25,Card
+1099,42,Desk Lamp,1399,Delivered,2026-09-11,2026-09-16,Card
+1100,33,Smart Watch,4999,Delivered,2026-07-07,2026-07-13,Card
+1101,43,USB-C Charger,999,Delivered,2026-09-21,2026-09-24,Cash on Delivery
+1102,44,Smart Watch,4999,Delivered,2026-05-29,2026-06-05,Card
+1103,2,Insulated Water Bottle,1099,Cancelled,2026-09-07,,UPI
+1104,50,Desk Lamp,1399,Delayed,2026-09-02,,UPI
+1105,13,Desk Lamp,1399,Delivered,2026-07-10,2026-07-16,Cash on Delivery
+1106,10,Smart Watch,4999,Delivered,2026-05-09,2026-05-13,Cash on Delivery
+1107,50,Cotton T-Shirt,799,Processing,2026-05-11,,Card
+1108,30,USB-C Charger,999,Shipped,2026-09-08,,UPI
+1109,30,Cotton T-Shirt,799,Shipped,2026-06-14,,UPI
+1110,21,Desk Lamp,1399,Delivered,2026-07-08,2026-07-13,Card
+1111,28,USB-C Charger,999,Cancelled,2026-05-31,,Cash on Delivery
+1112,29,Running Shoes,3199,Cancelled,2026-07-12,,Card
+1113,50,Bluetooth Speaker,1899,Cancelled,2026-09-01,,Cash on Delivery
+1114,5,Running Shoes,3199,Delivered,2026-07-02,2026-07-05,Cash on Delivery
+1115,21,Laptop Backpack,1599,Shipped,2026-08-22,,Cash on Delivery
+1116,25,Smart Watch,4999,Shipped,2026-10-14,,Cash on Delivery
+1117,27,Ceramic Dinner Set,2299,Delivered,2026-09-25,2026-09-26,Card
+1118,27,Smart Watch,4999,Delivered,2026-06-18,2026-06-19,Card
+1119,49,Wireless Earbuds,2499,Delayed,2026-06-07,,Cash on Delivery
+1120,49,Bluetooth Speaker,1899,Delivered,2026-07-29,2026-08-01,Card
+1121,39,USB-C Charger,999,Delivered,2026-07-19,2026-07-25,UPI
+1122,32,Ceramic Dinner Set,2299,Shipped,2026-07-02,,UPI
+1123,47,Ceramic Dinner Set,2299,Delivered,2026-07-27,2026-08-02,UPI
+1124,35,Desk Lamp,1399,Delayed,2026-07-07,,UPI
+1125,6,Wireless Earbuds,2499,Delivered,2026-07-26,2026-08-01,Cash on Delivery
+1126,12,Running Shoes,3199,Shipped,2026-07-17,,UPI
+1127,21,Running Shoes,3199,Delivered,2026-08-29,2026-08-31,Card
+1128,17,Ceramic Dinner Set,2299,Shipped,2026-07-29,,UPI
+1129,4,USB-C Charger,999,Processing,2026-07-06,,Card
+1130,49,Wireless Earbuds,2499,Delivered,2026-09-07,2026-09-14,UPI
+1131,40,Wireless Earbuds,2499,Shipped,2026-09-01,,UPI
+1132,37,Cotton T-Shirt,799,Shipped,2026-09-03,,UPI
+1133,11,Laptop Backpack,1599,Delivered,2026-07-07,2026-07-14,Cash on Delivery
+1134,50,Cotton T-Shirt,799,Delayed,2026-06-01,,UPI
+1135,20,Wireless Earbuds,2499,Shipped,2026-08-16,,Cash on Delivery
+1136,26,Ceramic Dinner Set,2299,Delayed,2026-05-14,,Cash on Delivery
+1137,7,Smart Watch,4999,Processing,2026-09-14,,Cash on Delivery
+1138,8,Desk Lamp,1399,Cancelled,2026-08-18,,Cash on Delivery
+1139,5,Laptop Backpack,1599,Delivered,2026-10-24,2026-10-28,Cash on Delivery
+1140,32,Ceramic Dinner Set,2299,Delivered,2026-05-22,2026-05-29,UPI
+1141,46,Running Shoes,3199,Delayed,2026-07-16,,UPI
+1142,42,USB-C Charger,999,Shipped,2026-07-15,,Card
+1143,50,USB-C Charger,999,Cancelled,2026-05-30,,Card
+1144,18,Desk Lamp,1399,Delivered,2026-07-07,2026-07-13,Card
+1145,18,Cotton T-Shirt,799,Cancelled,2026-09-02,,Card
+1146,43,Desk Lamp,1399,Delivered,2026-09-02,2026-09-07,Card
+1147,12,Laptop Backpack,1599,Processing,2026-08-09,,Card
+1148,18,Laptop Backpack,1599,Delivered,2026-09-10,2026-09-13,Cash on Delivery
+1149,1,USB-C Charger,999,Cancelled,2026-05-08,,Cash on Delivery
+1150,32,Ceramic Dinner Set,2299,Shipped,2026-09-16,,Cash on Delivery
+1151,29,Running Shoes,3199,Delivered,2026-09-03,2026-09-09,UPI
+1152,20,Smart Watch,4999,Delivered,2026-10-11,2026-10-15,Cash on Delivery
+1153,23,USB-C Charger,999,Delivered,2026-06-08,2026-06-13,Card
+1154,18,Running Shoes,3199,Delivered,2026-06-16,2026-06-22,Card
+1155,21,Smart Watch,4999,Shipped,2026-08-31,,UPI
+1156,13,Insulated Water Bottle,1099,Delayed,2026-06-19,,UPI
+1157,49,Desk Lamp,1399,Shipped,2026-07-03,,Cash on Delivery
+1158,19,Smart Watch,4999,Delivered,2026-06-04,2026-06-05,UPI
+1159,46,Wireless Earbuds,2499,Shipped,2026-08-03,,Cash on Delivery
+1160,36,Wireless Earbuds,2499,Shipped,2026-10-02,,Card
+1161,7,Running Shoes,3199,Delayed,2026-05-09,,UPI
+1162,22,Running Shoes,3199,Delivered,2026-06-10,2026-06-14,UPI
+1163,8,Running Shoes,3199,Shipped,2026-10-21,,UPI
+1164,10,Wireless Earbuds,2499,Delivered,2026-07-24,2026-07-29,UPI
+1165,16,Cotton T-Shirt,799,Delayed,2026-06-12,,UPI
+1166,40,Desk Lamp,1399,Delivered,2026-06-14,2026-06-19,UPI
+1167,38,Bluetooth Speaker,1899,Delivered,2026-06-23,2026-06-27,Card
+1168,48,Desk Lamp,1399,Delivered,2026-08-17,2026-08-18,UPI
+1169,11,Cotton T-Shirt,799,Delivered,2026-09-11,2026-09-14,UPI
+1170,27,Wireless Earbuds,2499,Delivered,2026-09-20,2026-09-22,Card
+1171,15,Wireless Earbuds,2499,Delivered,2026-05-11,2026-05-14,Card
+1172,5,Running Shoes,3199,Delivered,2026-05-07,2026-05-14,Cash on Delivery
+1173,43,Desk Lamp,1399,Delayed,2026-09-05,,UPI
+1174,42,Smart Watch,4999,Shipped,2026-07-18,,UPI
+1175,4,Cotton T-Shirt,799,Cancelled,2026-08-27,,UPI
+1176,19,Desk Lamp,1399,Delivered,2026-08-17,2026-08-24,Card
+1177,18,Ceramic Dinner Set,2299,Delivered,2026-10-03,2026-10-06,Cash on Delivery
+1178,3,Desk Lamp,1399,Delivered,2026-06-18,2026-06-19,Card
+1179,15,Cotton T-Shirt,799,Delivered,2026-08-13,2026-08-14,Cash on Delivery
+1180,37,Bluetooth Speaker,1899,Delivered,2026-06-09,2026-06-10,UPI
+1181,18,Running Shoes,3199,Delivered,2026-09-20,2026-09-26,UPI
+1182,6,Running Shoes,3199,Delivered,2026-06-07,2026-06-14,Card
+1183,11,Cotton T-Shirt,799,Delivered,2026-08-06,2026-08-09,Card
+1184,49,Ceramic Dinner Set,2299,Delivered,2026-07-21,2026-07-24,Cash on Delivery
+1185,21,Bluetooth Speaker,1899,Delivered,2026-10-25,2026-10-28,UPI
+1186,43,Wireless Earbuds,2499,Cancelled,2026-07-23,,Cash on Delivery
+1187,24,USB-C Charger,999,Delivered,2026-07-08,2026-07-10,Cash on Delivery
+1188,14,Wireless Earbuds,2499,Delivered,2026-06-29,2026-07-06,Card
+1189,29,Bluetooth Speaker,1899,Shipped,2026-06-16,,Cash on Delivery
+1190,16,Desk Lamp,1399,Shipped,2026-07-02,,Cash on Delivery
+1191,27,USB-C Charger,999,Delivered,2026-09-24,2026-09-25,UPI
+1192,30,Cotton T-Shirt,799,Delayed,2026-09-07,,UPI
+1193,46,Running Shoes,3199,Cancelled,2026-05-22,,Card
+1194,31,Running Shoes,3199,Delivered,2026-06-26,2026-06-30,UPI
+1195,39,Smart Watch,4999,Delivered,2026-07-10,2026-07-14,Cash on Delivery
+1196,50,Bluetooth Speaker,1899,Cancelled,2026-09-30,,Card
+1197,18,USB-C Charger,999,Delayed,2026-08-08,,UPI
+1198,38,Desk Lamp,1399,Delivered,2026-08-23,2026-08-30,Cash on Delivery
+1199,35,Running Shoes,3199,Cancelled,2026-07-01,,Card
+1200,25,USB-C Charger,999,Delivered,2026-08-07,2026-08-14,Card

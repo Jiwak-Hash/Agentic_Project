@@ -1,0 +1,27 @@
+{
+  "case": {
+    "id": "unauthorized",
+    "order_id": 9011,
+    "status": "Delivered",
+    "delivery_date": "2026-01-14",
+    "issue": "ordinary",
+    "owner": 9,
+    "customer_id": 6,
+    "question": "Refund order 9011.",
+    "expected_decision": "unknown",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": null,
+    "eligibility_status": "unknown",
+    "reason": "That order is unavailable for your account. Please check the order ID.",
+    "policy_sources": [],
+    "answer": "That order is unavailable for your account. Please check the order ID.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 0.00020481499814195558,
+  "recorded_at": "2026-11-10T16:21:52.513785+00:00"
+}

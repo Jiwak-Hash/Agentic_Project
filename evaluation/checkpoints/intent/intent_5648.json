@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5648",
+    "dataset_row": 5648,
+    "question": "is it possible to place an order from {{Delivery City}}?",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4972367599984864,
+  "recorded_at": "2026-11-10T16:25:16.480148+00:00"
+}

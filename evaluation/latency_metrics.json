@@ -1,0 +1,30 @@
+{
+  "FAQ": {
+    "n": 5,
+    "mean_seconds": 1.4879585919996317,
+    "median_seconds": 1.479975354999624,
+    "p95_seconds": 1.5040974635987368,
+    "errors": 0
+  },
+  "Order": {
+    "n": 5,
+    "mean_seconds": 2.522738716399181,
+    "median_seconds": 2.5194104139991396,
+    "p95_seconds": 2.5377978522003106,
+    "errors": 0
+  },
+  "Refund": {
+    "n": 5,
+    "mean_seconds": 3.6232949051991454,
+    "median_seconds": 3.6198355329979677,
+    "p95_seconds": 3.639682423201157,
+    "errors": 0
+  },
+  "Supervisor": {
+    "n": 5,
+    "mean_seconds": 0.49177227140025936,
+    "median_seconds": 0.4962229689990636,
+    "p95_seconds": 0.5037568200008536,
+    "errors": 0
+  }
+}

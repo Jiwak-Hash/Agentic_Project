@@ -1,0 +1,19 @@
+{
+  "case": {
+    "id": "FAQ_2",
+    "service": "FAQ",
+    "repetition": 2
+  },
+  "result": {
+    "answer": "You can request a return within 7 days of delivery, provided the product is unused and in its original packaging with all accessories. For damaged or incorrect items, contact customer support immediately to escalate the case for manual review.",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.474620535998838,
+  "recorded_at": "2026-11-10T16:27:31.024084+00:00"
+}

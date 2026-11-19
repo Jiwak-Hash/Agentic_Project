@@ -1,0 +1,74 @@
+[
+  {
+    "question": "What is your refund policy?",
+    "answer": "Refunds are available for eligible returns requested within 7 days of delivery. After a returned item is inspected and the refund is approved, it will be processed within 5\u20137 business days. Refunds for prepaid orders go to the original payment method. For Cash on Delivery orders, support arranges the refund method during manual review. Damaged or incorrect products require manual review by customer support before a return or refund decision. A refund is not guaranteed before review.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "retrieval_pass": true,
+    "facts_pass": true
+  },
+  {
+    "question": "How long does delivery take?",
+    "answer": "Standard delivery generally takes 3\u20137 business days after dispatch, with business days being Monday through Friday, excluding public holidays. Delivery estimates are not guarantees and may be affected by carrier delays or weather conditions. If your delivery exceeds the estimated window, please contact customer support for assistance.",
+    "sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null,
+    "retrieval_pass": true,
+    "facts_pass": true
+  },
+  {
+    "question": "Can I cancel an order after it has shipped?",
+    "answer": "No, you cannot cancel an order once it has shipped. Only orders that are still in the `Processing` status can be cancelled directly. For shipped or delivered orders, you must request a return within 7 days of delivery and follow the return policy to have your refund processed.",
+    "sources": [
+      "cancellation_policy.md",
+      "refund_policy.md",
+      "return_policy.md"
+    ],
+    "error": null,
+    "retrieval_pass": true,
+    "facts_pass": true
+  },
+  {
+    "question": "How many days do I have to return a product?",
+    "answer": "You have 7 days from the date of delivery to request a return.",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null,
+    "retrieval_pass": true,
+    "facts_pass": true
+  },
+  {
+    "question": "What should I do if I receive a damaged product?",
+    "answer": "If you receive a damaged product, contact customer support with the order ID, a description of the damage, and photos. The case must be escalated for manual review; do not assume the ordinary unused-item rule resolves these cases.",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "retrieval_pass": true,
+    "facts_pass": true
+  },
+  {
+    "question": "Do you offer international shipping?",
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "sources": [
+      "shipping_policy.md",
+      "cancellation_policy.md",
+      "return_policy.md"
+    ],
+    "error": null,
+    "retrieval_pass": true,
+    "facts_pass": true
+  }
+]

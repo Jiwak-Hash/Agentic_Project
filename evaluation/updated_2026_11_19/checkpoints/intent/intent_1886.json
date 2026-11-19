@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_1886",
+    "dataset_row": 1886,
+    "question": "how can i change purchase {{Order Number}}",
+    "expected_intent": "change_order"
+  },
+  "result": {
+    "intent": "change_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49094289299682714,
+  "recorded_at": "2026-11-19T17:22:49.666271+00:00"
+}

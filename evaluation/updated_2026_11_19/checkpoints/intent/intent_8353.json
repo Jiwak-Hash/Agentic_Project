@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_8353",
+    "dataset_row": 8353,
+    "question": "i want assistance seeingorder {{Order Number}} current status",
+    "expected_intent": "track_order"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4914829439949244,
+  "recorded_at": "2026-11-19T17:22:57.295792+00:00"
+}

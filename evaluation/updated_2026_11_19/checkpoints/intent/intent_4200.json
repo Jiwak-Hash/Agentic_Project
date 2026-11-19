@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_4200",
+    "dataset_row": 4200,
+    "question": "i do not know what i need to do to speak with somebody",
+    "expected_intent": "contact_human_agent"
+  },
+  "result": {
+    "intent": "contact_human_agent",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5238392889950774,
+  "recorded_at": "2026-11-19T17:23:10.605134+00:00"
+}

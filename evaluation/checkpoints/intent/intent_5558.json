@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5558",
+    "dataset_row": 5558,
+    "question": "do you shp to {{Delivery City}}?",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4834533819994249,
+  "recorded_at": "2026-11-10T16:25:23.552332+00:00"
+}

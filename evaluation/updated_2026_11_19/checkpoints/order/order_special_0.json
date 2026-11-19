@@ -1,0 +1,18 @@
+{
+  "case": {
+    "id": "order_special_0",
+    "customer_id": 16,
+    "question": "Track order 999999.",
+    "kind": "unknown",
+    "expected_records": []
+  },
+  "result": {
+    "answer": "That order is unavailable for your account. Please check the order ID.",
+    "orders": [],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 0.8653995340064284,
+  "recorded_at": "2026-11-19T17:24:21.720933+00:00"
+}

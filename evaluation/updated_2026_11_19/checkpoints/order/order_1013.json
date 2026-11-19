@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "order_1013",
+    "customer_id": 25,
+    "question": "Please show the details and delivery date for order 1013.",
+    "kind": "record",
+    "expected_records": [
+      {
+        "order_id": 1013,
+        "customer_id": 25,
+        "product": "Cotton T-Shirt",
+        "price": 799.0,
+        "status": "Cancelled",
+        "order_date": "2026-10-14",
+        "delivery_date": null,
+        "payment_method": "Card"
+      }
+    ]
+  },
+  "result": {
+    "answer": "Here are your order details:\nOrder #1013: Cotton T-Shirt. Status: Cancelled. Price: 799.00. Order date: 2026-10-14. No delivery date is recorded.",
+    "orders": [
+      {
+        "order_id": 1013,
+        "customer_id": 25,
+        "product": "Cotton T-Shirt",
+        "price": 799.0,
+        "status": "Cancelled",
+        "order_date": "2026-10-14",
+        "delivery_date": null,
+        "payment_method": "Card"
+      }
+    ],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.6443304010026623,
+  "recorded_at": "2026-11-19T17:24:15.523986+00:00"
+}

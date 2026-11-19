@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "order_1006",
+    "customer_id": 45,
+    "question": "Please show the details and delivery date for order 1006.",
+    "kind": "record",
+    "expected_records": [
+      {
+        "order_id": 1006,
+        "customer_id": 45,
+        "product": "Insulated Water Bottle",
+        "price": 1099.0,
+        "status": "Shipped",
+        "order_date": "2026-11-02",
+        "delivery_date": null,
+        "payment_method": "Card"
+      }
+    ]
+  },
+  "result": {
+    "answer": "Here are your order details:\nOrder #1006: Insulated Water Bottle. Status: Shipped. Price: 1099.00. Order date: 2026-11-02. No delivery date is recorded.",
+    "orders": [
+      {
+        "order_id": 1006,
+        "customer_id": 45,
+        "product": "Insulated Water Bottle",
+        "price": 1099.0,
+        "status": "Shipped",
+        "order_date": "2026-11-02",
+        "delivery_date": null,
+        "payment_method": "Card"
+      }
+    ],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.734478662998299,
+  "recorded_at": "2026-11-19T17:24:04.892634+00:00"
+}

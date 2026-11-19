@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_1380",
+    "dataset_row": 1380,
+    "question": "how do i delet some items from order {{Order Number}}",
+    "expected_intent": "change_order"
+  },
+  "result": {
+    "intent": "change_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49513979100447614,
+  "recorded_at": "2026-11-19T17:21:57.217462+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_8839",
+    "dataset_row": 8839,
+    "question": "i do not kno what to do to locate purchase {{Order Number}}",
+    "expected_intent": "track_order"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4977291060058633,
+  "recorded_at": "2026-11-19T17:22:31.787356+00:00"
+}

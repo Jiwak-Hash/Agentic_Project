@@ -1,0 +1,23 @@
+{
+  "case": {
+    "id": "faq_24",
+    "question": "Can I get a refund for a downloaded digital product?",
+    "sources": [],
+    "expected": "Digital-product rules unspecified; do not apply ordinary physical-return rules as definitive.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false
+  },
+  "result": {
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.6952135040046414,
+  "recorded_at": "2026-11-19T17:23:51.277360+00:00"
+}

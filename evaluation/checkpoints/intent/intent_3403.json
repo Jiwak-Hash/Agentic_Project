@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3403",
+    "dataset_row": 3403,
+    "question": "assistance to file a claim",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.3945241680012259,
+  "recorded_at": "2026-11-10T16:24:41.128829+00:00"
+}

@@ -1,0 +1,25 @@
+id,dataset_row,question,expected_intent,predicted_intent,error,seconds,expected_agent,predicted_agent
+intent_6195,6195,is it possible to check when my shipment is going to arrive?,delivery_period,track_order,,0.48320884200074943,faq_agent,order_agent
+intent_6295,6295,is it possible to see when my product is going to arrive?,delivery_period,track_order,,0.4791516029945342,faq_agent,order_agent
+intent_6422,6422,I want to see when will my product arrive,delivery_period,track_order,,0.49757040300028166,faq_agent,order_agent
+intent_6531,6531,need help to see how long it takes for my parcel to arrive,delivery_period,track_order,,0.48434915999678196,faq_agent,order_agent
+intent_6621,6621,assistance checking when my purchase is gonna arrive,delivery_period,track_order,,0.49214723899785895,faq_agent,order_agent
+intent_6706,6706,need help to see when my parcel is going to arrive,delivery_period,track_order,,0.496693414002948,faq_agent,order_agent
+intent_6726,6726,I'm calling to check whenb will my item arrive,delivery_period,track_order,,0.5164195609977469,faq_agent,order_agent
+intent_6810,6810,want help seeing how long it takes for my order to arrive,delivery_period,track_order,,0.48843017800390953,faq_agent,order_agent
+intent_6881,6881,"I have to see when my item is going to arrive, help me",delivery_period,track_order,,0.5001226140011568,faq_agent,order_agent
+intent_7421,7421,I have got to ask for rebates,get_refund,unsupported,,0.4636927579995245,refund_agent,fallback
+intent_7453,7453,canyou help me get a compensation?,get_refund,complaint,,0.49940637400140986,refund_agent,human_escalation
+intent_7899,7899,could you help me obtain rebates of money?,get_refund,unsupported,,0.45004737399722217,refund_agent,fallback
+intent_9047,9047,can uhelp me check if there are any updates on the rebate,track_refund,unsupported,,0.45397451300232206,refund_agent,fallback
+intent_9186,9186,I'm waiting for a restitution of {{Refund Amount}} dollars,track_refund,get_refund,,0.5232301030046074,refund_agent,refund_agent
+intent_9413,9413,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.5232918830006383,refund_agent,refund_agent
+intent_9430,9430,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.5262018950015772,refund_agent,refund_agent
+intent_9522,9522,I'm waiting for a restitution of {{Refund Amount}} dollars,track_refund,get_refund,,0.5209880660040653,refund_agent,refund_agent
+intent_9580,9580,where do I see my rebate status?,track_refund,unsupported,,0.4466536280015134,refund_agent,fallback
+intent_9612,9612,where do I know if there is anything wrong with my rebate?,track_refund,unsupported,,0.4662197119978373,refund_agent,fallback
+intent_9654,9654,help checking if there is anything new on the bloody rebate,track_refund,check_refund_policy,,0.5461350779951317,refund_agent,faq_agent
+intent_9716,9716,I expect an refund of {{Refund Amount}} dollars,track_refund,get_refund,,0.5227975160014466,refund_agent,refund_agent
+intent_9769,9769,I am waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.529586675002065,refund_agent,refund_agent
+intent_9800,9800,assistance to see my compensation status,track_refund,unsupported,,0.44501955099985935,refund_agent,fallback
+intent_9911,9911,I am waiting for a compensation of {{Refund Amount}} dollars,track_refund,get_refund,,0.5395914159962558,refund_agent,refund_agent

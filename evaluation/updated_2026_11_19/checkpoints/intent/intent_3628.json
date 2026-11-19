@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3628",
+    "dataset_row": 3628,
+    "question": "I need to lodge a consumer claim",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4729147800026112,
+  "recorded_at": "2026-11-19T17:22:56.801384+00:00"
+}

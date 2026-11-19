@@ -1,0 +1,103 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13854.57it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Customer: What is your refund policy?
+Sources: refund_policy.md, return_policy.md, cancellation_policy.md
+Answer: Here are the relevant policy excerpts:
+
+# Refund policy
+
+These are fictional policies for DemoCart, a demo e-commerce company.
+
+- Refunds are available for eligible returns requested within 7 days of delivery.
+- After a returned item is inspected and the refund is approved, the refund is processed within 5–7 business days after approval.
+- Refunds for prepaid orders go to the original payment method. For Cash on Delivery orders, support arranges the refund method during manual review.
+- Damaged or incorrect products require manual review by customer support before a return or refund decision. A refund is not guaranteed before review.
+- This FAQ explains policy only; it cannot approve or issue refunds.
+
+# Return policy
+
+These are fictional policies for DemoCart, a demo e-commerce company.
+
+- Customers can request a return within 7 days of delivery.
+- For an ordinary return, the product must be unused, with its original packaging and accessories.
+- Contact customer support to request a return. Approval follows a review of eligibility and inspection of the returned item.
+- If a product arrives damaged or incorrect, contact customer support with the order ID, a description, and photos. The case must be escalated for manual review; do not assume the ordinary unused-item rule resolves these cases.
+- Eligible refunds are processed within 5–7 business days after refund approval.
+
+# Cancellation policy
+
+These are fictional policies for DemoCart, a demo e-commerce company.
+
+- Orders can be cancelled only while their status is `Processing`.
+- Orders with status `Shipped` or `Delivered` cannot be directly cancelled. Other statuses are not eligible for direct cancellation either.
+- After delivery, customers may request a return within 7 days of delivery, subject to the return policy.
+- Contact customer support to request an eligible cancellation. This FAQ cannot check order status or perform cancellations.
+- Damaged or incorrect products should be escalated for manual review rather than directly cancelled after shipment.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: How long does delivery take?
+Sources: shipping_policy.md, return_policy.md, refund_policy.md
+Answer: Standard delivery generally takes 3–7 business days after dispatch, Monday through Friday, excluding public holidays. Delivery estimates are not guarantees and may be affected by carrier delays or weather conditions. If your delivery exceeds the estimated window, please contact customer support for assistance.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: Can I cancel an order after it has shipped?
+Sources: cancellation_policy.md, refund_policy.md, return_policy.md
+Answer: Here are the relevant policy excerpts:
+
+# Cancellation policy
+
+These are fictional policies for DemoCart, a demo e-commerce company.
+
+- Orders can be cancelled only while their status is `Processing`.
+- Orders with status `Shipped` or `Delivered` cannot be directly cancelled. Other statuses are not eligible for direct cancellation either.
+- After delivery, customers may request a return within 7 days of delivery, subject to the return policy.
+- Contact customer support to request an eligible cancellation. This FAQ cannot check order status or perform cancellations.
+- Damaged or incorrect products should be escalated for manual review rather than directly cancelled after shipment.
+
+# Refund policy
+
+These are fictional policies for DemoCart, a demo e-commerce company.
+
+- Refunds are available for eligible returns requested within 7 days of delivery.
+- After a returned item is inspected and the refund is approved, the refund is processed within 5–7 business days after approval.
+- Refunds for prepaid orders go to the original payment method. For Cash on Delivery orders, support arranges the refund method during manual review.
+- Damaged or incorrect products require manual review by customer support before a return or refund decision. A refund is not guaranteed before review.
+- This FAQ explains policy only; it cannot approve or issue refunds.
+
+# Return policy
+
+These are fictional policies for DemoCart, a demo e-commerce company.
+
+- Customers can request a return within 7 days of delivery.
+- For an ordinary return, the product must be unused, with its original packaging and accessories.
+- Contact customer support to request a return. Approval follows a review of eligibility and inspection of the returned item.
+- If a product arrives damaged or incorrect, contact customer support with the order ID, a description, and photos. The case must be escalated for manual review; do not assume the ordinary unused-item rule resolves these cases.
+- Eligible refunds are processed within 5–7 business days after refund approval.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: How many days do I have to return a product?
+Sources: return_policy.md, refund_policy.md, shipping_policy.md
+Answer: You have 7 days from the date of delivery to request a return.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: What should I do if I receive a damaged product?
+Sources: return_policy.md, refund_policy.md, cancellation_policy.md
+Answer: If you receive a damaged product, contact customer support with your order ID, a description of the damage, and photos. The case must be escalated for manual review; the ordinary unused-item rule does not apply to these cases.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: Do you offer international shipping?
+Sources: shipping_policy.md, cancellation_policy.md, return_policy.md
+Answer: I could not verify that policy from the available documents. Please contact customer support.
+Retrieval: PASS; Expected facts: PASS
+
+Retrieved expected document: 6/6
+Expected-fact checks: 6/6
+These keyword checks do not establish full correctness or grounding.
+Saved answers and evaluation: /home/jiwak/Agentic_Project/evaluation/updated_2026_11_19/data/faq_evaluation.json

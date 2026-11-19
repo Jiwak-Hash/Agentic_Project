@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9827",
+    "dataset_row": 9827,
+    "question": "check if there is anything wrong with my damn restitution",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "track_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5118840200011618,
+  "recorded_at": "2026-11-19T17:21:43.045294+00:00"
+}

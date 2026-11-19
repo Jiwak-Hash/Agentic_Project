@@ -1,0 +1,27 @@
+{
+  "n": 200,
+  "accuracy": 0.91,
+  "per_agent": [
+    {
+      "agent": "faq_agent",
+      "support": 60,
+      "accuracy": 0.85
+    },
+    {
+      "agent": "human_escalation",
+      "support": 40,
+      "accuracy": 0.975
+    },
+    {
+      "agent": "order_agent",
+      "support": 60,
+      "accuracy": 1.0
+    },
+    {
+      "agent": "refund_agent",
+      "support": 40,
+      "accuracy": 0.8
+    }
+  ],
+  "definition": "Per-agent accuracy is correct destinations / examples whose true destination is that agent."
+}

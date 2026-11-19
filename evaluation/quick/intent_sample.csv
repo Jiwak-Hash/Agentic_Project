@@ -1,0 +1,21 @@
+id,dataset_row,question,expected_intent
+intent_453,453,I cannot afford purchase {{Order Number}},cancel_order
+intent_8507,8507,checking status of order {{Order Number}},track_order
+intent_7777,7777,I am trying to receive a compensation,get_refund
+intent_792,792,"I have bought some item, I have to cancel order {{Order Number}}",cancel_order
+intent_4445,4445,I can't speak iwth an operator,contact_human_agent
+intent_2787,2787,need assistance to check ur reimbursement policy,check_refund_policy
+intent_5516,5516,help to check what methods for delivery i have,delivery_options
+intent_1790,1790,updating purchase {{Order Number}},change_order
+intent_9430,9430,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund
+intent_8902,8902,where to see the bloody ETA of the order {{Order Number}},track_order
+intent_6779,6779,help to check how soon can I expect my shipment,delivery_period
+intent_1451,1451,I have to delete several items from purchase {{Order Number}},change_order
+intent_4785,4785,I want help to talk with a human agent,contact_human_agent
+intent_9769,9769,I am waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund
+intent_2448,2448,I try to check in which situations can I ask for a refund,check_refund_policy
+intent_6439,6439,I need assistance checking how soon can I expect my delivery,delivery_period
+intent_3729,3729,could you help me file a customer reclamation?,complaint
+intent_5911,5911,can I place an ordewr from {{Delivery Country}}?,delivery_options
+intent_7438,7438,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, I need to get a rebate",get_refund
+intent_3513,3513,I have to make a consumer reclamation against your company,complaint

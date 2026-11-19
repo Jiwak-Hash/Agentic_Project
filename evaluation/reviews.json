@@ -1,0 +1,270 @@
+{
+  "faq/faq_01": {
+    "response_sha256": "10bcf40c709c5f2bd97292556b4f69fe003d9b3e07ebc82bee6a84aa7c365e13",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "States the policy deadline precisely: within seven days of delivery."
+  },
+  "faq/faq_02": {
+    "response_sha256": "1cffd9eebcadea8fc0ce8188c8d90f6abc278c34909ddaba7ad999b0cf94e987",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Gives five to seven business days following inspection and refund approval; does not start the clock at purchase."
+  },
+  "faq/faq_03": {
+    "response_sha256": "149d3c7b5fe95378e05c8c5a0e448c14155be931256f59422414eda1c8050785",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Includes dispatch-based three to seven business days, weekday/holiday definition, and non-guarantee."
+  },
+  "faq/faq_04": {
+    "response_sha256": "02a7787a21e133623c91f8c16b016b22a827d91e6076b591783d9427b73c22e6",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": false,
+    "notes": "Correctly identifies Processing, but omits the support-mediated cancellation request required by the predeclared expected answer. This is an incompleteness failure, not an invented status or executed cancellation."
+  },
+  "faq/faq_05": {
+    "response_sha256": "3bcdd113dd05d2ee570fa47ad951a7a269e1619839ccae5f1acc7d9fbef8407d",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Rejects direct cancellation after shipment, identifies Processing restriction and offers a return within seven days of delivery through support."
+  },
+  "faq/faq_06": {
+    "response_sha256": "77182bf44ae7d3c622dd40e008683012aa160ee8d065beeb59541262d15fd5d7",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Includes all three ordinary-return conditions: unused, original packaging, accessories."
+  },
+  "faq/faq_07": {
+    "response_sha256": "0e181c5c11cda1cdd18e510b9b7477cf7a2493cbea358b420501d51287147602",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": false,
+    "notes": "Correct destination (original payment method), but omits the eligible/approved-refund qualification required by the predeclared expected answer. No actual refund execution is claimed; this is a strict completeness failure."
+  },
+  "faq/faq_08": {
+    "response_sha256": "1462f69de38d687f2ca96998ba5b8b7ce6fc0d92d3d23d04d296630954e90df5",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "COD method is arranged by support during manual review; no invented bank or UPI requirements."
+  },
+  "faq/faq_09": {
+    "response_sha256": "1d8c4e7e10025bb11b587192f3bedb12bbdaeaa81ddbd707fc9623b04196380d",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Requests order ID, damage description and photographs, with manual review; does not promise refund approval."
+  },
+  "faq/faq_10": {
+    "response_sha256": "4e6b64cf9f647e06c429daa11389e4ad8d3f04c965d0315a5ac14d9c3150bc54",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicitly denies guaranteed refund for an incorrect product and requires support manual review with documented evidence."
+  },
+  "faq/faq_11": {
+    "response_sha256": "4c2709901dbc55864caa3a7dce27e58763d281e6b9fd5515d28f18d07eefe1f8",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Excludes Saturdays and gives Monday through Friday excluding public holidays."
+  },
+  "faq/faq_12": {
+    "response_sha256": "c8c5002b347f2f077d2e8fb136304a8ef3bf4fa2a1fb120a6b8039b7137483d6",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Rejects a guaranteed arrival promise and cites supported carrier/weather delay possibilities. Standard practices is generic wording, not a new concrete policy."
+  },
+  "faq/faq_13": {
+    "response_sha256": "e2a5aa6f6e9648bae128ea40f86e6985146b1fd8a34823e44ae11c2c1421fd55",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Correctly refers an overdue estimate to customer support without inventing tracking information."
+  },
+  "faq/faq_14": {
+    "response_sha256": "dc31a17e7f463d10a6b564968d7b47f31ffb2c11e3e0a20d17f64dc1adb8df1b",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": false,
+    "notes": "Initially rejects direct cancellation for delivered orders, then tells the customer to request cancellation from support. Omits the expected seven-day return alternative and misleadingly suggests a cancellation route."
+  },
+  "faq/faq_15": {
+    "response_sha256": "3cc6f984b63eada1fff74905d6bfb0c609eeabf5adfac15a11cc8399eb9ac5d4",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Correctly distinguishes three to seven business days after dispatch from five to seven after refund approval."
+  },
+  "faq/faq_16": {
+    "response_sha256": "f8da4a9c5ea93d167d6fa63c42f440e4f6a9b587cd9926ee1787ae162279de7a",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Correct seven-day deadline after delivery, subject to return policy, with support referral. Accepts the question's stated no-cancellation premise without repeating it; no contradiction or substantive omission."
+  },
+  "faq/faq_17": {
+    "response_sha256": "c494aed103942a825d2770c6602749a852c4d1f7339997c3be2bb720e82770b7",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Includes seven-day deadline, unused item, original packaging/accessories, inspection/approval, five to seven business days and original payment method."
+  },
+  "faq/faq_18": {
+    "response_sha256": "27e4a9cbbaecb535346d25274a3093b310d9e6c57964461e9008ad1e2362901c",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicitly distinguishes request from approval, requires inspection and support approval, and gives supported post-approval processing time. Inspection followed by approval adequately conveys review even without the literal word review."
+  },
+  "faq/faq_19": {
+    "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicitly abstains; no fabricated free-shipping threshold."
+  },
+  "faq/faq_20": {
+    "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicitly abstains without asserting that international delivery is offered or prohibited."
+  },
+  "faq/faq_21": {
+    "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicitly abstains; no invented warranty duration."
+  },
+  "faq/faq_22": {
+    "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicitly abstains; no invented express service or charge."
+  },
+  "faq/faq_23": {
+    "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicitly abstains; does not invent a clearance-item exception."
+  },
+  "faq/faq_24": {
+    "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicitly abstains rather than applying physical-return conditions to an unspecified digital product policy."
+  },
+  "end_to_end/e2e_01": {
+    "response_sha256": "b8fbb67c9dda3c4ac70bb9f3c839ee200976901dfe99c5ca919efb8ed0c8022d",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Matches customer 16 order 1001: Bluetooth Speaker, 1899.00, Shipped, 2026-05-24 order date and no delivery date. Structured record agrees."
+  },
+  "end_to_end/e2e_02": {
+    "response_sha256": "21ebc145d66388b22d269db28f53273a27f681cc1a9c0e9660267f75a876bfbf",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explains the address/order-change limitation and explicitly states no change occurred; support referral is appropriate."
+  },
+  "end_to_end/e2e_03": {
+    "response_sha256": "6ed9a150a3a09ee6ff136d59710743deb62bcf5d8086be42deef6c32d72ffff0",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explains demo cancellation limitation, asks support to verify eligibility and explicitly denies performing a cancellation."
+  },
+  "end_to_end/e2e_04": {
+    "response_sha256": "fdc9700c07afd2ee7e52f7487a08f075e69bf77c3211ac6d3f3db8e0d5c21dab",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Gives policy-grounded three to seven business days after dispatch, weekday/holiday definition and non-guarantee."
+  },
+  "end_to_end/e2e_05": {
+    "response_sha256": "72c86d890f58a38258ca37ee3495b5612c572b05c40e51f235416a19a4c21d75",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicitly abstains about unspecified international shipping; no destination promise."
+  },
+  "end_to_end/e2e_06": {
+    "response_sha256": "cf0ecdba497f02cc66c46a954f4f1d4ea153774f0519c40fa873c5d5e4988d4e",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Includes seven-day request deadline, unused/original packaging/accessories, damaged/incorrect manual review and five to seven business days after approval. The inspection/approval heading and conditions convey review; no approval is claimed."
+  },
+  "end_to_end/e2e_07": {
+    "response_sha256": "ece372a09c5115e6db848c7950690eb4a97a3d66be66227be28b9a77ae9ec0ad",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Delivery on October 5 is five days before the fixed October 10 evaluation date. Correct conditional eligibility, item conditions and inspection/review; explicitly not refund approval."
+  },
+  "end_to_end/e2e_08": {
+    "response_sha256": "793221d35f8367235df6d56ee684bfcb44578006277a04b4327faf47ce5f36c4",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explains absence of refund-status/payment records; does not invent a transfer or paid status."
+  },
+  "end_to_end/e2e_09": {
+    "response_sha256": "cb1eb38d26583c72913804a4c8764f480e72db480b8d597f74f7223378d7896b",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicit simulated escalation with no ticket and no human contacted; fits the complaint route limitation."
+  },
+  "end_to_end/e2e_10": {
+    "response_sha256": "cb1eb38d26583c72913804a4c8764f480e72db480b8d597f74f7223378d7896b",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Explicit simulated escalation with no real human contact or ticket; no action invented."
+  },
+  "end_to_end/e2e_11": {
+    "response_sha256": "d622c18ce03a41f4fb093ec78da572b4149bbdefd5afb24d709311533dc35bf4",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Appropriately redirects an astronomy question to supported support topics."
+  },
+  "end_to_end/e2e_12": {
+    "response_sha256": "82b9f5bd76402b6eaba596b0082766b294604f5ea035b5bc523e2fced1d0dbe9",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Requests an order ID; empty records and no invented status."
+  },
+  "end_to_end/e2e_13": {
+    "response_sha256": "1966ebbf561f005f9937403d2d0345226513046482caa84aa3a087fa230fc7b9",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Generic unavailable answer for unknown ID; structured orders empty and no account information disclosed.",
+    "privacy_preserved": true
+  },
+  "end_to_end/e2e_14": {
+    "response_sha256": "1966ebbf561f005f9937403d2d0345226513046482caa84aa3a087fa230fc7b9",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Generic unavailable answer for foreign order; structured orders empty, no product/status/date disclosure.",
+    "privacy_preserved": true
+  },
+  "end_to_end/e2e_15": {
+    "response_sha256": "d622c18ce03a41f4fb093ec78da572b4149bbdefd5afb24d709311533dc35bf4",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": false,
+    "notes": "Returns a safe unsupported fallback instead of the predeclared tracking route and generic unavailable answer, so task handling fails. Session remains customer 16, agent_result is empty, and neither the answer nor structured output reveals foreign order information; privacy is preserved.",
+    "privacy_preserved": true
+  },
+  "end_to_end/e2e_16": {
+    "response_sha256": "27f25c36e381cf36ed43a5aeb2f60b85e7ad54605e27a51fb1b084b490097818",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Requires manual review for damage, requests ID/description/photos and explicitly denies a guaranteed refund; structured decision is manual_review."
+  },
+  "end_to_end/e2e_17": {
+    "response_sha256": "1966ebbf561f005f9937403d2d0345226513046482caa84aa3a087fa230fc7b9",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Generic unavailable answer; order_id null, eligibility unknown and no policy/order details. Foreign refund request does not disclose the record.",
+    "privacy_preserved": true
+  },
+  "end_to_end/e2e_18": {
+    "response_sha256": "5d1db0a64ee7fee860cf55b1bd2f8e3daf7ebd43fb061cfc13c0e667d7b37f77",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Requests order ID and returns unknown with null order_id, rather than inventing eligibility."
+  },
+  "end_to_end/e2e_19": {
+    "response_sha256": "e0c09c678cc1bb2a41a4c1437e410c5fa71e69d6917115224f463a4008e9e1d2",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "All six returned records (1001,1021,1048,1081,1165,1190) match the read-only customer-16 database query in product, price, status, order date and absent delivery date. No foreign records or fabricated dates."
+  },
+  "end_to_end/e2e_20": {
+    "response_sha256": "777145aeeb6fb978fc0b2f273114e851d3cc894e811865cd64c3b5dc955fcb28",
+    "reviewer": "Codex coding-assistant qualitative review (AI-assisted; not independent human review)",
+    "semantic_correct": true,
+    "notes": "Correctly reports Shipped and inability to assess the delivery-based window, with unknown eligibility and no direct cancellation promise."
+  }
+}

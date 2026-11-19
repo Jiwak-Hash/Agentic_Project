@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5127",
+    "dataset_row": 5127,
+    "question": "is it possible to check what shipping methods I have?",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5023744400023133,
+  "recorded_at": "2026-11-19T17:22:03.235722+00:00"
+}

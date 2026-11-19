@@ -1,0 +1,18 @@
+{
+  "case": {
+    "id": "order_special_1",
+    "customer_id": 16,
+    "question": "Could you check where my order is?",
+    "kind": "missing",
+    "expected_records": []
+  },
+  "result": {
+    "answer": "Please provide the order ID you would like me to track.",
+    "orders": [],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 0.6656929599994328,
+  "recorded_at": "2026-11-10T16:26:25.877788+00:00"
+}

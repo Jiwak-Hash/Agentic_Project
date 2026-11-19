@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "e2e_08",
+    "question": "Has the refund for order 1002 been paid yet?",
+    "customer_id": 6,
+    "expected_intent": "track_refund",
+    "expected": "No refund/payment status records; support verification, no invented payment.",
+    "patterns": [
+      "no refund-status|unavailable"
+    ],
+    "decision": null,
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Has the refund for order 1002 been paid yet?",
+    "customer_id": 6,
+    "evaluation_date": "2026-10-10",
+    "intent": "track_refund",
+    "selected_agent": "refund_agent",
+    "response": "Refund tracking is unavailable because this demo has no refund-status or payment records. Please contact customer support to verify your refund status.",
+    "sources": [],
+    "agent_result": {},
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 0.547950968000805,
+  "recorded_at": "2026-11-10T16:26:59.853616+00:00"
+}

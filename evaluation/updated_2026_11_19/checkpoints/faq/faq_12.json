@@ -1,0 +1,28 @@
+{
+  "case": {
+    "id": "faq_12",
+    "question": "Is the quoted shipping arrival time a promise?",
+    "sources": [
+      "shipping_policy.md"
+    ],
+    "expected": "Estimate, not guarantee; carrier/weather may delay.",
+    "patterns": [
+      "not|no|cannot",
+      "guarantee|promise"
+    ],
+    "kind": "paraphrase",
+    "supported": true
+  },
+  "result": {
+    "answer": "No, the quoted shipping arrival time is not a promise. Delivery estimates are based on standard delivery times and may be affected by carrier delays or weather conditions. If your delivery exceeds the estimated window, please contact customer support for assistance.",
+    "sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.6369335590061382,
+  "recorded_at": "2026-11-19T17:23:38.408632+00:00"
+}

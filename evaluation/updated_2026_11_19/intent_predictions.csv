@@ -1,0 +1,201 @@
+id,dataset_row,question,expected_intent,predicted_intent,error,seconds,expected_agent,predicted_agent
+intent_1068,1068,want help to deletd a damn article from order {{Order Number}},change_order,change_order,,0.49804936399596045,order_agent,order_agent
+intent_1206,1206,need help deleting something from purchase {{Order Number}},change_order,change_order,,0.4931823689985322,order_agent,order_agent
+intent_1207,1207,update purchase00123842,change_order,change_order,,0.4939515459991526,order_agent,order_agent
+intent_1307,1307,I want assistance editing purchase  {{Order Number}},change_order,change_order,,0.5010901299974648,order_agent,order_agent
+intent_1380,1380,how do i delet some items from order {{Order Number}},change_order,change_order,,0.49513979100447614,order_agent,order_agent
+intent_1434,1434,I cannot add a product to purchase {{Order Number}},change_order,change_order,,0.4845768270024564,order_agent,order_agent
+intent_1451,1451,I have to delete several items from purchase {{Order Number}},change_order,change_order,,0.4843144299957203,order_agent,order_agent
+intent_1466,1466,updating order {{Order Number}},change_order,change_order,,0.4858418209987576,order_agent,order_agent
+intent_1543,1543,help switching something of purchase {{Order Number}},change_order,change_order,,0.5048148069981835,order_agent,order_agent
+intent_1576,1576,i need information about correcting purchase {{Order Number}},change_order,change_order,,0.4970917280006688,order_agent,order_agent
+intent_1601,1601,I need help adding an article to purchase {{Order Number}},change_order,change_order,,0.4887301540002227,order_agent,order_agent
+intent_1633,1633,I have got to delete a damn product from purchase {{Order Number}},change_order,change_order,,0.49104556999373017,order_agent,order_agent
+intent_1675,1675,editing order {{Order Number}},change_order,change_order,,0.49747011199360713,order_agent,order_agent
+intent_1737,1737,I have to delete an item from order {{Order Number}},change_order,change_order,,0.4984161669999594,order_agent,order_agent
+intent_1790,1790,updating purchase {{Order Number}},change_order,change_order,,0.487371016999532,order_agent,order_agent
+intent_1820,1820,wanna add several products to order {{Order Number}} how can i do it,change_order,change_order,,0.48832620499888435,order_agent,order_agent
+intent_1862,1862,I can't add an item to order {{Order Number}},change_order,change_order,,0.48948996299441205,order_agent,order_agent
+intent_1886,1886,how can i change purchase {{Order Number}},change_order,change_order,,0.49094289299682714,order_agent,order_agent
+intent_1912,1912,update purcahse {{Order Number}},change_order,change_order,,0.4904488850006601,order_agent,order_agent
+intent_1931,1931,i need help to change an item of purchase {{Order Number}},change_order,change_order,,0.4891125159992953,order_agent,order_agent
+intent_2065,2065,"I have to see your refund policy, will you help me?",check_refund_policy,check_refund_policy,,0.5600994149936014,faq_agent,faq_agent
+intent_208,208,I need assistance canceling purchase {{Order Number}},cancel_order,cancel_order,,0.496513493002567,order_agent,order_agent
+intent_209,209,"I do not want this item, cancel order {{Order Number}}",cancel_order,cancel_order,,0.5121758449968183,order_agent,order_agent
+intent_2203,2203,is it possible to see in which cases can i ask for refunds,check_refund_policy,check_refund_policy,,0.5513097340008244,faq_agent,faq_agent
+intent_2204,2204,I need help seeing in which cases can I ask for a reufnd,check_refund_policy,check_refund_policy,,0.5646310129959602,faq_agent,faq_agent
+intent_2304,2304,how to check ur refund policy,check_refund_policy,check_refund_policy,,0.5506834380066721,faq_agent,faq_agent
+intent_2377,2377,are service charges reimbursable?,check_refund_policy,check_refund_policy,,0.5554101439993246,faq_agent,faq_agent
+intent_2431,2431,can you help me checking your reimbursement policy?,check_refund_policy,check_refund_policy,,0.5450988659940776,faq_agent,faq_agent
+intent_2448,2448,I try to check in which situations can I ask for a refund,check_refund_policy,check_refund_policy,,0.5663272460005828,faq_agent,faq_agent
+intent_2463,2463,I want to see in what cases can I ask to be reimbursed,check_refund_policy,check_refund_policy,,0.5524135469968314,faq_agent,faq_agent
+intent_2540,2540,need help to see in which situations can I request a refund,check_refund_policy,check_refund_policy,,0.5601183760009008,faq_agent,faq_agent
+intent_2573,2573,help me check in which cvases can i ask for my money back,check_refund_policy,check_refund_policy,,0.5469415839979774,faq_agent,faq_agent
+intent_2598,2598,are the charges of your services refundable?,check_refund_policy,check_refund_policy,,0.5498452899992117,faq_agent,faq_agent
+intent_2630,2630,is it possible to seeur money back policy,check_refund_policy,check_refund_policy,,0.5369825090019731,faq_agent,faq_agent
+intent_2672,2672,help me to see in which cases can i ask for my money back,check_refund_policy,check_refund_policy,,0.5616545250013587,faq_agent,faq_agent
+intent_2734,2734,need assistance seeing in which cases can i request a refund,check_refund_policy,check_refund_policy,,0.5405463180068182,faq_agent,faq_agent
+intent_2787,2787,need assistance to check ur reimbursement policy,check_refund_policy,check_refund_policy,,0.5517489900012151,faq_agent,faq_agent
+intent_2817,2817,could I see your reimbursement policy?,check_refund_policy,check_refund_policy,,0.5495850490042358,faq_agent,faq_agent
+intent_2859,2859,help me see in what cases can i request to be  reimbursed,check_refund_policy,check_refund_policy,,0.5585232019948307,faq_agent,faq_agent
+intent_2883,2883,in which cases can i request to be refunded,check_refund_policy,check_refund_policy,,0.534022140003799,faq_agent,faq_agent
+intent_2909,2909,i want help to check in what cases can i request refunds,check_refund_policy,check_refund_policy,,0.5744932669986156,faq_agent,faq_agent
+intent_2928,2928,I want to check in what situations can I request a refund,check_refund_policy,check_refund_policy,,0.5581882859987672,faq_agent,faq_agent
+intent_3068,3068,help to file a complaint against ur company,complaint,complaint,,0.4931407449985272,human_escalation,human_escalation
+intent_309,309,I need assistance with canceling purchase {{Order Number}},cancel_order,cancel_order,,0.4834206949963118,order_agent,order_agent
+intent_3128,3128,help to make a customer complaint,complaint,complaint,,0.493431797993253,human_escalation,human_escalation
+intent_3272,3272,help me to make a consumer complaint against your business,complaint,complaint,,0.4848537970028701,human_escalation,human_escalation
+intent_3311,3311,can you help me lodge a complaint against your organization?,complaint,complaint,,0.49042733699752716,human_escalation,human_escalation
+intent_3403,3403,assistance to file a claim,complaint,complaint,,0.3824428439984331,human_escalation,human_escalation
+intent_3505,3505,"I need to make a damn consumer complaint, how could I do it?",complaint,complaint,,0.49816709099832224,human_escalation,human_escalation
+intent_3513,3513,I have to make a consumer reclamation against your company,complaint,complaint,,0.48199357100384077,human_escalation,human_escalation
+intent_3618,3618,I do not know what I have to do to make a reclamation,complaint,complaint,,0.5053275719983503,human_escalation,human_escalation
+intent_3628,3628,I need to lodge a consumer claim,complaint,complaint,,0.4729147800026112,human_escalation,human_escalation
+intent_3652,3652,file customerr claim,complaint,complaint,,0.49025599299784517,human_escalation,human_escalation
+intent_3670,3670,assistance to file a customer claim,complaint,complaint,,0.48772830199595774,human_escalation,human_escalation
+intent_3729,3729,could you help me file a customer reclamation?,complaint,complaint,,0.48806691800564295,human_escalation,human_escalation
+intent_3732,3732,where to lodge a complaint?,complaint,complaint,,0.4933040699979756,human_escalation,human_escalation
+intent_3753,3753,I am trying to lodge a customer reclamation,complaint,complaint,,0.49747370600380236,human_escalation,human_escalation
+intent_3803,3803,want assistance to lodge a complaint against your business,complaint,complaint,,0.48624834799556993,human_escalation,human_escalation
+intent_382,382,want assistance canceling purchase {{Order Number}},cancel_order,cancel_order,,0.507332322995353,order_agent,order_agent
+intent_3851,3851,can you help me lodging a claim against your business ?,complaint,complaint,,0.49283857899717987,human_escalation,human_escalation
+intent_3875,3875,could I make a goddamn reclamation?,complaint,complaint,,0.49465693200181704,human_escalation,human_escalation
+intent_3891,3891,can uhelp me lodgin a reclamation against ur business,complaint,complaint,,0.5004827910015592,human_escalation,human_escalation
+intent_3930,3930,I don't know what to do to file a recpamation,complaint,complaint,,0.502135039998393,human_escalation,human_escalation
+intent_3965,3965,want help to make a complaint,complaint,complaint,,0.5117885779982316,human_escalation,human_escalation
+intent_4062,4062,is it possible to contact a human agent?,contact_human_agent,contact_human_agent,,0.5289300540025579,human_escalation,human_escalation
+intent_4200,4200,i do not know what i need to do to speak with somebody,contact_human_agent,contact_human_agent,,0.5238392889950774,human_escalation,human_escalation
+intent_4201,4201,i try to talk with a person,contact_human_agent,contact_human_agent,,0.5288608289993135,human_escalation,human_escalation
+intent_4301,4301,can you help me talking with someone?,contact_human_agent,contact_human_agent,,0.5057532579958206,human_escalation,human_escalation
+intent_436,436,I want help to cancel purchase {{Order Number}},cancel_order,cancel_order,,0.491398341000604,order_agent,order_agent
+intent_4374,4374,can I talk with an operator?,contact_human_agent,contact_human_agent,,0.5319281289994251,human_escalation,human_escalation
+intent_4428,4428,want help to speak to someone,contact_human_agent,contact_human_agent,,0.5191012189970934,human_escalation,human_escalation
+intent_4445,4445,I can't speak iwth an operator,contact_human_agent,contact_human_agent,,0.5337888230060344,human_escalation,human_escalation
+intent_4460,4460,"you are not helpful at all, help me to chat with somebody",contact_human_agent,contact_human_agent,,0.5252148609943106,human_escalation,human_escalation
+intent_453,453,I cannot afford purchase {{Order Number}},cancel_order,cancel_order,,0.49473291500180494,order_agent,order_agent
+intent_4537,4537,i want help talking with an assistat,contact_human_agent,contact_human_agent,,0.5273246579963597,human_escalation,human_escalation
+intent_4570,4570,assistance contacting a person,contact_human_agent,contact_human_agent,,0.5167970990005415,human_escalation,human_escalation
+intent_4595,4595,will you direct to me someone?,contact_human_agent,contact_human_agent,,0.5272439750042395,human_escalation,human_escalation
+intent_4627,4627,need assistance contacting an operator,contact_human_agent,contact_human_agent,,0.5190924119960982,human_escalation,human_escalation
+intent_4670,4670,talking to agent,contact_human_agent,contact_human_agent,,0.5296188380016247,human_escalation,human_escalation
+intent_468,468,"I doln't want order {{Order Number}}, can you cancel it?",cancel_order,cancel_order,,0.49712347000604495,order_agent,order_agent
+intent_4712,4712,can you help me speaking with a live agent?,contact_human_agent,contact_human_agent,,0.5255967400007648,human_escalation,human_escalation
+intent_4732,4732,i want help talking with a human agent,contact_human_agent,contact_human_agent,,0.526734690000012,human_escalation,human_escalation
+intent_4785,4785,I want help to talk with a human agent,contact_human_agent,contact_human_agent,,0.5192288430043845,human_escalation,human_escalation
+intent_4816,4816,I don't know what to do to speak to someone,contact_human_agent,contact_human_agent,,0.5276597030024277,human_escalation,human_escalation
+intent_4858,4858,i dont know how i can talk to an operator,contact_human_agent,contact_human_agent,,0.5163475060035125,human_escalation,human_escalation
+intent_4887,4887,want assistance talking to an operator,contact_human_agent,contact_human_agent,,0.5539046869962476,human_escalation,human_escalation
+intent_4927,4927,helo to contact an assistant,contact_human_agent,contact_human_agent,,0.5198262420017272,human_escalation,human_escalation
+intent_5067,5067,shipping to {{Delivery City}},delivery_options,delivery_options,,0.49115073299617507,faq_agent,faq_agent
+intent_5127,5127,is it possible to check what shipping methods I have?,delivery_options,delivery_options,,0.5023744400023133,faq_agent,faq_agent
+intent_5149,5149,would it be possible to see what shipping options are there?,delivery_options,delivery_options,,0.5031883749979897,faq_agent,faq_agent
+intent_5165,5165,I want information about the delivery methods,delivery_options,delivery_options,,0.491222895005194,faq_agent,faq_agent
+intent_5281,5281,I'm looking for the options for delivery can i get some help,delivery_options,delivery_options,,0.49879702799808,faq_agent,faq_agent
+intent_5362,5362,information about the options for shipping,delivery_options,delivery_options,,0.5271164969963138,faq_agent,faq_agent
+intent_5420,5420,wanna see what delivery options are there i need help,delivery_options,delivery_options,,0.4906364569978905,faq_agent,faq_agent
+intent_5440,5440,i need help seeing the delivery methods,delivery_options,delivery_options,,0.4939966590027325,faq_agent,faq_agent
+intent_545,545,i cannot pay for my last item cancel order {{Order Number}},cancel_order,cancel_order,,0.4982117410036153,order_agent,order_agent
+intent_5516,5516,help to check what methods for delivery i have,delivery_options,delivery_options,,0.5018437920007273,faq_agent,faq_agent
+intent_5558,5558,do you shp to {{Delivery City}}?,delivery_options,delivery_options,,0.49300827899423894,faq_agent,faq_agent
+intent_5571,5571,is it possible to place an order from {{Delivery Country}},delivery_options,delivery_options,,0.49129263200302375,faq_agent,faq_agent
+intent_5595,5595,I have got to check what delivery methods are there,delivery_options,delivery_options,,0.5028458270026022,faq_agent,faq_agent
+intent_5624,5624,I am trying to check what delivery methods you offer,delivery_options,delivery_options,,0.49072365300526144,faq_agent,faq_agent
+intent_5648,5648,is it possible to place an order from {{Delivery City}}?,delivery_options,delivery_options,,0.5170317810043343,faq_agent,faq_agent
+intent_5703,5703,show me what shipping options you offer,delivery_options,delivery_options,,0.48873868100054096,faq_agent,faq_agent
+intent_5711,5711,do ya deliver to {{Delivery City}},delivery_options,delivery_options,,0.4993726949978736,faq_agent,faq_agent
+intent_578,578,want assistance to cancel order {{Order Number}},cancel_order,cancel_order,,0.5023907870054245,order_agent,order_agent
+intent_5837,5837,I don't know how to check what shipment methods you offer,delivery_options,delivery_options,,0.5263400879994151,faq_agent,faq_agent
+intent_5848,5848,"I need to see what delivery methods you offer, help me",delivery_options,delivery_options,,0.4961848699967959,faq_agent,faq_agent
+intent_5858,5858,is it possible to ordet from {{Delivery Country}},delivery_options,delivery_options,,0.5112345070010633,faq_agent,faq_agent
+intent_5911,5911,can I place an ordewr from {{Delivery Country}}?,delivery_options,delivery_options,,0.5043095939981868,faq_agent,faq_agent
+intent_603,603,"I bought some item, cancel purchase {{Order Number}}",cancel_order,cancel_order,,0.4874013529988588,order_agent,order_agent
+intent_6056,6056,wanna see how long it usually takes for the order to arrive,delivery_period,delivery_period,,0.49388769600045634,faq_agent,faq_agent
+intent_6194,6194,help me checking how long it takes for the article to arrive,delivery_period,delivery_period,,0.4937050380030996,faq_agent,faq_agent
+intent_6195,6195,is it possible to check when my shipment is going to arrive?,delivery_period,track_order,,0.48320884200074943,faq_agent,order_agent
+intent_6295,6295,is it possible to see when my product is going to arrive?,delivery_period,track_order,,0.4791516029945342,faq_agent,order_agent
+intent_635,635,cancel purchase  {{Order Number}},cancel_order,cancel_order,,0.48346795300312806,order_agent,order_agent
+intent_6368,6368,can ya help me see how soon can i expect my item,delivery_period,delivery_period,,0.4824869820004096,faq_agent,faq_agent
+intent_6422,6422,I want to see when will my product arrive,delivery_period,track_order,,0.49757040300028166,faq_agent,order_agent
+intent_6439,6439,I need assistance checking how soon can I expect my delivery,delivery_period,delivery_period,,0.49334814000030747,faq_agent,faq_agent
+intent_6454,6454,where to check how long it takes for my article to arrive?,delivery_period,delivery_period,,0.49129000999528216,faq_agent,faq_agent
+intent_6531,6531,need help to see how long it takes for my parcel to arrive,delivery_period,track_order,,0.48434915999678196,faq_agent,order_agent
+intent_6564,6564,is it possible to check how soon can I expect the item?,delivery_period,delivery_period,,0.4830250789964339,faq_agent,faq_agent
+intent_6589,6589,I need help to see how soon can I expect the damn item,delivery_period,delivery_period,,0.4906575939967297,faq_agent,faq_agent
+intent_6621,6621,assistance checking when my purchase is gonna arrive,delivery_period,track_order,,0.49214723899785895,faq_agent,order_agent
+intent_6664,6664,where do i check how long it takes for my shipment to arrive,delivery_period,delivery_period,,0.4815800520009361,faq_agent,faq_agent
+intent_6706,6706,need help to see when my parcel is going to arrive,delivery_period,track_order,,0.496693414002948,faq_agent,order_agent
+intent_6726,6726,I'm calling to check whenb will my item arrive,delivery_period,track_order,,0.5164195609977469,faq_agent,order_agent
+intent_677,677,I need help with cancelling purhase {{Order Number}},cancel_order,cancel_order,,0.49591946799773723,order_agent,order_agent
+intent_6779,6779,help to check how soon can I expect my shipment,delivery_period,delivery_period,,0.49077537399716675,faq_agent,faq_agent
+intent_6810,6810,want help seeing how long it takes for my order to arrive,delivery_period,track_order,,0.48843017800390953,faq_agent,order_agent
+intent_6852,6852,"I am trying to find shipping periods, could you help me?",delivery_period,delivery_period,,0.5012986670044484,faq_agent,faq_agent
+intent_6881,6881,"I have to see when my item is going to arrive, help me",delivery_period,track_order,,0.5001226140011568,faq_agent,order_agent
+intent_6921,6921,need assistance seeing how soon can i expect my article,delivery_period,delivery_period,,0.48351849900063826,faq_agent,faq_agent
+intent_70,70,I need assistancde cancelling order {{Order Number}},cancel_order,cancel_order,,0.49254042300162837,order_agent,order_agent
+intent_7055,7055,is it possible to obtain reimbursements of my money,get_refund,get_refund,,0.5122550219966797,refund_agent,refund_agent
+intent_7193,7193,rebate {{Currency Symbol}}{{Refund Amount}},get_refund,get_refund,,0.5275918189945514,refund_agent,refund_agent
+intent_7194,7194,i need assistance demanding compensations of my money,get_refund,get_refund,,0.5184810900027514,refund_agent,refund_agent
+intent_7294,7294,I try to ask fopr a refund of my money,get_refund,get_refund,,0.5205182540012174,refund_agent,refund_agent
+intent_7367,7367,rebating {{Currency Symbol}}{{Refund Amount}},get_refund,get_refund,,0.5298538960050792,refund_agent,refund_agent
+intent_739,739,were can i cancel purchase {{Order Number}},cancel_order,cancel_order,,0.49217994100035867,order_agent,order_agent
+intent_7421,7421,I have got to ask for rebates,get_refund,unsupported,,0.4636927579995245,refund_agent,fallback
+intent_7438,7438,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, I need to get a rebate",get_refund,get_refund,,0.5298570840022876,refund_agent,refund_agent
+intent_7453,7453,canyou help me get a compensation?,get_refund,complaint,,0.49940637400140986,refund_agent,human_escalation
+intent_7530,7530,i have paid {{Currency Symbol}}{{Refund Amount}} for a product where to get my money back,get_refund,get_refund,,0.5264288370017312,refund_agent,refund_agent
+intent_7563,7563,I am trying to request compensations of money,get_refund,get_refund,,0.522385990996554,refund_agent,refund_agent
+intent_7588,7588,i do not know how i can get a compensation of money,get_refund,get_refund,,0.511601359998167,refund_agent,refund_agent
+intent_7620,7620,i want help to get a rebate of my money,get_refund,get_refund,,0.5354791749996366,refund_agent,refund_agent
+intent_7662,7662,rebating  {{Currency Symbol}}{{Refund Amount}},get_refund,get_refund,,0.5157155389970285,refund_agent,refund_agent
+intent_7724,7724,need assistance to obtain a refund of my money,get_refund,get_refund,,0.5247089850017801,refund_agent,refund_agent
+intent_7777,7777,I am trying to receive a compensation,get_refund,get_refund,,0.5261866939981701,refund_agent,refund_agent
+intent_7807,7807,what do i need to do to obtain reimbursements of my money,get_refund,get_refund,,0.5117290880007204,refund_agent,refund_agent
+intent_7849,7849,assistance to request my money back,get_refund,get_refund,,0.5154126780034858,refund_agent,refund_agent
+intent_7873,7873,rebate  {{Currency Symbol}}{{Refund Amount}},get_refund,get_refund,,0.5242658749994007,refund_agent,refund_agent
+intent_7899,7899,could you help me obtain rebates of money?,get_refund,unsupported,,0.45004737399722217,refund_agent,fallback
+intent_7918,7918,I don't know how to request a refund of money,get_refund,get_refund,,0.5101787829989917,refund_agent,refund_agent
+intent_792,792,"I have bought some item, I have to cancel order {{Order Number}}",cancel_order,cancel_order,,0.49430448999919463,order_agent,order_agent
+intent_8058,8058,I want help to see order {{Order Number}} status,track_order,track_order,,0.495717326994054,order_agent,order_agent
+intent_8118,8118,checking order {{Order Number}} stagus,track_order,track_order,,0.503665424999781,order_agent,order_agent
+intent_8140,8140,showing me estimated time of arrival of order {{Order Number}},track_order,track_order,,0.5104323949999525,order_agent,order_agent
+intent_8156,8156,see order {{Order Number}} fucking current status,track_order,track_order,,0.4907142689989996,order_agent,order_agent
+intent_823,823,how could I cancel purchase {{Order Number}}?,cancel_order,cancel_order,,0.4910993290031911,order_agent,order_agent
+intent_8272,8272,will ya shwo me the eta of order {{Order Number}},track_order,track_order,,0.5096283349994337,order_agent,order_agent
+intent_8353,8353,i want assistance seeingorder {{Order Number}} current status,track_order,track_order,,0.4914829439949244,order_agent,order_agent
+intent_8411,8411,help to see thje ETA of purchase {{Order Number}},track_order,track_order,,0.5017697790026432,order_agent,order_agent
+intent_8431,8431,"I want to track purchase {{Order Number}}, I need help",track_order,track_order,,0.5128634220018284,order_agent,order_agent
+intent_850,850,I don't know what to do to cancel purchase {{Order Number}},cancel_order,cancel_order,,0.4944841530013946,order_agent,order_agent
+intent_8507,8507,checking status of order {{Order Number}},track_order,track_order,,0.4957721619939548,order_agent,order_agent
+intent_8549,8549,see purchase {{Order Number}} current status,track_order,track_order,,0.5052530780012603,order_agent,order_agent
+intent_8562,8562,order  {{Order Number}} status,track_order,track_order,,0.49705678100144723,order_agent,order_agent
+intent_8586,8586,I want help seeing the status of order {{Order Number}},track_order,track_order,,0.4808481430009124,order_agent,order_agent
+intent_8615,8615,help seeing the ETA of order {{Order Number}},track_order,track_order,,0.4884356900001876,order_agent,order_agent
+intent_8639,8639,how can i see order {{Order Number}} status,track_order,track_order,,0.48417916300240904,order_agent,order_agent
+intent_865,865,help me to cancel purchase {{Order Number}},cancel_order,cancel_order,,0.4997844790050294,order_agent,order_agent
+intent_8694,8694,assistance to see order {{Order Number}} current status,track_order,track_order,,0.4919742129932274,order_agent,order_agent
+intent_8702,8702,ETA of ordr {{Order Number}},track_order,track_order,,0.5027120489976369,order_agent,order_agent
+intent_8828,8828,trackorder {{Order Number}},track_order,track_order,,0.5011798729974544,order_agent,order_agent
+intent_8839,8839,i do not kno what to do to locate purchase {{Order Number}},track_order,track_order,,0.4977291060058633,order_agent,order_agent
+intent_8849,8849,i do not know how to see the eta of the order {{Order Number}},track_order,track_order,,0.4986513659969205,order_agent,order_agent
+intent_889,889,I do not know what to do to cancel purchase {{Order Number}},cancel_order,cancel_order,,0.5025960540006054,order_agent,order_agent
+intent_8902,8902,where to see the bloody ETA of the order {{Order Number}},track_order,track_order,,0.48863898099807557,order_agent,order_agent
+intent_9047,9047,can uhelp me check if there are any updates on the rebate,track_refund,unsupported,,0.45397451300232206,refund_agent,fallback
+intent_9185,9185,I do not know what to do to track my reimbursement,track_refund,track_refund,,0.5163752490043407,refund_agent,refund_agent
+intent_9186,9186,I'm waiting for a restitution of {{Refund Amount}} dollars,track_refund,get_refund,,0.5232301030046074,refund_agent,refund_agent
+intent_9286,9286,I want to know if there are any news on my refund,track_refund,track_refund,,0.5391780440040748,refund_agent,refund_agent
+intent_934,934,whag do i need to do to cancel order {{Order Number}},cancel_order,cancel_order,,0.5028814160032198,order_agent,order_agent
+intent_9359,9359,where do I see if there are any updates on the refund?,track_refund,track_refund,,0.5115722219998133,refund_agent,refund_agent
+intent_9413,9413,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.5232918830006383,refund_agent,refund_agent
+intent_9430,9430,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.5262018950015772,refund_agent,refund_agent
+intent_9445,9445,what do I need to do to track my reimbursement?,track_refund,track_refund,,0.535449240996968,refund_agent,refund_agent
+intent_9522,9522,I'm waiting for a restitution of {{Refund Amount}} dollars,track_refund,get_refund,,0.5209880660040653,refund_agent,refund_agent
+intent_9555,9555,where do I check the reimbursement current status?,track_refund,track_refund,,0.5112880819942802,refund_agent,refund_agent
+intent_9580,9580,where do I see my rebate status?,track_refund,unsupported,,0.4466536280015134,refund_agent,fallback
+intent_9612,9612,where do I know if there is anything wrong with my rebate?,track_refund,unsupported,,0.4662197119978373,refund_agent,fallback
+intent_9654,9654,help checking if there is anything new on the bloody rebate,track_refund,check_refund_policy,,0.5461350779951317,refund_agent,faq_agent
+intent_9716,9716,I expect an refund of {{Refund Amount}} dollars,track_refund,get_refund,,0.5227975160014466,refund_agent,refund_agent
+intent_9769,9769,I am waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.529586675002065,refund_agent,refund_agent
+intent_9800,9800,assistance to see my compensation status,track_refund,unsupported,,0.44501955099985935,refund_agent,fallback
+intent_9827,9827,check if there is anything wrong with my damn restitution,track_refund,track_refund,,0.5118840200011618,refund_agent,refund_agent
+intent_9842,9842,where can i see if there are any news on the reimbursement,track_refund,track_refund,,0.5066173150044051,refund_agent,refund_agent
+intent_9866,9866,I am trying to check the status of the restitution,track_refund,track_refund,,0.5226389950039447,refund_agent,refund_agent
+intent_9911,9911,I am waiting for a compensation of {{Refund Amount}} dollars,track_refund,get_refund,,0.5395914159962558,refund_agent,refund_agent

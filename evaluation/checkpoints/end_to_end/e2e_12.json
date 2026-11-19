@@ -1,0 +1,35 @@
+{
+  "case": {
+    "id": "e2e_12",
+    "question": "Where is my order?",
+    "customer_id": 16,
+    "expected_intent": "track_order",
+    "expected": "Ask for order ID.",
+    "patterns": [
+      "provide the order ID"
+    ],
+    "decision": null,
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Where is my order?",
+    "customer_id": 16,
+    "evaluation_date": "2026-10-10",
+    "intent": "track_order",
+    "selected_agent": "order_agent",
+    "response": "Please provide the order ID you would like me to track.",
+    "sources": [],
+    "agent_result": {
+      "answer": "Please provide the order ID you would like me to track.",
+      "orders": [],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 1.155636235998827,
+  "recorded_at": "2026-11-10T16:27:02.495753+00:00"
+}

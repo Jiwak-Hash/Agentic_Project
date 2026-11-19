@@ -1,0 +1,132 @@
+[
+  {
+    "id": "faq_01",
+    "question": "What is the deadline to ask for a return after delivery?",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "expected": "Request within 7 days of delivery.",
+    "patterns": [
+      "7 days",
+      "deliver"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "Customers can request a return within 7 days of delivery.",
+    "retrieved_sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.606469588001346,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.6666666666666666,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": null
+  },
+  {
+    "id": "faq_02",
+    "question": "Once my return refund is approved, how many business days does processing take?",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md"
+    ],
+    "expected": "5–7 business days after approval, not after purchase.",
+    "patterns": [
+      "5\\s*[-–—]\\s*7",
+      "business",
+      "approv"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "After your returned item is inspected and the refund is approved, the refund will be processed within 5–7 business days.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.235045839999657,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.6666666666666666,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": null
+  },
+  {
+    "id": "faq_03",
+    "question": "After dispatch, what is the standard delivery estimate?",
+    "sources": [
+      "shipping_policy.md"
+    ],
+    "expected": "Generally 3–7 business days after dispatch, not guaranteed.",
+    "patterns": [
+      "3\\s*[-–—]\\s*7",
+      "business",
+      "dispatch"
+    ],
+    "kind": "direct",
+    "supported": true,
+    "answer": "The standard delivery generally takes 3–7 business days after dispatch. Business days are Monday through Friday, excluding public holidays. Delivery estimates are not guarantees; carrier or weather delays may occur. Contact customer support if delivery exceeds the estimated window.",
+    "retrieved_sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null,
+    "seconds": 1.884312616999523,
+    "hit_at_3": true,
+    "source_precision_at_3": 0.3333333333333333,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": null,
+    "review": null
+  },
+  {
+    "id": "faq_23",
+    "question": "Are discounted clearance items excluded from returns?",
+    "sources": [],
+    "expected": "No sale-item exception specified; do not infer one.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false,
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "retrieved_sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.7927585430006729,
+    "hit_at_3": null,
+    "source_precision_at_3": null,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": true,
+    "review": null
+  },
+  {
+    "id": "faq_24",
+    "question": "Can I get a refund for a downloaded digital product?",
+    "sources": [],
+    "expected": "Digital-product rules unspecified; do not apply ordinary physical-return rules as definitive.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false,
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "retrieved_sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null,
+    "seconds": 0.7794453580027039,
+    "hit_at_3": null,
+    "source_precision_at_3": null,
+    "automated_expected_fact_flags": true,
+    "automated_refusal_flag": true,
+    "review": null
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9286",
+    "dataset_row": 9286,
+    "question": "I want to know if there are any news on my refund",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "track_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5194801819998247,
+  "recorded_at": "2026-11-10T16:25:05.164207+00:00"
+}

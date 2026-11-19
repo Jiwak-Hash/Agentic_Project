@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_1862",
+    "dataset_row": 1862,
+    "question": "I can't add an item to order {{Order Number}}",
+    "expected_intent": "change_order"
+  },
+  "result": {
+    "intent": "change_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49824557800093316,
+  "recorded_at": "2026-11-10T16:24:33.717029+00:00"
+}

@@ -1,0 +1,16 @@
+[theme]
+base = "light"
+primaryColor = "#087f79"
+backgroundColor = "#f8fafb"
+secondaryBackgroundColor = "#edf4f3"
+textColor = "#182a36"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+address = "127.0.0.1"
+headless = true
+# Avoid scanning PyTorch/Transformers module internals on every file-watch pass.
+fileWatcherType = "none"

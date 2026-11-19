@@ -1,0 +1,29 @@
+{
+  "case": {
+    "id": "faq_14",
+    "question": "Can an already delivered order be cancelled directly?",
+    "sources": [
+      "cancellation_policy.md"
+    ],
+    "expected": "Cannot cancel delivered orders; return request within 7 days subject to return policy.",
+    "patterns": [
+      "cannot|can't|not",
+      "return",
+      "7"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "No, once an order has been shipped or delivered, it cannot be directly cancelled. If you need to cancel an order, please contact customer support to request a cancellation.",
+    "sources": [
+      "cancellation_policy.md",
+      "shipping_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.374015262001194,
+  "recorded_at": "2026-11-10T16:25:44.677117+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_545",
+    "dataset_row": 545,
+    "question": "i cannot pay for my last item cancel order {{Order Number}}",
+    "expected_intent": "cancel_order"
+  },
+  "result": {
+    "intent": "cancel_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4943847939975967,
+  "recorded_at": "2026-11-10T16:24:56.539566+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9047",
+    "dataset_row": 9047,
+    "question": "can uhelp me check if there are any updates on the rebate",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "unsupported",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4491236319991003,
+  "recorded_at": "2026-11-10T16:24:05.224627+00:00"
+}

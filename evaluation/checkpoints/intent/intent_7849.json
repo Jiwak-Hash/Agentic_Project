@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_7849",
+    "dataset_row": 7849,
+    "question": "assistance to request my money back",
+    "expected_intent": "get_refund"
+  },
+  "result": {
+    "intent": "get_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5074187989994243,
+  "recorded_at": "2026-11-10T16:23:51.262002+00:00"
+}

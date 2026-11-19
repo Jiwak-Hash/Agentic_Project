@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "cancelled",
+    "order_id": 9007,
+    "status": "Cancelled",
+    "delivery_date": null,
+    "issue": "ordinary",
+    "owner": 6,
+    "customer_id": 6,
+    "question": "Refund order 9007.",
+    "expected_decision": "unknown",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": 9007,
+    "eligibility_status": "unknown",
+    "reason": "The order is Cancelled. The available policies do not specify refunds for cancelled orders, and this database has no refund-status records. Contact support to verify.",
+    "policy_sources": [
+      "cancellation_policy.md",
+      "refund_policy.md"
+    ],
+    "answer": "For order #9007: The order is Cancelled. The available policies do not specify refunds for cancelled orders, and this database has no refund-status records. Contact support to verify.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 0.0002999829994223546,
+  "recorded_at": "2026-11-10T16:21:52.509845+00:00"
+}

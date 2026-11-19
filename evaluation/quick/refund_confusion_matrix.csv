@@ -1,0 +1,6 @@
+,eligible,ineligible,manual_review,unknown,__error__
+eligible,3,0,0,0,0
+ineligible,0,2,0,0,0
+manual_review,0,0,2,0,0
+unknown,0,0,0,7,0
+__error__,0,0,0,0,0

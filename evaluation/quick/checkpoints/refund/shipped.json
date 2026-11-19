@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "shipped",
+    "order_id": 9005,
+    "status": "Shipped",
+    "delivery_date": null,
+    "issue": "ordinary",
+    "owner": 6,
+    "customer_id": 6,
+    "question": "Refund order 9005.",
+    "expected_decision": "unknown",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": 9005,
+    "eligibility_status": "unknown",
+    "reason": "The order is Shipped, not recorded as delivered. The delivery-based return window cannot be assessed yet. Shipped orders cannot be directly cancelled.",
+    "policy_sources": [
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "answer": "For order #9005: The order is Shipped, not recorded as delivered. The delivery-based return window cannot be assessed yet. Shipped orders cannot be directly cancelled.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 0.00032569899849477224,
+  "recorded_at": "2026-11-10T16:21:52.504692+00:00"
+}

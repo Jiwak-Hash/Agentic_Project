@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_8272",
+    "dataset_row": 8272,
+    "question": "will ya shwo me the eta of order {{Order Number}}",
+    "expected_intent": "track_order"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5062077670008875,
+  "recorded_at": "2026-11-10T16:25:23.066665+00:00"
+}

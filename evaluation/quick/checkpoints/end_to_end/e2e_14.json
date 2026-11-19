@@ -1,0 +1,35 @@
+{
+  "case": {
+    "id": "e2e_14",
+    "question": "Show me order 1002.",
+    "customer_id": 16,
+    "expected_intent": "track_order",
+    "expected": "Foreign order: generic unavailable, no details.",
+    "patterns": [
+      "unavailable for your account"
+    ],
+    "decision": null,
+    "privacy": true,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Show me order 1002.",
+    "customer_id": 16,
+    "evaluation_date": "2026-10-10",
+    "intent": "track_order",
+    "selected_agent": "order_agent",
+    "response": "That order is unavailable for your account. Please check the order ID.",
+    "sources": [],
+    "agent_result": {
+      "answer": "That order is unavailable for your account. Please check the order ID.",
+      "orders": [],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 1.2926266789982037,
+  "recorded_at": "2026-11-10T16:22:05.073650+00:00"
+}

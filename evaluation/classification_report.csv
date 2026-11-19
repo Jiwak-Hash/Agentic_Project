@@ -1,0 +1,11 @@
+intent,precision,recall,f1,support
+cancel_order,1.0,1.0,1.0,20
+change_order,1.0,1.0,1.0,20
+check_refund_policy,0.9523809523809523,1.0,0.975609756097561,20
+complaint,0.95,0.95,0.95,20
+contact_human_agent,1.0,1.0,1.0,20
+delivery_options,1.0,1.0,1.0,20
+delivery_period,1.0,0.55,0.7096774193548387,20
+get_refund,0.68,0.85,0.7555555555555555,20
+track_order,0.6896551724137931,1.0,0.8163265306122449,20
+track_refund,1.0,0.4,0.5714285714285714,20

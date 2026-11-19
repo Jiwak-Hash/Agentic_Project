@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9555",
+    "dataset_row": 9555,
+    "question": "where do I check the reimbursement current status?",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "track_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5112880819942802,
+  "recorded_at": "2026-11-19T17:22:48.073897+00:00"
+}

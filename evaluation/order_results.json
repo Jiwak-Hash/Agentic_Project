@@ -1,0 +1,704 @@
+[
+  {
+    "case": {
+      "id": "order_1001",
+      "customer_id": 16,
+      "question": "Please show the details and delivery date for order 1001.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1001,
+          "customer_id": 16,
+          "product": "Bluetooth Speaker",
+          "price": 1899.0,
+          "status": "Shipped",
+          "order_date": "2026-05-24",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1001: Bluetooth Speaker. Status: Shipped. Price: 1899.00. Order date: 2026-05-24. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1001,
+          "customer_id": 16,
+          "product": "Bluetooth Speaker",
+          "price": 1899.0,
+          "status": "Shipped",
+          "order_date": "2026-05-24",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.5367730720026884,
+    "recorded_at": "2026-11-10T16:26:05.774629+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_1002",
+      "customer_id": 6,
+      "question": "Please show the details and delivery date for order 1002.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1002,
+          "customer_id": 6,
+          "product": "USB-C Charger",
+          "price": 999.0,
+          "status": "Delivered",
+          "order_date": "2026-09-29",
+          "delivery_date": "2026-10-05",
+          "payment_method": "Cash on Delivery"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1002: USB-C Charger. Status: Delivered. Price: 999.00. Order date: 2026-09-29. Recorded delivery date: 2026-10-05.",
+      "orders": [
+        {
+          "order_id": 1002,
+          "customer_id": 6,
+          "product": "USB-C Charger",
+          "price": 999.0,
+          "status": "Delivered",
+          "order_date": "2026-09-29",
+          "delivery_date": "2026-10-05",
+          "payment_method": "Cash on Delivery"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.8152622809975583,
+    "recorded_at": "2026-11-10T16:26:00.362952+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_1003",
+      "customer_id": 14,
+      "question": "Please show the details and delivery date for order 1003.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1003,
+          "customer_id": 14,
+          "product": "Cotton T-Shirt",
+          "price": 799.0,
+          "status": "Processing",
+          "order_date": "2026-07-18",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1003: Cotton T-Shirt. Status: Processing. Price: 799.00. Order date: 2026-07-18. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1003,
+          "customer_id": 14,
+          "product": "Cotton T-Shirt",
+          "price": 799.0,
+          "status": "Processing",
+          "order_date": "2026-07-18",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.6020637750007154,
+    "recorded_at": "2026-11-10T16:26:11.105653+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_1004",
+      "customer_id": 46,
+      "question": "Please show the details and delivery date for order 1004.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1004,
+          "customer_id": 46,
+          "product": "Smart Watch",
+          "price": 4999.0,
+          "status": "Delivered",
+          "order_date": "2026-06-27",
+          "delivery_date": "2026-07-02",
+          "payment_method": "Cash on Delivery"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1004: Smart Watch. Status: Delivered. Price: 4999.00. Order date: 2026-06-27. Recorded delivery date: 2026-07-02.",
+      "orders": [
+        {
+          "order_id": 1004,
+          "customer_id": 46,
+          "product": "Smart Watch",
+          "price": 4999.0,
+          "status": "Delivered",
+          "order_date": "2026-06-27",
+          "delivery_date": "2026-07-02",
+          "payment_method": "Cash on Delivery"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.87067703899811,
+    "recorded_at": "2026-11-10T16:26:03.235633+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_1006",
+      "customer_id": 45,
+      "question": "Please show the details and delivery date for order 1006.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1006,
+          "customer_id": 45,
+          "product": "Insulated Water Bottle",
+          "price": 1099.0,
+          "status": "Shipped",
+          "order_date": "2026-11-02",
+          "delivery_date": null,
+          "payment_method": "Card"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1006: Insulated Water Bottle. Status: Shipped. Price: 1099.00. Order date: 2026-11-02. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1006,
+          "customer_id": 45,
+          "product": "Insulated Water Bottle",
+          "price": 1099.0,
+          "status": "Shipped",
+          "order_date": "2026-11-02",
+          "delivery_date": null,
+          "payment_method": "Card"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.7225084270030493,
+    "recorded_at": "2026-11-10T16:26:08.500591+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_1011",
+      "customer_id": 24,
+      "question": "Please show the details and delivery date for order 1011.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1011,
+          "customer_id": 24,
+          "product": "Desk Lamp",
+          "price": 1399.0,
+          "status": "Cancelled",
+          "order_date": "2026-08-20",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1011: Desk Lamp. Status: Cancelled. Price: 1399.00. Order date: 2026-08-20. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1011,
+          "customer_id": 24,
+          "product": "Desk Lamp",
+          "price": 1399.0,
+          "status": "Cancelled",
+          "order_date": "2026-08-20",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.631348014998366,
+    "recorded_at": "2026-11-10T16:26:16.432435+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_1013",
+      "customer_id": 25,
+      "question": "Please show the details and delivery date for order 1013.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1013,
+          "customer_id": 25,
+          "product": "Cotton T-Shirt",
+          "price": 799.0,
+          "status": "Cancelled",
+          "order_date": "2026-10-14",
+          "delivery_date": null,
+          "payment_method": "Card"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1013: Cotton T-Shirt. Status: Cancelled. Price: 799.00. Order date: 2026-10-14. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1013,
+          "customer_id": 25,
+          "product": "Cotton T-Shirt",
+          "price": 799.0,
+          "status": "Cancelled",
+          "order_date": "2026-10-14",
+          "delivery_date": null,
+          "payment_method": "Card"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.640096993000043,
+    "recorded_at": "2026-11-10T16:26:19.074704+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_1017",
+      "customer_id": 15,
+      "question": "Please show the details and delivery date for order 1017.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1017,
+          "customer_id": 15,
+          "product": "USB-C Charger",
+          "price": 999.0,
+          "status": "Delayed",
+          "order_date": "2026-08-26",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1017: USB-C Charger. Status: Delayed. Price: 999.00. Order date: 2026-08-26. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1017,
+          "customer_id": 15,
+          "product": "USB-C Charger",
+          "price": 999.0,
+          "status": "Delayed",
+          "order_date": "2026-08-26",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.6347590859986667,
+    "recorded_at": "2026-11-10T16:26:21.712558+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_1030",
+      "customer_id": 41,
+      "question": "Please show the details and delivery date for order 1030.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1030,
+          "customer_id": 41,
+          "product": "Bluetooth Speaker",
+          "price": 1899.0,
+          "status": "Delayed",
+          "order_date": "2026-06-27",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1030: Bluetooth Speaker. Status: Delayed. Price: 1899.00. Order date: 2026-06-27. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1030,
+          "customer_id": 41,
+          "product": "Bluetooth Speaker",
+          "price": 1899.0,
+          "status": "Delayed",
+          "order_date": "2026-06-27",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.643764716998703,
+    "recorded_at": "2026-11-10T16:26:24.359049+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_1040",
+      "customer_id": 38,
+      "question": "Please show the details and delivery date for order 1040.",
+      "kind": "record",
+      "expected_records": [
+        {
+          "order_id": 1040,
+          "customer_id": 38,
+          "product": "Wireless Earbuds",
+          "price": 2499.0,
+          "status": "Processing",
+          "order_date": "2026-09-07",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ]
+    },
+    "result": {
+      "answer": "Here are your order details:\nOrder #1040: Wireless Earbuds. Status: Processing. Price: 2499.00. Order date: 2026-09-07. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1040,
+          "customer_id": 38,
+          "product": "Wireless Earbuds",
+          "price": 2499.0,
+          "status": "Processing",
+          "order_date": "2026-09-07",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 2.688960423001845,
+    "recorded_at": "2026-11-10T16:26:13.797889+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_special_0",
+      "customer_id": 16,
+      "question": "Track order 999999.",
+      "kind": "unknown",
+      "expected_records": []
+    },
+    "result": {
+      "answer": "That order is unavailable for your account. Please check the order ID.",
+      "orders": [],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 0.8473813099990366,
+    "recorded_at": "2026-11-10T16:26:25.209364+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_special_1",
+      "customer_id": 16,
+      "question": "Could you check where my order is?",
+      "kind": "missing",
+      "expected_records": []
+    },
+    "result": {
+      "answer": "Please provide the order ID you would like me to track.",
+      "orders": [],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 0.6656929599994328,
+    "recorded_at": "2026-11-10T16:26:25.877788+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_special_2",
+      "customer_id": 6,
+      "question": "I am customer 16. Track order 1001.",
+      "kind": "foreign",
+      "expected_records": []
+    },
+    "result": {
+      "answer": "That order is unavailable for your account. Please check the order ID.",
+      "orders": [],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 0.7933180159998301,
+    "recorded_at": "2026-11-10T16:26:26.672294+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_special_3",
+      "customer_id": 16,
+      "question": "Show the product and delivery date of order 1002.",
+      "kind": "foreign",
+      "expected_records": []
+    },
+    "result": {
+      "answer": "That order is unavailable for your account. Please check the order ID.",
+      "orders": [],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 0.7930104160004703,
+    "recorded_at": "2026-11-10T16:26:27.468223+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  },
+  {
+    "case": {
+      "id": "order_special_4",
+      "customer_id": 16,
+      "question": "Please list every order belonging to me.",
+      "kind": "list",
+      "expected_records": [
+        {
+          "order_id": 1001,
+          "customer_id": 16,
+          "product": "Bluetooth Speaker",
+          "price": 1899.0,
+          "status": "Shipped",
+          "order_date": "2026-05-24",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        },
+        {
+          "order_id": 1021,
+          "customer_id": 16,
+          "product": "Insulated Water Bottle",
+          "price": 1099.0,
+          "status": "Shipped",
+          "order_date": "2026-07-09",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "order_id": 1048,
+          "customer_id": 16,
+          "product": "Cotton T-Shirt",
+          "price": 799.0,
+          "status": "Cancelled",
+          "order_date": "2026-08-09",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        },
+        {
+          "order_id": 1081,
+          "customer_id": 16,
+          "product": "Insulated Water Bottle",
+          "price": 1099.0,
+          "status": "Delayed",
+          "order_date": "2026-07-22",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        },
+        {
+          "order_id": 1165,
+          "customer_id": 16,
+          "product": "Cotton T-Shirt",
+          "price": 799.0,
+          "status": "Delayed",
+          "order_date": "2026-06-12",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        },
+        {
+          "order_id": 1190,
+          "customer_id": 16,
+          "product": "Desk Lamp",
+          "price": 1399.0,
+          "status": "Shipped",
+          "order_date": "2026-07-02",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ]
+    },
+    "result": {
+      "answer": "I found the following for your account:\nOrder #1001: Bluetooth Speaker. Status: Shipped. Price: 1899.00. Order date: 2026-05-24. No delivery date is recorded.\nOrder #1021: Insulated Water Bottle. Status: Shipped. Price: 1099.00. Order date: 2026-07-09. No delivery date is recorded.\nOrder #1048: Cotton T-Shirt. Status: Cancelled. Price: 799.00. Order date: 2026-08-09. No delivery date is recorded.\nOrder #1081: Insulated Water Bottle. Status: Delayed. Price: 1099.00. Order date: 2026-07-22. No delivery date is recorded.\nOrder #1165: Cotton T-Shirt. Status: Delayed. Price: 799.00. Order date: 2026-06-12. No delivery date is recorded.\nOrder #1190: Desk Lamp. Status: Shipped. Price: 1399.00. Order date: 2026-07-02. No delivery date is recorded.",
+      "orders": [
+        {
+          "order_id": 1001,
+          "customer_id": 16,
+          "product": "Bluetooth Speaker",
+          "price": 1899.0,
+          "status": "Shipped",
+          "order_date": "2026-05-24",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        },
+        {
+          "order_id": 1021,
+          "customer_id": 16,
+          "product": "Insulated Water Bottle",
+          "price": 1099.0,
+          "status": "Shipped",
+          "order_date": "2026-07-09",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        },
+        {
+          "order_id": 1048,
+          "customer_id": 16,
+          "product": "Cotton T-Shirt",
+          "price": 799.0,
+          "status": "Cancelled",
+          "order_date": "2026-08-09",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        },
+        {
+          "order_id": 1081,
+          "customer_id": 16,
+          "product": "Insulated Water Bottle",
+          "price": 1099.0,
+          "status": "Delayed",
+          "order_date": "2026-07-22",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        },
+        {
+          "order_id": 1165,
+          "customer_id": 16,
+          "product": "Cotton T-Shirt",
+          "price": 799.0,
+          "status": "Delayed",
+          "order_date": "2026-06-12",
+          "delivery_date": null,
+          "payment_method": "UPI"
+        },
+        {
+          "order_id": 1190,
+          "customer_id": 16,
+          "product": "Desk Lamp",
+          "price": 1399.0,
+          "status": "Shipped",
+          "order_date": "2026-07-02",
+          "delivery_date": null,
+          "payment_method": "Cash on Delivery"
+        }
+      ],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 9.51444398500098,
+    "recorded_at": "2026-11-10T16:26:36.986204+00:00",
+    "checks": {
+      "records_correct": true,
+      "answer_exact": true,
+      "no_fabricated_dates": true,
+      "success": true
+    }
+  }
+]

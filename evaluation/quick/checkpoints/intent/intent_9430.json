@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9430",
+    "dataset_row": 9430,
+    "question": "i expect a rebate of {{Currency Symbol}}{{Refund Amount}}",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "get_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5250999679992674,
+  "recorded_at": "2026-11-10T16:21:15.931335+00:00"
+}

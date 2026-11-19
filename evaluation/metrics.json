@@ -1,0 +1,113 @@
+{
+  "intent": {
+    "n": 200,
+    "accuracy": 0.875,
+    "macro_precision": 0.9272036124794745,
+    "macro_recall": 0.875,
+    "macro_f1": 0.8778597833048772,
+    "weighted_f1": 0.8778597833048772,
+    "target": 200,
+    "errors": 0,
+    "unsupported_predictions": 6
+  },
+  "routing": {
+    "n": 200,
+    "accuracy": 0.91,
+    "per_agent": [
+      {
+        "agent": "faq_agent",
+        "support": 60,
+        "accuracy": 0.85
+      },
+      {
+        "agent": "human_escalation",
+        "support": 40,
+        "accuracy": 0.975
+      },
+      {
+        "agent": "order_agent",
+        "support": 60,
+        "accuracy": 1.0
+      },
+      {
+        "agent": "refund_agent",
+        "support": 40,
+        "accuracy": 0.8
+      }
+    ],
+    "definition": "Per-agent accuracy is correct destinations / examples whose true destination is that agent."
+  },
+  "faq": {
+    "n": 24,
+    "supported_n": 18,
+    "unsupported_n": 6,
+    "retrieval_hit_at_3": 1.0,
+    "source_precision_at_3": 0.5370370370370369,
+    "automated_expected_fact_flag_rate": 0.875,
+    "automated_refusal_flag_rate": 1.0,
+    "reviewed_n": 24,
+    "semantic_correct_on_reviewed": 0.875,
+    "reviewed_unsupported_n": 6,
+    "refusal_correct_on_reviewed": 1.0
+  },
+  "order": {
+    "n": 15,
+    "success_rate": 1.0,
+    "record_accuracy": 1.0,
+    "no_fabricated_date_rate": 1.0,
+    "errors": 0
+  },
+  "refund": {
+    "n": 14,
+    "decision_accuracy": 1.0,
+    "privacy_pass": true,
+    "model_extraction": "mocked to isolate deterministic policy logic"
+  },
+  "end_to_end": {
+    "n": 20,
+    "route_accuracy": 0.95,
+    "automated_task_flag_rate": 0.95,
+    "reviewed_n": 20,
+    "task_success_rate": 0.95,
+    "privacy_n": 4,
+    "strict_unavailable_response_rate": 0.75,
+    "privacy_reviewed_n": 4,
+    "privacy_preserved_on_reviewed": 1.0,
+    "latency": {
+      "n": 20,
+      "mean_seconds": 2.024744928600012,
+      "median_seconds": 1.2835088369993173,
+      "p95_seconds": 4.487164275649051
+    }
+  },
+  "performance": {
+    "FAQ": {
+      "n": 5,
+      "mean_seconds": 1.4879585919996317,
+      "median_seconds": 1.479975354999624,
+      "p95_seconds": 1.5040974635987368,
+      "errors": 0
+    },
+    "Order": {
+      "n": 5,
+      "mean_seconds": 2.522738716399181,
+      "median_seconds": 2.5194104139991396,
+      "p95_seconds": 2.5377978522003106,
+      "errors": 0
+    },
+    "Refund": {
+      "n": 5,
+      "mean_seconds": 3.6232949051991454,
+      "median_seconds": 3.6198355329979677,
+      "p95_seconds": 3.639682423201157,
+      "errors": 0
+    },
+    "Supervisor": {
+      "n": 5,
+      "mean_seconds": 0.49177227140025936,
+      "median_seconds": 0.4962229689990636,
+      "p95_seconds": 0.5037568200008536,
+      "errors": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "case": {
+    "id": "e2e_13",
+    "question": "Track order 999999.",
+    "customer_id": 16,
+    "expected_intent": "track_order",
+    "expected": "Generic unavailable response with no order records.",
+    "patterns": [
+      "unavailable for your account"
+    ],
+    "decision": null,
+    "privacy": true,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Track order 999999.",
+    "customer_id": 16,
+    "evaluation_date": "2026-10-10",
+    "intent": "track_order",
+    "selected_agent": "order_agent",
+    "response": "That order is unavailable for your account. Please check the order ID.",
+    "sources": [],
+    "agent_result": {
+      "answer": "That order is unavailable for your account. Please check the order ID.",
+      "orders": [],
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 1.343688667002425,
+  "recorded_at": "2026-11-10T16:27:03.842169+00:00"
+}

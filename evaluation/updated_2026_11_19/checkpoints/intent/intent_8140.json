@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_8140",
+    "dataset_row": 8140,
+    "question": "showing me estimated time of arrival of order {{Order Number}}",
+    "expected_intent": "track_order"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5104323949999525,
+  "recorded_at": "2026-11-19T17:22:47.559149+00:00"
+}

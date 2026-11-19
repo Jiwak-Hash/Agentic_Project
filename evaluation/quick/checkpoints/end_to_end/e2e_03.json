@@ -1,0 +1,31 @@
+{
+  "case": {
+    "id": "e2e_03",
+    "question": "Cancel my order 1003, please.",
+    "customer_id": 14,
+    "expected_intent": "cancel_order",
+    "expected": "Explain cancellation unavailable in demo, support referral, no cancellation performed.",
+    "patterns": [
+      "cannot cancel",
+      "No order has been cancelled"
+    ],
+    "decision": null,
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Cancel my order 1003, please.",
+    "customer_id": 14,
+    "evaluation_date": "2026-10-10",
+    "intent": "cancel_order",
+    "selected_agent": "order_agent",
+    "response": "This demo cannot cancel orders. Please contact customer support to request cancellation and verify eligibility. No order has been cancelled.",
+    "sources": [],
+    "agent_result": {},
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 0.48351781200108235,
+  "recorded_at": "2026-11-10T16:22:03.779328+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "case": {
+    "id": "e2e_20",
+    "question": "Can I get a refund for order 1001 that is still shipped?",
+    "customer_id": 16,
+    "expected_intent": "get_refund",
+    "expected": "Unknown delivery-based eligibility; shipped not delivered.",
+    "patterns": [
+      "not recorded as delivered"
+    ],
+    "decision": "unknown",
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Can I get a refund for order 1001 that is still shipped?",
+    "customer_id": 16,
+    "evaluation_date": "2026-10-10",
+    "intent": "get_refund",
+    "selected_agent": "refund_agent",
+    "response": "For order #1001: The order is Shipped, not recorded as delivered. The delivery-based return window cannot be assessed yet. Shipped orders cannot be directly cancelled.",
+    "sources": [
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "agent_result": {
+      "order_id": 1001,
+      "eligibility_status": "unknown",
+      "reason": "The order is Shipped, not recorded as delivered. The delivery-based return window cannot be assessed yet. Shipped orders cannot be directly cancelled.",
+      "policy_sources": [
+        "return_policy.md",
+        "cancellation_policy.md"
+      ],
+      "answer": "For order #1001: The order is Shipped, not recorded as delivered. The delivery-based return window cannot be assessed yet. Shipped orders cannot be directly cancelled.",
+      "evaluation_date": "2026-10-10",
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.7468456320020778,
+  "recorded_at": "2026-11-10T16:27:24.087993+00:00"
+}

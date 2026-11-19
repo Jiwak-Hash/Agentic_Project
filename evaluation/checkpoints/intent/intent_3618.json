@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3618",
+    "dataset_row": 3618,
+    "question": "I do not know what I have to do to make a reclamation",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5072099239987438,
+  "recorded_at": "2026-11-10T16:23:47.674405+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9359",
+    "dataset_row": 9359,
+    "question": "where do I see if there are any updates on the refund?",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "track_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5099604660026671,
+  "recorded_at": "2026-11-10T16:24:39.233404+00:00"
+}

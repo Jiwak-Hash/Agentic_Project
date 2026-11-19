@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_2573",
+    "dataset_row": 2573,
+    "question": "help me check in which cvases can i ask for my money back",
+    "expected_intent": "check_refund_policy"
+  },
+  "result": {
+    "intent": "check_refund_policy",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5568313129988383,
+  "recorded_at": "2026-11-10T16:23:47.165073+00:00"
+}

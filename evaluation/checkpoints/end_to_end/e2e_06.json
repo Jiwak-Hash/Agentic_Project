@@ -1,0 +1,44 @@
+{
+  "case": {
+    "id": "e2e_06",
+    "question": "What are the rules for getting money back after a return?",
+    "customer_id": 6,
+    "expected_intent": "check_refund_policy",
+    "expected": "Eligible return within 7 days; refund after review/approval, 5–7 business days.",
+    "patterns": [
+      "7",
+      "approv",
+      "5\\s*[-–—]\\s*7"
+    ],
+    "decision": null,
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "What are the rules for getting money back after a return?",
+    "customer_id": 6,
+    "evaluation_date": "2026-10-10",
+    "intent": "check_refund_policy",
+    "selected_agent": "faq_agent",
+    "response": "To get money back after a return, follow these steps:\n\n1. **Request a Return**: Contact customer support within 7 days of delivery to request a return.\n2. **Inspect and Approve**: The returned item must be unused with its original packaging and accessories. If the product is damaged or incorrect, contact customer support immediately for manual review.\n3. **Refund Process**: After approval, the refund will be processed within 5–7 business days.\n\nFor damaged or incorrect items, escalate the case for manual review to ensure a fair resolution.",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "agent_result": {
+      "answer": "To get money back after a return, follow these steps:\n\n1. **Request a Return**: Contact customer support within 7 days of delivery to request a return.\n2. **Inspect and Approve**: The returned item must be unused with its original packaging and accessories. If the product is damaged or incorrect, contact customer support immediately for manual review.\n3. **Refund Process**: After approval, the refund will be processed within 5–7 business days.\n\nFor damaged or incorrect items, escalate the case for manual review to ensure a fair resolution.",
+      "sources": [
+        "return_policy.md",
+        "refund_policy.md",
+        "cancellation_policy.md"
+      ],
+      "error": null
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 4.061124926000048,
+  "recorded_at": "2026-11-10T16:26:55.102979+00:00"
+}

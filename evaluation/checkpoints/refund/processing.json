@@ -1,0 +1,29 @@
+{
+  "case": {
+    "id": "processing",
+    "order_id": 9006,
+    "status": "Processing",
+    "delivery_date": null,
+    "issue": "ordinary",
+    "owner": 6,
+    "customer_id": 6,
+    "question": "Refund order 9006.",
+    "expected_decision": "unknown",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": 9006,
+    "eligibility_status": "unknown",
+    "reason": "The order is Processing. Contact customer support to request cancellation. The cancellation policy does not establish refund eligibility or refund status.",
+    "policy_sources": [
+      "cancellation_policy.md"
+    ],
+    "answer": "For order #9006: The order is Processing. Contact customer support to request cancellation. The cancellation policy does not establish refund eligibility or refund status.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 0.00030662900098832324,
+  "recorded_at": "2026-11-10T16:26:36.996273+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "used_product",
+    "order_id": 9014,
+    "status": "Delivered",
+    "delivery_date": "2026-01-14",
+    "issue": "condition_not_met",
+    "owner": 6,
+    "customer_id": 6,
+    "question": "Refund order 9014. I used the product",
+    "expected_decision": "ineligible",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": 9014,
+    "eligibility_status": "ineligible",
+    "reason": "Based on the item condition you reported, the ordinary return conditions are not met: the product must be unused with original packaging and accessories. Contact support to verify; damaged or incorrect products require separate manual review.",
+    "policy_sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "answer": "For order #9014: Based on the item condition you reported, the ordinary return conditions are not met: the product must be unused with original packaging and accessories. Contact support to verify; damaged or incorrect products require separate manual review.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 0.0003027179991477169,
+  "recorded_at": "2026-11-10T16:26:37.004307+00:00"
+}

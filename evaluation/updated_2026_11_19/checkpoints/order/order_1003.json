@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "order_1003",
+    "customer_id": 14,
+    "question": "Please show the details and delivery date for order 1003.",
+    "kind": "record",
+    "expected_records": [
+      {
+        "order_id": 1003,
+        "customer_id": 14,
+        "product": "Cotton T-Shirt",
+        "price": 799.0,
+        "status": "Processing",
+        "order_date": "2026-07-18",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      }
+    ]
+  },
+  "result": {
+    "answer": "Here are your order details:\nOrder #1003: Cotton T-Shirt. Status: Processing. Price: 799.00. Order date: 2026-07-18. No delivery date is recorded.",
+    "orders": [
+      {
+        "order_id": 1003,
+        "customer_id": 14,
+        "product": "Cotton T-Shirt",
+        "price": 799.0,
+        "status": "Processing",
+        "order_date": "2026-07-18",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      }
+    ],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.6406080669985386,
+  "recorded_at": "2026-11-19T17:24:07.535191+00:00"
+}

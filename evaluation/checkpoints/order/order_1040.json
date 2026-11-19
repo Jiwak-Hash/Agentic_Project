@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "order_1040",
+    "customer_id": 38,
+    "question": "Please show the details and delivery date for order 1040.",
+    "kind": "record",
+    "expected_records": [
+      {
+        "order_id": 1040,
+        "customer_id": 38,
+        "product": "Wireless Earbuds",
+        "price": 2499.0,
+        "status": "Processing",
+        "order_date": "2026-09-07",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ]
+  },
+  "result": {
+    "answer": "Here are your order details:\nOrder #1040: Wireless Earbuds. Status: Processing. Price: 2499.00. Order date: 2026-09-07. No delivery date is recorded.",
+    "orders": [
+      {
+        "order_id": 1040,
+        "customer_id": 38,
+        "product": "Wireless Earbuds",
+        "price": 2499.0,
+        "status": "Processing",
+        "order_date": "2026-09-07",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.688960423001845,
+  "recorded_at": "2026-11-10T16:26:13.797889+00:00"
+}

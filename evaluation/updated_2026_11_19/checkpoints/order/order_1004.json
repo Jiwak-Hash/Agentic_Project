@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "order_1004",
+    "customer_id": 46,
+    "question": "Please show the details and delivery date for order 1004.",
+    "kind": "record",
+    "expected_records": [
+      {
+        "order_id": 1004,
+        "customer_id": 46,
+        "product": "Smart Watch",
+        "price": 4999.0,
+        "status": "Delivered",
+        "order_date": "2026-06-27",
+        "delivery_date": "2026-07-02",
+        "payment_method": "Cash on Delivery"
+      }
+    ]
+  },
+  "result": {
+    "answer": "Here are your order details:\nOrder #1004: Smart Watch. Status: Delivered. Price: 4999.00. Order date: 2026-06-27. Recorded delivery date: 2026-07-02.",
+    "orders": [
+      {
+        "order_id": 1004,
+        "customer_id": 46,
+        "product": "Smart Watch",
+        "price": 4999.0,
+        "status": "Delivered",
+        "order_date": "2026-06-27",
+        "delivery_date": "2026-07-02",
+        "payment_method": "Cash on Delivery"
+      }
+    ],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.9550669160016696,
+  "recorded_at": "2026-11-19T17:23:59.582932+00:00"
+}

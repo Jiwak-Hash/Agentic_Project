@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5516",
+    "dataset_row": 5516,
+    "question": "help to check what methods for delivery i have",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5012486560008256,
+  "recorded_at": "2026-11-10T16:21:14.901624+00:00"
+}

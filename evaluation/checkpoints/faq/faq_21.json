@@ -1,0 +1,23 @@
+{
+  "case": {
+    "id": "faq_21",
+    "question": "How many years does your product warranty last?",
+    "sources": [],
+    "expected": "Warranty term unspecified; no invented duration.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false
+  },
+  "result": {
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.6899284870014526,
+  "recorded_at": "2026-11-10T16:25:52.614797+00:00"
+}

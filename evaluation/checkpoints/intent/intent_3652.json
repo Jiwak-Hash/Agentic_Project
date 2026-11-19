@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3652",
+    "dataset_row": 3652,
+    "question": "file customerr claim",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5053314770011639,
+  "recorded_at": "2026-11-10T16:25:05.672526+00:00"
+}

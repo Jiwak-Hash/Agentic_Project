@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3505",
+    "dataset_row": 3505,
+    "question": "I need to make a damn consumer complaint, how could I do it?",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49816709099832224,
+  "recorded_at": "2026-11-19T17:21:49.656011+00:00"
+}

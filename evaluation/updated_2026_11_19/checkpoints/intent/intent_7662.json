@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_7662",
+    "dataset_row": 7662,
+    "question": "rebating  {{Currency Symbol}}{{Refund Amount}}",
+    "expected_intent": "get_refund"
+  },
+  "result": {
+    "intent": "get_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5157155389970285,
+  "recorded_at": "2026-11-19T17:23:08.533318+00:00"
+}

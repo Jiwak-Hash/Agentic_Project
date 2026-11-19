@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "faq_09",
+    "question": "The item arrived broken. What information should I send support?",
+    "sources": [
+      "return_policy.md",
+      "shipping_policy.md"
+    ],
+    "expected": "Order ID, description, photos, manual review; no guaranteed refund.",
+    "patterns": [
+      "order",
+      "photo",
+      "manual review"
+    ],
+    "kind": "paraphrase",
+    "supported": true
+  },
+  "result": {
+    "answer": "If an item arrives damaged, you should contact customer support with the following information:\n\n1. Order ID\n2. Description of the damage\n3. Photos of the damaged item\n\nThis will ensure that your case is escalated for manual review by customer support.",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.7796950020019722,
+  "recorded_at": "2026-11-10T16:25:38.300362+00:00"
+}

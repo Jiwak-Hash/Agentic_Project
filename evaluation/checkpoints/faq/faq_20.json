@@ -1,0 +1,23 @@
+{
+  "case": {
+    "id": "faq_20",
+    "question": "Can you ship my parcel to another country?",
+    "sources": [],
+    "expected": "International availability is unspecified; neither yes nor no is established.",
+    "patterns": [],
+    "kind": "unsupported",
+    "supported": false
+  },
+  "result": {
+    "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+    "sources": [
+      "shipping_policy.md",
+      "cancellation_policy.md",
+      "return_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.7081349959989893,
+  "recorded_at": "2026-11-10T16:25:51.922172+00:00"
+}

@@ -1,0 +1,46 @@
+{
+  "case": {
+    "id": "e2e_16",
+    "question": "I need a refund for order 1002 because it arrived damaged.",
+    "customer_id": 6,
+    "expected_intent": "get_refund",
+    "expected": "Manual review, no guaranteed refund.",
+    "patterns": [
+      "manual review",
+      "not guaranteed"
+    ],
+    "decision": "manual_review",
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "I need a refund for order 1002 because it arrived damaged.",
+    "customer_id": 6,
+    "evaluation_date": "2026-10-10",
+    "intent": "get_refund",
+    "selected_agent": "refund_agent",
+    "response": "For order #1002: Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "agent_result": {
+      "order_id": 1002,
+      "eligibility_status": "manual_review",
+      "reason": "Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #1002: Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+      "evaluation_date": "2026-10-10",
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.8986575140006607,
+  "recorded_at": "2026-11-10T16:27:08.533410+00:00"
+}

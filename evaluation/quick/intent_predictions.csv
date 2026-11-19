@@ -1,0 +1,21 @@
+id,dataset_row,question,expected_intent,predicted_intent,error,seconds,expected_agent,predicted_agent
+intent_1451,1451,I have to delete several items from purchase {{Order Number}},change_order,change_order,,0.5113368919992354,order_agent,order_agent
+intent_1790,1790,updating purchase {{Order Number}},change_order,change_order,,0.49042020100023365,order_agent,order_agent
+intent_2448,2448,I try to check in which situations can I ask for a refund,check_refund_policy,check_refund_policy,,0.548664085999917,faq_agent,faq_agent
+intent_2787,2787,need assistance to check ur reimbursement policy,check_refund_policy,check_refund_policy,,0.5827569329994731,faq_agent,faq_agent
+intent_3513,3513,I have to make a consumer reclamation against your company,complaint,complaint,,0.48069931200006977,human_escalation,human_escalation
+intent_3729,3729,could you help me file a customer reclamation?,complaint,complaint,,0.48609339899849147,human_escalation,human_escalation
+intent_4445,4445,I can't speak iwth an operator,contact_human_agent,contact_human_agent,,0.5158159340026032,human_escalation,human_escalation
+intent_453,453,I cannot afford purchase {{Order Number}},cancel_order,cancel_order,,0.5111560059995099,order_agent,order_agent
+intent_4785,4785,I want help to talk with a human agent,contact_human_agent,contact_human_agent,,0.5349770060020091,human_escalation,human_escalation
+intent_5516,5516,help to check what methods for delivery i have,delivery_options,delivery_options,,0.5012486560008256,faq_agent,faq_agent
+intent_5911,5911,can I place an ordewr from {{Delivery Country}}?,delivery_options,delivery_options,,0.4994709630009311,faq_agent,faq_agent
+intent_6439,6439,I need assistance checking how soon can I expect my delivery,delivery_period,delivery_period,,0.48239222900156165,faq_agent,faq_agent
+intent_6779,6779,help to check how soon can I expect my shipment,delivery_period,delivery_period,,0.47877715899812756,faq_agent,faq_agent
+intent_7438,7438,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, I need to get a rebate",get_refund,get_refund,,0.529189871998824,refund_agent,refund_agent
+intent_7777,7777,I am trying to receive a compensation,get_refund,get_refund,,0.5178181330011284,refund_agent,refund_agent
+intent_792,792,"I have bought some item, I have to cancel order {{Order Number}}",cancel_order,cancel_order,,0.4999260320000758,order_agent,order_agent
+intent_8507,8507,checking status of order {{Order Number}},track_order,track_order,,0.49991949800096336,order_agent,order_agent
+intent_8902,8902,where to see the bloody ETA of the order {{Order Number}},track_order,track_order,,0.503674329000205,order_agent,order_agent
+intent_9430,9430,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.5250999679992674,refund_agent,refund_agent
+intent_9769,9769,I am waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,,0.5293777020015114,refund_agent,refund_agent

@@ -1,0 +1,23 @@
+{
+  "case": {
+    "id": "Refund_1",
+    "service": "Refund",
+    "repetition": 1
+  },
+  "result": {
+    "order_id": 1002,
+    "eligibility_status": "eligible",
+    "reason": "As of 2026-10-10, delivery on 2026-10-05 was 5 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+    "policy_sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "answer": "For order #1002: As of 2026-10-10, delivery on 2026-10-05 was 5 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+    "evaluation_date": "2026-10-10",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 3.617052023000724,
+  "recorded_at": "2026-11-10T16:27:53.904144+00:00"
+}

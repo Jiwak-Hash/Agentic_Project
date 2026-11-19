@@ -1,0 +1,81 @@
+{
+  "plan": {
+    "mode": "full",
+    "seed": 42,
+    "intent_target": 200,
+    "protected_hashes": {
+      "agents/__init__.py": "5ff6c5ce2c362689143e83049b488ea37a1b5dee198f0eb896b09b25e04820d2",
+      "agents/faq_agent.py": "e8bf4585c6df0ff1f247cea0d9c1e9dc2f7e05a0ecac33d389759df2b72d3e49",
+      "agents/order_agent.py": "ed677ce2bf11d844a3a61882557e4255ec839b91a1770be8e24e003299ecbba7",
+      "agents/refund_agent.py": "d0236620f3d5948bd4efad927f98ef99b6ee6dba3dab401e13d6c2ecb89e45c7",
+      "agents/supervisor.py": "64c1d53aba255e2ca6fb60b2924aeee3a38a35f597daad3d4a9db5408c2c8469",
+      "app.py": "0da7c230ef0db4525d2dfa59c7c4ac8c3ed6253721fb2db78bc02dd73abc72a6",
+      "app_support.py": "067d804bebd3f9c38fd577aa1542d547391071d334b98cf5b043f27d0975fca8",
+      "data/customer_support.csv": "6f81102b0100b97b8468eb04368033a23206bf1fde9d53500d5806ec1001a434",
+      "data/ecommerce.db": "6fcaf53a89205b608fbfb31e688b5beb30c15669e79adb0101cc07746cdc0687",
+      "data/ecommerce_support.csv": "4b7b0e46a1afec002eaf3e672c5d26ab258f17fcd9f26cff9f7018ab624be1ae",
+      "data/orders.csv": "d66864ac31b1f27df0444beabb18d9b41c7195aa0ed0366d16c28d6cfaab7b59",
+      "data/policies/cancellation_policy.md": "4e6564f5d09d9179035adc85cffa6df7d886c10d032c972f754d96e26a4d2094",
+      "data/policies/refund_policy.md": "b462c442cc7039295548717ed5af5d28b3241c87299d7fce56f33411002cfe26",
+      "data/policies/return_policy.md": "f297bed6ea881cf4b4907d2bd2bf7f1e1f3b8e99674ba1d7e95957d96ea7ea18",
+      "data/policies/shipping_policy.md": "7a0e869c3d6385c5e2787a85204d0687171c56bc35520a0dc217492755a00f33",
+      "database.py": "17689a29eb6e439c5a6e6a8b52e328225c3049ca9d44f7dd70a07a0ecdaf9673",
+      "rag/__init__.py": "ab5d9d605bfbd2789be83f71bda9689dfaa7e286aa3d98e32b474156d7374838",
+      "rag/retriever.py": "6e0b8748df699aa8287b1c403a5df9dfb7e83727540e42421c444214abc78169",
+      "workflow.py": "f657c3f87a00c9ed1c7de628a705ec081beaecaab064f6196eff0fea6f317119"
+    },
+    "evaluation_code_hashes": {
+      "evaluate.py": "f2b153e9a7b495f8e3799b3d40863832acee0ea27e5231e343379c9ccc7953ca",
+      "evaluation/cases.py": "e37d7f2dca9a1309870e8cbdef84e99577dd2d5c549d9ff653e6af4ee8d13a3a"
+    }
+  },
+  "started_at": "2026-11-10T16:23:41.521874+00:00",
+  "model": {
+    "name": "qwen2.5-coder:latest",
+    "model": "qwen2.5-coder:latest",
+    "modified_at": "2026-06-07T12:18:48.03855691+05:30",
+    "size": 4683087561,
+    "digest": "dae161e27b0e90dd1856c8bb3209201fd6736d8eb66298e75ed87571486f4364",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 3584
+    },
+    "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+    ]
+  },
+  "dataset_rows": 9975,
+  "dataset_counts": {
+    "complaint": 1000,
+    "contact_human_agent": 999,
+    "delivery_period": 999,
+    "cancel_order": 998,
+    "track_refund": 998,
+    "change_order": 997,
+    "check_refund_policy": 997,
+    "get_refund": 997,
+    "delivery_options": 995,
+    "track_order": 995
+  },
+  "python": "3.13.11",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+  "logical_cpus": 20,
+  "packages": {
+    "langchain-ollama": "1.1.0",
+    "langgraph": "1.1.9",
+    "sentence-transformers": "5.4.1",
+    "faiss-cpu": "1.13.2",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  }
+}

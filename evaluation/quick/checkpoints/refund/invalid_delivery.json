@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "invalid_delivery",
+    "order_id": 9013,
+    "status": "Delivered",
+    "delivery_date": "bad-date",
+    "issue": "ordinary",
+    "owner": 6,
+    "customer_id": 6,
+    "question": "Refund order 9013.",
+    "expected_decision": "unknown",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": 9013,
+    "eligibility_status": "unknown",
+    "reason": "A valid delivery date is not recorded. Contact support to verify it before checking the return window.",
+    "policy_sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "answer": "For order #9013: A valid delivery date is not recorded. Contact support to verify it before checking the return window.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 0.0002952489994640928,
+  "recorded_at": "2026-11-10T16:21:52.515655+00:00"
+}

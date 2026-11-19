@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_739",
+    "dataset_row": 739,
+    "question": "were can i cancel purchase {{Order Number}}",
+    "expected_intent": "cancel_order"
+  },
+  "result": {
+    "intent": "cancel_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4834142840009008,
+  "recorded_at": "2026-11-10T16:24:33.217526+00:00"
+}

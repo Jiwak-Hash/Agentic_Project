@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3891",
+    "dataset_row": 3891,
+    "question": "can uhelp me lodgin a reclamation against ur business",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49621212299825856,
+  "recorded_at": "2026-11-10T16:23:59.226111+00:00"
+}

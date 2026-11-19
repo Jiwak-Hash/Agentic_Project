@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_2065",
+    "dataset_row": 2065,
+    "question": "I have to see your refund policy, will you help me?",
+    "expected_intent": "check_refund_policy"
+  },
+  "result": {
+    "intent": "check_refund_policy",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5655837159974908,
+  "recorded_at": "2026-11-10T16:23:58.727119+00:00"
+}

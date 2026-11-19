@@ -1,0 +1,29 @@
+{
+  "case": {
+    "id": "faq_06",
+    "question": "What condition and packaging must an ordinary return have?",
+    "sources": [
+      "return_policy.md"
+    ],
+    "expected": "Unused product, original packaging and accessories.",
+    "patterns": [
+      "unused",
+      "original packaging",
+      "accessor"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "For an ordinary return, the product must be unused, with its original packaging and accessories. Contact customer support to request a return.",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.0834470560002956,
+  "recorded_at": "2026-11-19T17:23:30.383012+00:00"
+}

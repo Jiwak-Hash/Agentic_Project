@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3875",
+    "dataset_row": 3875,
+    "question": "could I make a goddamn reclamation?",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49465693200181704,
+  "recorded_at": "2026-11-19T17:22:17.072404+00:00"
+}

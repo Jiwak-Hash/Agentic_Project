@@ -1,0 +1,31 @@
+{
+  "case": {
+    "id": "faq_10",
+    "question": "You sent the wrong product. Is my refund guaranteed before anyone reviews it?",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "shipping_policy.md",
+      "cancellation_policy.md"
+    ],
+    "expected": "No guarantee; incorrect product requires manual review.",
+    "patterns": [
+      "manual review",
+      "not guaranteed|no|cannot|can't"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "No, a refund is not guaranteed before review if the product is damaged or incorrect. These cases require manual review by customer support. Please contact us with your order ID, a description of the issue, and photos for escalation.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.5419976980010688,
+  "recorded_at": "2026-11-10T16:25:39.845238+00:00"
+}

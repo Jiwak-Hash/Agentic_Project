@@ -1,0 +1,14 @@
+{
+  "case": {
+    "id": "Supervisor_1",
+    "service": "Supervisor",
+    "repetition": 1
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.48723352999877534,
+  "recorded_at": "2026-11-10T16:27:25.083324+00:00"
+}

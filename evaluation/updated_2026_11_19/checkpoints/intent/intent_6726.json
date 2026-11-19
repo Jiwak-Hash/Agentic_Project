@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_6726",
+    "dataset_row": 6726,
+    "question": "I'm calling to check whenb will my item arrive",
+    "expected_intent": "delivery_period"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5164195609977469,
+  "recorded_at": "2026-11-19T17:21:46.161499+00:00"
+}

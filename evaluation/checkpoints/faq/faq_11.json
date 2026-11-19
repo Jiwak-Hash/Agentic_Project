@@ -1,0 +1,28 @@
+{
+  "case": {
+    "id": "faq_11",
+    "question": "Do Saturdays count toward your business-day delivery estimate?",
+    "sources": [
+      "shipping_policy.md"
+    ],
+    "expected": "Business days Monday–Friday excluding public holidays; Saturdays excluded.",
+    "patterns": [
+      "Monday",
+      "Friday"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "No, Saturdays do not count as business days in our delivery estimates. Business days are Monday through Friday, excluding public holidays.",
+    "sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.0481336699995154,
+  "recorded_at": "2026-11-10T16:25:40.896186+00:00"
+}

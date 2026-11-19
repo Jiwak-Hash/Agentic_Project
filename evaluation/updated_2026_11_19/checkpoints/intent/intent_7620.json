@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_7620",
+    "dataset_row": 7620,
+    "question": "i want help to get a rebate of my money",
+    "expected_intent": "get_refund"
+  },
+  "result": {
+    "intent": "get_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5354791749996366,
+  "recorded_at": "2026-11-19T17:23:09.558325+00:00"
+}

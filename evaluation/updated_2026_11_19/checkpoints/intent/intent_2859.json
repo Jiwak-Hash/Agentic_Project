@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_2859",
+    "dataset_row": 2859,
+    "question": "help me see in what cases can i request to be  reimbursed",
+    "expected_intent": "check_refund_policy"
+  },
+  "result": {
+    "intent": "check_refund_policy",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5585232019948307,
+  "recorded_at": "2026-11-19T17:23:08.015764+00:00"
+}

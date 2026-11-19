@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "expired_day8",
+    "order_id": 9004,
+    "status": "Delivered",
+    "delivery_date": "2026-01-09",
+    "issue": "ordinary",
+    "owner": 6,
+    "customer_id": 6,
+    "question": "Refund order 9004.",
+    "expected_decision": "ineligible",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": 9004,
+    "eligibility_status": "ineligible",
+    "reason": "As of 2026-01-17, delivery on 2026-01-09 was 8 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+    "policy_sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "answer": "For order #9004: As of 2026-01-17, delivery on 2026-01-09 was 8 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 0.00030705099925398827,
+  "recorded_at": "2026-11-10T16:26:36.994314+00:00"
+}

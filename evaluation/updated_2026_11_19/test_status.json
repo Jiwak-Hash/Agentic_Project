@@ -1,0 +1,49 @@
+{
+  "regression_tests": {
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "-v",
+      "test_database",
+      "test_order_agent",
+      "test_refund_agent",
+      "test_workflow",
+      "test_app",
+      "test_evaluate",
+      "test_issue_regressions.BoundaryTests"
+    ],
+    "exit_code": 0
+  },
+  "faq_live": {
+    "command": [
+      "python",
+      "-c",
+      "import test_faq; test_faq.__file__='evaluation/updated_2026_11_19/test_faq.py'; raise SystemExit(test_faq.main())"
+    ],
+    "exit_code": 0
+  },
+  "refund_live": {
+    "command": [
+      "python",
+      "-c",
+      "import test_refund_agent; raise SystemExit(not test_refund_agent.run_live())"
+    ],
+    "exit_code": 0
+  },
+  "workflow_live": {
+    "command": [
+      "python",
+      "-c",
+      "import test_workflow; raise SystemExit(not test_workflow.run_live())"
+    ],
+    "exit_code": 0
+  },
+  "model_smoke": {
+    "command": [
+      "python",
+      "test.py"
+    ],
+    "exit_code": 0
+  }
+}

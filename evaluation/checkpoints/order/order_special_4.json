@@ -1,0 +1,140 @@
+{
+  "case": {
+    "id": "order_special_4",
+    "customer_id": 16,
+    "question": "Please list every order belonging to me.",
+    "kind": "list",
+    "expected_records": [
+      {
+        "order_id": 1001,
+        "customer_id": 16,
+        "product": "Bluetooth Speaker",
+        "price": 1899.0,
+        "status": "Shipped",
+        "order_date": "2026-05-24",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      },
+      {
+        "order_id": 1021,
+        "customer_id": 16,
+        "product": "Insulated Water Bottle",
+        "price": 1099.0,
+        "status": "Shipped",
+        "order_date": "2026-07-09",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      },
+      {
+        "order_id": 1048,
+        "customer_id": 16,
+        "product": "Cotton T-Shirt",
+        "price": 799.0,
+        "status": "Cancelled",
+        "order_date": "2026-08-09",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      },
+      {
+        "order_id": 1081,
+        "customer_id": 16,
+        "product": "Insulated Water Bottle",
+        "price": 1099.0,
+        "status": "Delayed",
+        "order_date": "2026-07-22",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      },
+      {
+        "order_id": 1165,
+        "customer_id": 16,
+        "product": "Cotton T-Shirt",
+        "price": 799.0,
+        "status": "Delayed",
+        "order_date": "2026-06-12",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      },
+      {
+        "order_id": 1190,
+        "customer_id": 16,
+        "product": "Desk Lamp",
+        "price": 1399.0,
+        "status": "Shipped",
+        "order_date": "2026-07-02",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ]
+  },
+  "result": {
+    "answer": "I found the following for your account:\nOrder #1001: Bluetooth Speaker. Status: Shipped. Price: 1899.00. Order date: 2026-05-24. No delivery date is recorded.\nOrder #1021: Insulated Water Bottle. Status: Shipped. Price: 1099.00. Order date: 2026-07-09. No delivery date is recorded.\nOrder #1048: Cotton T-Shirt. Status: Cancelled. Price: 799.00. Order date: 2026-08-09. No delivery date is recorded.\nOrder #1081: Insulated Water Bottle. Status: Delayed. Price: 1099.00. Order date: 2026-07-22. No delivery date is recorded.\nOrder #1165: Cotton T-Shirt. Status: Delayed. Price: 799.00. Order date: 2026-06-12. No delivery date is recorded.\nOrder #1190: Desk Lamp. Status: Shipped. Price: 1399.00. Order date: 2026-07-02. No delivery date is recorded.",
+    "orders": [
+      {
+        "order_id": 1001,
+        "customer_id": 16,
+        "product": "Bluetooth Speaker",
+        "price": 1899.0,
+        "status": "Shipped",
+        "order_date": "2026-05-24",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      },
+      {
+        "order_id": 1021,
+        "customer_id": 16,
+        "product": "Insulated Water Bottle",
+        "price": 1099.0,
+        "status": "Shipped",
+        "order_date": "2026-07-09",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      },
+      {
+        "order_id": 1048,
+        "customer_id": 16,
+        "product": "Cotton T-Shirt",
+        "price": 799.0,
+        "status": "Cancelled",
+        "order_date": "2026-08-09",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      },
+      {
+        "order_id": 1081,
+        "customer_id": 16,
+        "product": "Insulated Water Bottle",
+        "price": 1099.0,
+        "status": "Delayed",
+        "order_date": "2026-07-22",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      },
+      {
+        "order_id": 1165,
+        "customer_id": 16,
+        "product": "Cotton T-Shirt",
+        "price": 799.0,
+        "status": "Delayed",
+        "order_date": "2026-06-12",
+        "delivery_date": null,
+        "payment_method": "UPI"
+      },
+      {
+        "order_id": 1190,
+        "customer_id": 16,
+        "product": "Desk Lamp",
+        "price": 1399.0,
+        "status": "Shipped",
+        "order_date": "2026-07-02",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 9.51444398500098,
+  "recorded_at": "2026-11-10T16:26:36.986204+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "order_1017",
+    "customer_id": 15,
+    "question": "Please show the details and delivery date for order 1017.",
+    "kind": "record",
+    "expected_records": [
+      {
+        "order_id": 1017,
+        "customer_id": 15,
+        "product": "USB-C Charger",
+        "price": 999.0,
+        "status": "Delayed",
+        "order_date": "2026-08-26",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ]
+  },
+  "result": {
+    "answer": "Here are your order details:\nOrder #1017: USB-C Charger. Status: Delayed. Price: 999.00. Order date: 2026-08-26. No delivery date is recorded.",
+    "orders": [
+      {
+        "order_id": 1017,
+        "customer_id": 15,
+        "product": "USB-C Charger",
+        "price": 999.0,
+        "status": "Delayed",
+        "order_date": "2026-08-26",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.6447329689981416,
+  "recorded_at": "2026-11-19T17:24:18.171342+00:00"
+}

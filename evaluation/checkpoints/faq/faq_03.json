@@ -1,0 +1,29 @@
+{
+  "case": {
+    "id": "faq_03",
+    "question": "After dispatch, what is the standard delivery estimate?",
+    "sources": [
+      "shipping_policy.md"
+    ],
+    "expected": "Generally 3–7 business days after dispatch, not guaranteed.",
+    "patterns": [
+      "3\\s*[-–—]\\s*7",
+      "business",
+      "dispatch"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "The standard delivery generally takes 3–7 business days after dispatch. Business days are Monday through Friday, excluding public holidays. Delivery estimates are not guarantees; carrier or weather delays may occur. If delivery exceeds the estimated window, contact customer support.",
+    "sources": [
+      "shipping_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.8722644549998222,
+  "recorded_at": "2026-11-10T16:25:31.659051+00:00"
+}

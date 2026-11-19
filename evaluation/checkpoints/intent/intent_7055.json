@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_7055",
+    "dataset_row": 7055,
+    "question": "is it possible to obtain reimbursements of my money",
+    "expected_intent": "get_refund"
+  },
+  "result": {
+    "intent": "get_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49974252799802343,
+  "recorded_at": "2026-11-10T16:24:44.201647+00:00"
+}

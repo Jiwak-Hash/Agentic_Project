@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5149",
+    "dataset_row": 5149,
+    "question": "would it be possible to see what shipping options are there?",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5031883749979897,
+  "recorded_at": "2026-11-19T17:22:13.576816+00:00"
+}

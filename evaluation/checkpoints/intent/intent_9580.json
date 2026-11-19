@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9580",
+    "dataset_row": 9580,
+    "question": "where do I see my rebate status?",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "unsupported",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.46688522399927024,
+  "recorded_at": "2026-11-10T16:25:13.363197+00:00"
+}

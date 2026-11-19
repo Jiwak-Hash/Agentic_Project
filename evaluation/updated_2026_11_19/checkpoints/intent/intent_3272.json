@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3272",
+    "dataset_row": 3272,
+    "question": "help me to make a consumer complaint against your business",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4848537970028701,
+  "recorded_at": "2026-11-19T17:21:55.687538+00:00"
+}

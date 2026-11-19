@@ -1,0 +1,111 @@
+{
+  "intent": {
+    "n": 20,
+    "accuracy": 0.9,
+    "macro_precision": 0.85,
+    "macro_recall": 0.9,
+    "macro_f1": 0.8666666666666666,
+    "weighted_f1": 0.8666666666666666,
+    "target": 20,
+    "errors": 0,
+    "unsupported_predictions": 0
+  },
+  "routing": {
+    "n": 20,
+    "accuracy": 1.0,
+    "per_agent": [
+      {
+        "agent": "faq_agent",
+        "support": 6,
+        "accuracy": 1.0
+      },
+      {
+        "agent": "human_escalation",
+        "support": 4,
+        "accuracy": 1.0
+      },
+      {
+        "agent": "order_agent",
+        "support": 6,
+        "accuracy": 1.0
+      },
+      {
+        "agent": "refund_agent",
+        "support": 4,
+        "accuracy": 1.0
+      }
+    ],
+    "definition": "Per-agent accuracy is correct destinations / examples whose true destination is that agent."
+  },
+  "faq": {
+    "n": 5,
+    "supported_n": 3,
+    "unsupported_n": 2,
+    "retrieval_hit_at_3": 1.0,
+    "source_precision_at_3": 0.5555555555555555,
+    "automated_expected_fact_flag_rate": 1.0,
+    "automated_refusal_flag_rate": 1.0,
+    "reviewed_n": 0,
+    "semantic_correct_on_reviewed": null,
+    "reviewed_unsupported_n": 0,
+    "refusal_correct_on_reviewed": null
+  },
+  "order": {
+    "n": 5,
+    "success_rate": 1.0,
+    "record_accuracy": 1.0,
+    "no_fabricated_date_rate": 1.0,
+    "errors": 0
+  },
+  "refund": {
+    "n": 14,
+    "decision_accuracy": 1.0,
+    "privacy_pass": true,
+    "model_extraction": "mocked to isolate deterministic policy logic"
+  },
+  "end_to_end": {
+    "n": 5,
+    "route_accuracy": 0.8,
+    "automated_task_flag_rate": 0.8,
+    "reviewed_n": 0,
+    "task_success_rate": null,
+    "privacy_n": 2,
+    "privacy_pass_rate": 0.5,
+    "latency": {
+      "n": 5,
+      "mean_seconds": 1.1869099790004838,
+      "median_seconds": 0.5224238440023328,
+      "p95_seconds": 2.778130167000199
+    }
+  },
+  "performance": {
+    "FAQ": {
+      "n": 1,
+      "mean_seconds": 1.4945366510000895,
+      "median_seconds": 1.4945366510000895,
+      "p95_seconds": 1.4945366510000895,
+      "errors": 0
+    },
+    "Order": {
+      "n": 1,
+      "mean_seconds": 2.5545258929996635,
+      "median_seconds": 2.5545258929996635,
+      "p95_seconds": 2.5545258929996635,
+      "errors": 0
+    },
+    "Refund": {
+      "n": 1,
+      "mean_seconds": 3.6307659889971546,
+      "median_seconds": 3.6307659889971546,
+      "p95_seconds": 3.6307659889971546,
+      "errors": 0
+    },
+    "Supervisor": {
+      "n": 1,
+      "mean_seconds": 0.49075747299866634,
+      "median_seconds": 0.49075747299866634,
+      "p95_seconds": 0.49075747299866634,
+      "errors": 0
+    }
+  }
+}

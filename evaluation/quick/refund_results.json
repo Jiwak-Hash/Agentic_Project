@@ -1,0 +1,446 @@
+[
+  {
+    "case": {
+      "id": "boundary_day7",
+      "order_id": 9003,
+      "status": "Delivered",
+      "delivery_date": "2026-01-10",
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9003.",
+      "expected_decision": "eligible",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9003,
+      "eligibility_status": "eligible",
+      "reason": "As of 2026-01-17, delivery on 2026-01-10 was 7 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9003: As of 2026-01-17, delivery on 2026-01-10 was 7 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0003053840009670239,
+    "recorded_at": "2026-11-10T16:21:52.502374+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "cancelled",
+      "order_id": 9007,
+      "status": "Cancelled",
+      "delivery_date": null,
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9007.",
+      "expected_decision": "unknown",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9007,
+      "eligibility_status": "unknown",
+      "reason": "The order is Cancelled. The available policies do not specify refunds for cancelled orders, and this database has no refund-status records. Contact support to verify.",
+      "policy_sources": [
+        "cancellation_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9007: The order is Cancelled. The available policies do not specify refunds for cancelled orders, and this database has no refund-status records. Contact support to verify.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0002999829994223546,
+    "recorded_at": "2026-11-10T16:21:52.509845+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "damaged_expired",
+      "order_id": 9008,
+      "status": "Delivered",
+      "delivery_date": "2026-01-01",
+      "issue": "damaged",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9008. damaged",
+      "expected_decision": "manual_review",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9008,
+      "eligibility_status": "manual_review",
+      "reason": "Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9008: Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.00028997600020375103,
+    "recorded_at": "2026-11-10T16:21:52.510846+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "delivered_day0",
+      "order_id": 9002,
+      "status": "Delivered",
+      "delivery_date": "2026-01-17",
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9002.",
+      "expected_decision": "eligible",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9002,
+      "eligibility_status": "eligible",
+      "reason": "As of 2026-01-17, delivery on 2026-01-17 was 0 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9002: As of 2026-01-17, delivery on 2026-01-17 was 0 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.00039098900015233085,
+    "recorded_at": "2026-11-10T16:21:52.501196+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "delivered_day3",
+      "order_id": 9001,
+      "status": "Delivered",
+      "delivery_date": "2026-01-14",
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9001.",
+      "expected_decision": "eligible",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9001,
+      "eligibility_status": "eligible",
+      "reason": "As of 2026-01-17, delivery on 2026-01-14 was 3 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9001: As of 2026-01-17, delivery on 2026-01-14 was 3 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0005076269990240689,
+    "recorded_at": "2026-11-10T16:21:52.499583+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "expired_day8",
+      "order_id": 9004,
+      "status": "Delivered",
+      "delivery_date": "2026-01-09",
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9004.",
+      "expected_decision": "ineligible",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9004,
+      "eligibility_status": "ineligible",
+      "reason": "As of 2026-01-17, delivery on 2026-01-09 was 8 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9004: As of 2026-01-17, delivery on 2026-01-09 was 8 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0003253799986850936,
+    "recorded_at": "2026-11-10T16:21:52.503597+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "future_delivery",
+      "order_id": 9012,
+      "status": "Delivered",
+      "delivery_date": "2026-01-18",
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9012.",
+      "expected_decision": "unknown",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9012,
+      "eligibility_status": "unknown",
+      "reason": "The recorded delivery date is after the evaluation date. Contact support to verify the dates.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9012: The recorded delivery date is after the evaluation date. Contact support to verify the dates.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0002790240032481961,
+    "recorded_at": "2026-11-10T16:21:52.514669+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "incorrect",
+      "order_id": 9009,
+      "status": "Delivered",
+      "delivery_date": "2026-01-14",
+      "issue": "incorrect",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9009. incorrect",
+      "expected_decision": "manual_review",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9009,
+      "eligibility_status": "manual_review",
+      "reason": "Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9009: Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0002851919998647645,
+    "recorded_at": "2026-11-10T16:21:52.511858+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "invalid_delivery",
+      "order_id": 9013,
+      "status": "Delivered",
+      "delivery_date": "bad-date",
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9013.",
+      "expected_decision": "unknown",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9013,
+      "eligibility_status": "unknown",
+      "reason": "A valid delivery date is not recorded. Contact support to verify it before checking the return window.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9013: A valid delivery date is not recorded. Contact support to verify it before checking the return window.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0002952489994640928,
+    "recorded_at": "2026-11-10T16:21:52.515655+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "missing_delivery",
+      "order_id": 9010,
+      "status": "Delivered",
+      "delivery_date": null,
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9010.",
+      "expected_decision": "unknown",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9010,
+      "eligibility_status": "unknown",
+      "reason": "A valid delivery date is not recorded. Contact support to verify it before checking the return window.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9010: A valid delivery date is not recorded. Contact support to verify it before checking the return window.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0002823330032697413,
+    "recorded_at": "2026-11-10T16:21:52.512831+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "processing",
+      "order_id": 9006,
+      "status": "Processing",
+      "delivery_date": null,
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9006.",
+      "expected_decision": "unknown",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9006,
+      "eligibility_status": "unknown",
+      "reason": "The order is Processing. Contact customer support to request cancellation. The cancellation policy does not establish refund eligibility or refund status.",
+      "policy_sources": [
+        "cancellation_policy.md"
+      ],
+      "answer": "For order #9006: The order is Processing. Contact customer support to request cancellation. The cancellation policy does not establish refund eligibility or refund status.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0003499390004435554,
+    "recorded_at": "2026-11-10T16:21:52.508841+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "shipped",
+      "order_id": 9005,
+      "status": "Shipped",
+      "delivery_date": null,
+      "issue": "ordinary",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9005.",
+      "expected_decision": "unknown",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9005,
+      "eligibility_status": "unknown",
+      "reason": "The order is Shipped, not recorded as delivered. The delivery-based return window cannot be assessed yet. Shipped orders cannot be directly cancelled.",
+      "policy_sources": [
+        "return_policy.md",
+        "cancellation_policy.md"
+      ],
+      "answer": "For order #9005: The order is Shipped, not recorded as delivered. The delivery-based return window cannot be assessed yet. Shipped orders cannot be directly cancelled.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.00032569899849477224,
+    "recorded_at": "2026-11-10T16:21:52.504692+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "unauthorized",
+      "order_id": 9011,
+      "status": "Delivered",
+      "delivery_date": "2026-01-14",
+      "issue": "ordinary",
+      "owner": 9,
+      "customer_id": 6,
+      "question": "Refund order 9011.",
+      "expected_decision": "unknown",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": null,
+      "eligibility_status": "unknown",
+      "reason": "That order is unavailable for your account. Please check the order ID.",
+      "policy_sources": [],
+      "answer": "That order is unavailable for your account. Please check the order ID.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": false
+    },
+    "error": null,
+    "seconds": 0.00020481499814195558,
+    "recorded_at": "2026-11-10T16:21:52.513785+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  },
+  {
+    "case": {
+      "id": "used_product",
+      "order_id": 9014,
+      "status": "Delivered",
+      "delivery_date": "2026-01-14",
+      "issue": "condition_not_met",
+      "owner": 6,
+      "customer_id": 6,
+      "question": "Refund order 9014. I used the product",
+      "expected_decision": "ineligible",
+      "evaluation_date": "2026-01-17"
+    },
+    "result": {
+      "order_id": 9014,
+      "eligibility_status": "ineligible",
+      "reason": "Based on the item condition you reported, the ordinary return conditions are not met: the product must be unused with original packaging and accessories. Contact support to verify; damaged or incorrect products require separate manual review.",
+      "policy_sources": [
+        "return_policy.md",
+        "refund_policy.md"
+      ],
+      "answer": "For order #9014: Based on the item condition you reported, the ordinary return conditions are not met: the product must be unused with original packaging and accessories. Contact support to verify; damaged or incorrect products require separate manual review.",
+      "evaluation_date": "2026-01-17",
+      "error": null,
+      "used_fallback": true
+    },
+    "error": null,
+    "seconds": 0.0002832039972417988,
+    "recorded_at": "2026-11-10T16:21:52.516593+00:00",
+    "decision_correct": true,
+    "privacy_correct": true
+  }
+]

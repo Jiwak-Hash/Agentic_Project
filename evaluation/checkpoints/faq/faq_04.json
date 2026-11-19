@@ -1,0 +1,27 @@
+{
+  "case": {
+    "id": "faq_04",
+    "question": "Which order status allows me to ask for cancellation?",
+    "sources": [
+      "cancellation_policy.md"
+    ],
+    "expected": "Only Processing; support must handle request; no cancellation executed.",
+    "patterns": [
+      "Processing"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "Orders can be cancelled only while their status is `Processing`.",
+    "sources": [
+      "cancellation_policy.md",
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.8478157019999344,
+  "recorded_at": "2026-11-10T16:25:32.509156+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "case": {
+    "id": "faq_08",
+    "question": "How is the refund method decided for Cash on Delivery purchases?",
+    "sources": [
+      "refund_policy.md"
+    ],
+    "expected": "Support arranges method during manual review; no invented bank/UPI instruction.",
+    "patterns": [
+      "support",
+      "manual review"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "For Cash on Delivery orders, the refund method is arranged during manual review by customer support.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.7296584719988459,
+  "recorded_at": "2026-11-10T16:25:36.518703+00:00"
+}

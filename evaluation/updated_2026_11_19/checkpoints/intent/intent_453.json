@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_453",
+    "dataset_row": 453,
+    "question": "I cannot afford purchase {{Order Number}}",
+    "expected_intent": "cancel_order"
+  },
+  "result": {
+    "intent": "cancel_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49473291500180494,
+  "recorded_at": "2026-11-19T17:22:32.284039+00:00"
+}

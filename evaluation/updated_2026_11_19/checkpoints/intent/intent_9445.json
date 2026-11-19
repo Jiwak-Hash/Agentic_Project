@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9445",
+    "dataset_row": 9445,
+    "question": "what do I need to do to track my reimbursement?",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "track_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.535449240996968,
+  "recorded_at": "2026-11-19T17:21:56.718950+00:00"
+}

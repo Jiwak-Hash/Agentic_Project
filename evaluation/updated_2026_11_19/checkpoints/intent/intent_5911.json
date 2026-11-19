@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5911",
+    "dataset_row": 5911,
+    "question": "can I place an ordewr from {{Delivery Country}}?",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5043095939981868,
+  "recorded_at": "2026-11-19T17:22:15.565315+00:00"
+}

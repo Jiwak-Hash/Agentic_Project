@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_6564",
+    "dataset_row": 6564,
+    "question": "is it possible to check how soon can I expect the item?",
+    "expected_intent": "delivery_period"
+  },
+  "result": {
+    "intent": "delivery_period",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5027802479999082,
+  "recorded_at": "2026-11-10T16:23:56.661146+00:00"
+}

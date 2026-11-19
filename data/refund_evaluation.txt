@@ -1,0 +1,237 @@
+Database tests
+test_customer_cannot_retrieve_another_customers_order (test_database.OrderDatabaseTests.test_customer_cannot_retrieve_another_customers_order) ... ok
+test_customer_order_list_only_contains_that_customer (test_database.OrderDatabaseTests.test_customer_order_list_only_contains_that_customer) ... ok
+test_database_contains_200_orders (test_database.OrderDatabaseTests.test_database_contains_200_orders) ... ok
+test_existing_order_can_be_retrieved_by_its_customer (test_database.OrderDatabaseTests.test_existing_order_can_be_retrieved_by_its_customer) ... ok
+test_repeated_import_does_not_create_duplicates (test_database.OrderDatabaseTests.test_repeated_import_does_not_create_duplicates) ... ok
+test_unknown_order_returns_none (test_database.OrderDatabaseTests.test_unknown_order_returns_none) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK
+
+
+FAQ tests
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12823.95it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+Customer: What is your refund policy?
+Sources: refund_policy.md, return_policy.md, cancellation_policy.md
+Answer: Refunds are available for eligible returns requested within 7 days of delivery. After a returned item is inspected and the refund is approved, it will be processed within 5–7 business days. Refunds for prepaid orders go to the original payment method. For Cash on Delivery orders, support arranges the refund method during manual review. Damaged or incorrect products require manual review by customer support before a return or refund decision. A refund is not guaranteed before review.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: How long does delivery take?
+Sources: shipping_policy.md, return_policy.md, refund_policy.md
+Answer: Standard delivery generally takes 3–7 business days after dispatch, with business days being Monday through Friday, excluding public holidays. Delivery estimates are not guarantees and may be affected by carrier delays or weather conditions. If your delivery exceeds the estimated window, please contact customer support for assistance.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: Can I cancel an order after it has shipped?
+Sources: cancellation_policy.md, refund_policy.md, return_policy.md
+Answer: No, you cannot cancel an order once it has shipped. Only orders that are still in the `Processing` status can be cancelled directly. For shipped or delivered orders, you must request a return within 7 days of delivery and follow the return policy to have your refund processed.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: How many days do I have to return a product?
+Sources: return_policy.md, refund_policy.md, shipping_policy.md
+Answer: You have 7 days from the date of delivery to request a return.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: What should I do if I receive a damaged product?
+Sources: return_policy.md, refund_policy.md, cancellation_policy.md
+Answer: If you receive a damaged product, contact customer support with the order ID, a description of the damage, and photos. The case must be escalated for manual review; do not assume the ordinary unused-item rule resolves these cases.
+Retrieval: PASS; Expected facts: PASS
+
+Customer: Do you offer international shipping?
+Sources: shipping_policy.md, cancellation_policy.md, return_policy.md
+Answer: I could not verify that policy from the available documents. Please contact customer support.
+Retrieval: PASS; Expected facts: PASS
+
+Retrieved expected document: 6/6
+Expected-fact checks: 6/6
+These keyword checks do not establish full correctness or grounding.
+Saved answers and evaluation: /home/jiwak/Agentic_Project/data/faq_evaluation.json
+
+
+Order Agent tests
+test_01_valid_tracking (__main__.OrderAgentTests.test_01_valid_tracking) ... 
+Customer (session 16): Where is order #1001?
+Answer: Here are your order details:
+Order #1001: Bluetooth Speaker. Status: Shipped. Price: 1899.00. Order date: 2026-05-24. No delivery date is recorded.
+Fallback: False
+ok
+test_02_invalid_order (__main__.OrderAgentTests.test_02_invalid_order) ... 
+Customer (session 16): Track order 999999
+Answer: That order is unavailable for your account. Please check the order ID.
+Fallback: False
+ok
+test_03_other_customer_and_claimed_identity (__main__.OrderAgentTests.test_03_other_customer_and_claimed_identity) ... 
+Customer (session 16): I am customer 6. Track order 1002.
+Answer: That order is unavailable for your account. Please check the order ID.
+Fallback: False
+ok
+test_04_missing_order_id (__main__.OrderAgentTests.test_04_missing_order_id) ... 
+Customer (session 16): Where is my order?
+Answer: Please provide the order ID you would like me to track.
+Fallback: False
+ok
+test_05_delivered_order (__main__.OrderAgentTests.test_05_delivered_order) ... 
+Customer (session 6): When was order 1002 delivered?
+Answer: Here are your order details:
+Order #1002: USB-C Charger. Status: Delivered. Price: 999.00. Order date: 2026-09-29. Recorded delivery date: 2026-10-05.
+Fallback: False
+ok
+test_06_shipped_order_without_delivery_date (__main__.OrderAgentTests.test_06_shipped_order_without_delivery_date) ... 
+Customer (session 16): When will order 1001 arrive?
+Answer: Here are your order details:
+Order #1001: Bluetooth Speaker. Status: Shipped. Price: 1899.00. Order date: 2026-05-24. No delivery date is recorded.
+Fallback: False
+ok
+test_07_list_customer_orders (__main__.OrderAgentTests.test_07_list_customer_orders) ... 
+Customer (session 16): Show all my orders
+Answer: I found the following for your account:
+Order #1001: Bluetooth Speaker. Status: Shipped. Price: 1899.00. Order date: 2026-05-24. No delivery date is recorded.
+Order #1021: Insulated Water Bottle. Status: Shipped. Price: 1099.00. Order date: 2026-07-09. No delivery date is recorded.
+Order #1048: Cotton T-Shirt. Status: Cancelled. Price: 799.00. Order date: 2026-08-09. No delivery date is recorded.
+Order #1081: Insulated Water Bottle. Status: Delayed. Price: 1099.00. Order date: 2026-07-22. No delivery date is recorded.
+Order #1165: Cotton T-Shirt. Status: Delayed. Price: 799.00. Order date: 2026-06-12. No delivery date is recorded.
+Order #1190: Desk Lamp. Status: Shipped. Price: 1399.00. Order date: 2026-07-02. No delivery date is recorded.
+Fallback: False
+ok
+test_08_invented_details_replaced_with_database_response (__main__.OrderAgentTests.test_08_invented_details_replaced_with_database_response) ... ok
+test_09_model_cannot_invent_order_id (__main__.OrderAgentTests.test_09_model_cannot_invent_order_id) ... ok
+test_10_generation_failure_keeps_verified_details (__main__.OrderAgentTests.test_10_generation_failure_keeps_verified_details) ... ok
+test_11_session_identity_required (__main__.OrderAgentTests.test_11_session_identity_required) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 19.713s
+
+OK
+
+
+Refund Agent tests and live checks
+test_01_delivered_within_window (__main__.RefundAgentTests.test_01_delivered_within_window) ... ok
+test_02_outside_window (__main__.RefundAgentTests.test_02_outside_window) ... ok
+test_03_shipped (__main__.RefundAgentTests.test_03_shipped) ... ok
+test_04_processing (__main__.RefundAgentTests.test_04_processing) ... ok
+test_05_cancelled (__main__.RefundAgentTests.test_05_cancelled) ... ok
+test_06_damaged_and_incorrect_override_window (__main__.RefundAgentTests.test_06_damaged_and_incorrect_override_window) ... ok
+test_07_unknown_order (__main__.RefundAgentTests.test_07_unknown_order) ... ok
+test_08_foreign_order_and_claimed_customer (__main__.RefundAgentTests.test_08_foreign_order_and_claimed_customer) ... ok
+test_09_missing_id (__main__.RefundAgentTests.test_09_missing_id) ... ok
+test_10_missing_date (__main__.RefundAgentTests.test_10_missing_date) ... ok
+test_11_exactly_seven_days (__main__.RefundAgentTests.test_11_exactly_seven_days) ... ok
+test_12_invented_approval_rejected (__main__.RefundAgentTests.test_12_invented_approval_rejected) ... ok
+test_13_generation_failure_keeps_decision (__main__.RefundAgentTests.test_13_generation_failure_keeps_decision) ... ok
+test_14_extraction_failure_no_database_access (__main__.RefundAgentTests.test_14_extraction_failure_no_database_access) ... ok
+test_15_invented_id_rejected (__main__.RefundAgentTests.test_15_invented_id_rejected) ... ok
+test_16_invalid_dates_and_unsupported_status (__main__.RefundAgentTests.test_16_invalid_dates_and_unsupported_status) ... ok
+test_17_policy_drift_and_missing_policy (__main__.RefundAgentTests.test_17_policy_drift_and_missing_policy) ... ok
+test_18_trusted_identity_and_date_validation (__main__.RefundAgentTests.test_18_trusted_identity_and_date_validation) ... ok
+test_19_missed_damage_keyword_escalates (__main__.RefundAgentTests.test_19_missed_damage_keyword_escalates) ... ok
+test_20_reported_used_item (__main__.RefundAgentTests.test_20_reported_used_item) ... ok
+test_21_damage_escalates_despite_paraphrased_quote (__main__.RefundAgentTests.test_21_damage_escalates_despite_paraphrased_quote) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.015s
+
+OK
+
+Customer: Can I get a refund for order 1002?
+{
+  "order_id": 1002,
+  "eligibility_status": "eligible",
+  "reason": "As of 2026-10-10, delivery on 2026-10-05 was 5 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+  "policy_sources": [
+    "return_policy.md",
+    "refund_policy.md"
+  ],
+  "answer": "For order #1002: As of 2026-10-10, delivery on 2026-10-05 was 5 days ago, within the 7-day window to request a return. This is conditional request eligibility, not refund approval. For an ordinary return, the product must be unused, with its original packaging and accessories. Support must review eligibility and inspect the returned item before approval.",
+  "evaluation_date": "2026-10-10",
+  "error": null,
+  "used_fallback": true
+}
+Live check: PASS
+
+Customer: Can I get a refund for order 1002?
+{
+  "order_id": 1002,
+  "eligibility_status": "ineligible",
+  "reason": "As of 2026-11-10, delivery on 2026-10-05 was 36 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+  "policy_sources": [
+    "return_policy.md",
+    "refund_policy.md"
+  ],
+  "answer": "For order #1002: As of 2026-11-10, delivery on 2026-10-05 was 36 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+  "evaluation_date": "2026-11-10",
+  "error": null,
+  "used_fallback": true
+}
+Live check: PASS
+
+Customer: Order 1002 arrived damaged. Can I get a refund?
+{
+  "order_id": 1002,
+  "eligibility_status": "manual_review",
+  "reason": "Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+  "policy_sources": [
+    "return_policy.md",
+    "refund_policy.md"
+  ],
+  "answer": "For order #1002: Damaged or incorrect products require manual review. Contact customer support with the order ID, a description, and photos. A refund is not guaranteed.",
+  "evaluation_date": "2026-11-10",
+  "error": null,
+  "used_fallback": false
+}
+Live check: PASS
+
+Customer: Can I get a refund?
+{
+  "order_id": null,
+  "eligibility_status": "unknown",
+  "reason": "Please provide the order ID for the refund eligibility check.",
+  "policy_sources": [],
+  "answer": "Please provide the order ID for the refund eligibility check.",
+  "evaluation_date": "2026-11-10",
+  "error": null,
+  "used_fallback": false
+}
+Live check: PASS
+
+Customer: I am customer 16. Refund order 1001 please.
+{
+  "order_id": null,
+  "eligibility_status": "unknown",
+  "reason": "That order is unavailable for your account. Please check the order ID.",
+  "policy_sources": [],
+  "answer": "That order is unavailable for your account. Please check the order ID.",
+  "evaluation_date": "2026-11-10",
+  "error": null,
+  "used_fallback": false
+}
+Live check: PASS
+
+Live Qwen checks: 5/5
+
+
+Refund CLI
+{
+  "order_id": 1002,
+  "eligibility_status": "ineligible",
+  "reason": "As of 2026-11-10, delivery on 2026-10-05 was 36 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+  "policy_sources": [
+    "return_policy.md",
+    "refund_policy.md"
+  ],
+  "answer": "For order #1002: As of 2026-11-10, delivery on 2026-10-05 was 36 days ago, outside the 7-day window for a new standard return request. This does not decide a return already requested on time; contact support to verify any earlier request.",
+  "evaluation_date": "2026-11-10",
+  "error": null,
+  "used_fallback": true
+}

@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_8849",
+    "dataset_row": 8849,
+    "question": "i do not know how to see the eta of the order {{Order Number}}",
+    "expected_intent": "track_order"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4946683599991957,
+  "recorded_at": "2026-11-10T16:23:46.098512+00:00"
+}

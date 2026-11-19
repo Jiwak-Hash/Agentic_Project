@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5281",
+    "dataset_row": 5281,
+    "question": "I'm looking for the options for delivery can i get some help",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.501000069998554,
+  "recorded_at": "2026-11-10T16:24:15.329140+00:00"
+}

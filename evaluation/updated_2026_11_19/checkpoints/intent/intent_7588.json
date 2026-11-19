@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_7588",
+    "dataset_row": 7588,
+    "question": "i do not know how i can get a compensation of money",
+    "expected_intent": "get_refund"
+  },
+  "result": {
+    "intent": "get_refund",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.511601359998167,
+  "recorded_at": "2026-11-19T17:22:33.312522+00:00"
+}

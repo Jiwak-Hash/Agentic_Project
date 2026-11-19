@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_6422",
+    "dataset_row": 6422,
+    "question": "I want to see when will my product arrive",
+    "expected_intent": "delivery_period"
+  },
+  "result": {
+    "intent": "track_order",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.48641858600240084,
+  "recorded_at": "2026-11-10T16:23:44.604659+00:00"
+}

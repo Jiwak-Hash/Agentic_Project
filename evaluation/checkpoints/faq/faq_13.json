@@ -1,0 +1,27 @@
+{
+  "case": {
+    "id": "faq_13",
+    "question": "My delivery has exceeded the estimated window. Who should I ask?",
+    "sources": [
+      "shipping_policy.md"
+    ],
+    "expected": "Contact customer support, no invented tracking result.",
+    "patterns": [
+      "support"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "If your delivery has exceeded the estimated window, you should contact customer support.",
+    "sources": [
+      "shipping_policy.md",
+      "cancellation_policy.md",
+      "return_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.8248431259999052,
+  "recorded_at": "2026-11-10T16:25:43.299767+00:00"
+}

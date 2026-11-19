@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_2630",
+    "dataset_row": 2630,
+    "question": "is it possible to seeur money back policy",
+    "expected_intent": "check_refund_policy"
+  },
+  "result": {
+    "intent": "check_refund_policy",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5369825090019731,
+  "recorded_at": "2026-11-19T17:22:11.522632+00:00"
+}

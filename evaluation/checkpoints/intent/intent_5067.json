@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_5067",
+    "dataset_row": 5067,
+    "question": "shipping to {{Delivery City}}",
+    "expected_intent": "delivery_options"
+  },
+  "result": {
+    "intent": "delivery_options",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5002079860023514,
+  "recorded_at": "2026-11-10T16:24:07.771054+00:00"
+}

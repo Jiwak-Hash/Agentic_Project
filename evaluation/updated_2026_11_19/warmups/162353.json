@@ -1,0 +1,22 @@
+[
+  {
+    "service": "Supervisor",
+    "seconds": 0.5508328280047863,
+    "error": null
+  },
+  {
+    "service": "FAQ initialization",
+    "seconds": 0.09253661600087071,
+    "error": null
+  },
+  {
+    "service": "FAQ",
+    "seconds": 2.077585643994098,
+    "error": null
+  },
+  {
+    "service": "Order",
+    "seconds": 2.540904777000833,
+    "error": null
+  }
+]

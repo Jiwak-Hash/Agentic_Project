@@ -1,0 +1,29 @@
+{
+  "case": {
+    "id": "faq_18",
+    "question": "Does submitting a return request mean the refund is already approved?",
+    "sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "expected": "No; eligibility review and item inspection before approval.",
+    "patterns": [
+      "inspect",
+      "review"
+    ],
+    "kind": "direct",
+    "supported": true
+  },
+  "result": {
+    "answer": "No, submitting a return request does not automatically mean the refund is approved. The return must first be inspected and then approved by customer support. After approval, the refund will be processed within 5–7 business days.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.4987429490029172,
+  "recorded_at": "2026-11-10T16:25:50.511061+00:00"
+}

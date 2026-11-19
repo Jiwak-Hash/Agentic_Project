@@ -1,0 +1,40 @@
+{
+  "case": {
+    "id": "order_1030",
+    "customer_id": 41,
+    "question": "Please show the details and delivery date for order 1030.",
+    "kind": "record",
+    "expected_records": [
+      {
+        "order_id": 1030,
+        "customer_id": 41,
+        "product": "Bluetooth Speaker",
+        "price": 1899.0,
+        "status": "Delayed",
+        "order_date": "2026-06-27",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ]
+  },
+  "result": {
+    "answer": "Here are your order details:\nOrder #1030: Bluetooth Speaker. Status: Delayed. Price: 1899.00. Order date: 2026-06-27. No delivery date is recorded.",
+    "orders": [
+      {
+        "order_id": 1030,
+        "customer_id": 41,
+        "product": "Bluetooth Speaker",
+        "price": 1899.0,
+        "status": "Delayed",
+        "order_date": "2026-06-27",
+        "delivery_date": null,
+        "payment_method": "Cash on Delivery"
+      }
+    ],
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 2.6791811590010184,
+  "recorded_at": "2026-11-19T17:24:20.852407+00:00"
+}

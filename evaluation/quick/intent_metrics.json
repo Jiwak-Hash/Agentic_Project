@@ -1,0 +1,11 @@
+{
+  "n": 20,
+  "accuracy": 0.9,
+  "macro_precision": 0.85,
+  "macro_recall": 0.9,
+  "macro_f1": 0.8666666666666666,
+  "weighted_f1": 0.8666666666666666,
+  "target": 20,
+  "errors": 0,
+  "unsupported_predictions": 0
+}

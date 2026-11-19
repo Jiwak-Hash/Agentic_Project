@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_9800",
+    "dataset_row": 9800,
+    "question": "assistance to see my compensation status",
+    "expected_intent": "track_refund"
+  },
+  "result": {
+    "intent": "unsupported",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.44529120399965905,
+  "recorded_at": "2026-11-10T16:25:07.718585+00:00"
+}

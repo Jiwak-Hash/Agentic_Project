@@ -1,0 +1,30 @@
+{
+  "case": {
+    "id": "future_delivery",
+    "order_id": 9012,
+    "status": "Delivered",
+    "delivery_date": "2026-01-18",
+    "issue": "ordinary",
+    "owner": 6,
+    "customer_id": 6,
+    "question": "Refund order 9012.",
+    "expected_decision": "unknown",
+    "evaluation_date": "2026-01-17"
+  },
+  "result": {
+    "order_id": 9012,
+    "eligibility_status": "unknown",
+    "reason": "The recorded delivery date is after the evaluation date. Contact support to verify the dates.",
+    "policy_sources": [
+      "return_policy.md",
+      "refund_policy.md"
+    ],
+    "answer": "For order #9012: The recorded delivery date is after the evaluation date. Contact support to verify the dates.",
+    "evaluation_date": "2026-01-17",
+    "error": null,
+    "used_fallback": true
+  },
+  "error": null,
+  "seconds": 0.00030234000223572366,
+  "recorded_at": "2026-11-10T16:26:37.002219+00:00"
+}

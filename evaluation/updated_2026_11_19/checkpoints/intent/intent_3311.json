@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3311",
+    "dataset_row": 3311,
+    "question": "can you help me lodge a complaint against your organization?",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.49042733699752716,
+  "recorded_at": "2026-11-19T17:21:56.180459+00:00"
+}

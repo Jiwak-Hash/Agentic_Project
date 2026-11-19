@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3068",
+    "dataset_row": 3068,
+    "question": "help to file a complaint against ur company",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4931407449985272,
+  "recorded_at": "2026-11-19T17:23:14.660804+00:00"
+}

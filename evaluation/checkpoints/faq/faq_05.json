@@ -1,0 +1,29 @@
+{
+  "case": {
+    "id": "faq_05",
+    "question": "My parcel has left the warehouse. Can support cancel it directly?",
+    "sources": [
+      "cancellation_policy.md"
+    ],
+    "expected": "Shipped orders cannot be directly cancelled; may request return after delivery.",
+    "patterns": [
+      "cannot|can't|not",
+      "shipp|dispatch",
+      "return"
+    ],
+    "kind": "paraphrase",
+    "supported": true
+  },
+  "result": {
+    "answer": "No, you cannot cancel an order that has already shipped. Only orders in the `Processing` status can be cancelled directly. For your order, you will need to contact customer support to request a return within 7 days of delivery.",
+    "sources": [
+      "cancellation_policy.md",
+      "return_policy.md",
+      "shipping_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 1.6420484720001696,
+  "recorded_at": "2026-11-10T16:25:34.153285+00:00"
+}

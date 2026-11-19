@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_2672",
+    "dataset_row": 2672,
+    "question": "help me to see in which cases can i ask for my money back",
+    "expected_intent": "check_refund_policy"
+  },
+  "result": {
+    "intent": "check_refund_policy",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5616545250013587,
+  "recorded_at": "2026-11-19T17:22:48.637441+00:00"
+}

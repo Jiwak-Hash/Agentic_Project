@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_6664",
+    "dataset_row": 6664,
+    "question": "where do i check how long it takes for my shipment to arrive",
+    "expected_intent": "delivery_period"
+  },
+  "result": {
+    "intent": "delivery_period",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.4835193920007441,
+  "recorded_at": "2026-11-10T16:25:11.895729+00:00"
+}

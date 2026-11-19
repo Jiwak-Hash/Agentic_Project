@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_3803",
+    "dataset_row": 3803,
+    "question": "want assistance to lodge a complaint against your business",
+    "expected_intent": "complaint"
+  },
+  "result": {
+    "intent": "complaint",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.48624834799556993,
+  "recorded_at": "2026-11-19T17:22:33.800921+00:00"
+}

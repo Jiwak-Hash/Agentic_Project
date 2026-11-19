@@ -1,0 +1,15 @@
+{
+  "case": {
+    "id": "intent_6056",
+    "dataset_row": 6056,
+    "question": "wanna see how long it usually takes for the order to arrive",
+    "expected_intent": "delivery_period"
+  },
+  "result": {
+    "intent": "delivery_period",
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.5073234550000052,
+  "recorded_at": "2026-11-10T16:24:00.737442+00:00"
+}

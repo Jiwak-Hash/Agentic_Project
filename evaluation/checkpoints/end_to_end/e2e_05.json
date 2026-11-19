@@ -1,0 +1,42 @@
+{
+  "case": {
+    "id": "e2e_05",
+    "question": "Is international delivery one of your shipping options?",
+    "customer_id": 16,
+    "expected_intent": "delivery_options",
+    "expected": "Unavailable policy; do not promise international delivery.",
+    "patterns": [
+      "could not verify|cannot verify|can't verify"
+    ],
+    "decision": null,
+    "privacy": false,
+    "evaluation_date": "2026-10-10"
+  },
+  "result": {
+    "message": "Is international delivery one of your shipping options?",
+    "customer_id": 16,
+    "evaluation_date": "2026-10-10",
+    "intent": "delivery_options",
+    "selected_agent": "faq_agent",
+    "response": "I could not verify that policy from the available documents. Please contact customer support.",
+    "sources": [
+      "shipping_policy.md",
+      "cancellation_policy.md",
+      "return_policy.md"
+    ],
+    "agent_result": {
+      "answer": "I could not verify that policy from the available documents. Please contact customer support.",
+      "sources": [
+        "shipping_policy.md",
+        "cancellation_policy.md",
+        "return_policy.md"
+      ],
+      "error": null
+    },
+    "error": null,
+    "used_fallback": false
+  },
+  "error": null,
+  "seconds": 1.1799068289983552,
+  "recorded_at": "2026-11-10T16:26:51.038761+00:00"
+}

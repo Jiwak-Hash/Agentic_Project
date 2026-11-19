@@ -1,0 +1,27 @@
+{
+  "case": {
+    "id": "faq_07",
+    "question": "Where is a refund sent if I paid in advance?",
+    "sources": [
+      "refund_policy.md"
+    ],
+    "expected": "Original payment method, conditional on eligible approved refund.",
+    "patterns": [
+      "original payment"
+    ],
+    "kind": "paraphrase",
+    "supported": true
+  },
+  "result": {
+    "answer": "Here are the relevant policy excerpts:\n\n# Refund policy\n\nThese are fictional policies for DemoCart, a demo e-commerce company.\n\n- Refunds are available for eligible returns requested within 7 days of delivery.\n- After a returned item is inspected and the refund is approved, the refund is processed within 5–7 business days after approval.\n- Refunds for prepaid orders go to the original payment method. For Cash on Delivery orders, support arranges the refund method during manual review.\n- Damaged or incorrect products require manual review by customer support before a return or refund decision. A refund is not guaranteed before review.\n- This FAQ explains policy only; it cannot approve or issue refunds.\n\n# Return policy\n\nThese are fictional policies for DemoCart, a demo e-commerce company.\n\n- Customers can request a return within 7 days of delivery.\n- For an ordinary return, the product must be unused, with its original packaging and accessories.\n- Contact customer support to request a return. Approval follows a review of eligibility and inspection of the returned item.\n- If a product arrives damaged or incorrect, contact customer support with the order ID, a description, and photos. The case must be escalated for manual review; do not assume the ordinary unused-item rule resolves these cases.\n- Eligible refunds are processed within 5–7 business days after refund approval.\n\n# Cancellation policy\n\nThese are fictional policies for DemoCart, a demo e-commerce company.\n\n- Orders can be cancelled only while their status is `Processing`.\n- Orders with status `Shipped` or `Delivered` cannot be directly cancelled. Other statuses are not eligible for direct cancellation either.\n- After delivery, customers may request a return within 7 days of delivery, subject to the return policy.\n- Contact customer support to request an eligible cancellation. This FAQ cannot check order status or perform cancellations.\n- Damaged or incorrect products should be escalated for manual review rather than directly cancelled after shipment.",
+    "sources": [
+      "refund_policy.md",
+      "return_policy.md",
+      "cancellation_policy.md"
+    ],
+    "error": null
+  },
+  "error": null,
+  "seconds": 0.7875281680026092,
+  "recorded_at": "2026-11-19T17:23:31.172812+00:00"
+}
